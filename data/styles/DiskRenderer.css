@@ -1,0 +1,17 @@
+.sidebar button.image-button {
+    padding: 0;
+}
+
+.sidebar levelbar block {
+    min-height: 3px;
+}
+
+/* Override the success color */
+.sidebar levelbar block.filled.low {
+   background: alpha(@text_color, 0.6);
+}
+
+.sidebar levelbar block.filled.low + .empty,
+.sidebar levelbar block.filled.low:backdrop {
+   background: alpha(@text_color, 0.2);
+}

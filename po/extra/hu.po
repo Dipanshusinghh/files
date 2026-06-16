@@ -1,0 +1,473 @@
+# Hungarian translation for pantheon-files
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-files package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2025-11-11 13:55+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Language-Team: Hungarian <https://l10n.elementaryos.org/projects/files/extra/"
+"hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:29+0000\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "Fájlkezelő"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "Böngésszen a fájlok között"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "mappa;kezelő;felfedező;tárhely;fájlrendszer;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "Új ablak"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "Új ablak rendszergazdaként"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "Fájlok és mappák böngészése és kezelése"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"Könnyedén másolhat, áthelyezhet és átnevezhet fájlokat, vagy használhat "
+"mappákat a szervezéshez. Könnyen megtalálhatja fájljait akár a lista-, rács- "
+"vagy oszlopnézetet választja. Elérheti adatait akár helyi, akár külső "
+"eszközön vagy FTP, SFTP, AFP, Webdav vagy Windows share szolgáltatáson "
+"keresztül is."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr ""
+"Gyors hozzáférés az olyan beállításokhoz, mint a nagyítási szintek és "
+"rejtett fájlok"
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr "Több metaadat megjelenítése a Listanézetben"
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr "Bonyolult szerkezetek böngészése az Oszlopnézettel"
+
+#: data/files.metainfo.xml.in.in:59
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+msgid "Minor updates:"
+msgstr "Kisebb frissítések:"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "Frissített fordítások"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr "Fejlesztések:"
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr "Bemutatásra került egy kompakt dátumformátum"
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr "A fájlkonfliktus-ablak már megjeleníti az eddig hiányzó ikont"
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr "Az útvonalsáv villogása javítva"
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr ""
+"A mappákra már nem kínálja fel az alapértelmezett alkalmazás beállítását"
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr "A görgetősáv már nem fedi el a módosítás dátumát listanézetben"
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr "A navigáció a Kuka mappával már rendesen működik"
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr "A nézet már rendesen frissül, ha véglegesen töröl egy mappát"
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr "A menüben megjelenített sablonok száma korlátozva"
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr ""
+"A Tulajdonságok ablak mostmár megjeleníti az utolsó módosítás pontos dátumát "
+"és idejét"
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr "További előkészületek a Gtk4 porthoz"
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr "Fájlengedély-nézet újratervezve"
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr "Az oldalsó sáv fókuszálása a Ctrl + Bal billentyűkkel"
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr "A legutóbbi megnyitott lapok visszaállítása opcionális"
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr "Nyomva tartás és kiválasztás már nem működik a másodlagos egérgombbal"
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr "Könyvjelzők az oldalsávról való kihúzásának támogatása megszüntetve"
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr "Mappa átnevezése utáni váratlan görgetés javítása"
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr "Rácsnézetbe váltáskor ritkán előforduló összeomlás javítva"
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr "A nézet újratöltése után is megmarad a kijelölés"
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+"A Fájlkezelő megnyitása javítva akkor, ha megpróbál visszaállítani egy "
+"lecsatlakoztatott távoli tárhelyet"
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr "Ne mutassa tovább a nézetet, ha egy tárhely leválasztásra kerül"
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+"Új lapsáv jobb animációkkal, folyamatosabb megragadásos áthelyezéssel és "
+"átrendezett menükkel"
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "Pantheon Fájlkezelő futtatása rendszergazdaként"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr ""
+"A Fájlkezelő rendszergazdaként történő futtatásához hitelesítés szükséges"
+
+#~ msgid "Design updates for Bulk Rename"
+#~ msgstr "Dizájnfrissítések a csoportos átnevezéshez"
+
+#~ msgid "Implement a bulk rename functionality"
+#~ msgstr "Csoportos átnevezés funkció"
+
+#~ msgid "Use a colorful level bar to show disk usage in the properties dialog"
+#~ msgstr ""
+#~ "Színes sáv használata lemezhasználat kijelzéséhez a Tulajdonságok ablakban"
+
+#~ msgid ""
+#~ "Move global settings from the context menu to an app menu in the headerbar"
+#~ msgstr ""
+#~ "A globális beállítások áthelyezése a helyi menükből a fejlécen lévő "
+#~ "alkalmazásmenübe"
+
+#~ msgid "File Manager"
+#~ msgstr "Fájlkezelő"
+
+#~ msgid ""
+#~ "Provide option to select folders with single click and activate with "
+#~ "double click"
+#~ msgstr ""
+#~ "Lehetőség mappák kijelölésére egy kattintással és megnyitására dupla "
+#~ "kattintással"
+
+#~ msgid ""
+#~ "Only show the properties overlay when files are selected, not when hovered"
+#~ msgstr ""
+#~ "A tulajdonságok átfedés megjelenítése csak akkor, ha fájlok is ki vannak "
+#~ "jelölve, nem csak felette lebeg a kurzor"
+
+#~ msgid "Fixes:"
+#~ msgstr "Javítások:"
+
+#~ msgid "Fix dimmed window after use of filechooser portal"
+#~ msgstr "A fájlválasztó portál utáni elsötétített ablak javítva"
+
+#~ msgid "Fix possible crash when rapidly changing view modes"
+#~ msgstr "Lehetséges összeomlás gyors nézetváltás közben javítva"
+
+#~ msgid "Fix startup when restored remote location is no longer connected"
+#~ msgstr "Indítás nem elérhető visszaállított távoli mappával javítva"
+
+#~ msgid ""
+#~ "Ensure infobar shows in connection server dialog when connection attempt "
+#~ "fails"
+#~ msgstr ""
+#~ "Információs sáv megjelenítése a szervercsatlakozás párbeszédablakon, ha a "
+#~ "csatlakozási kísérlet sikertelen"
+
+#~ msgid "Ensure correct icon for bookmark to a file that is not a folder"
+#~ msgstr "Helyes ikon olyan könyvjelzőkhöz, amik fájlok, nem mappák"
+
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "Javítva egy összeomlást okozó hiba könyvjelzők eltávolításánál"
+
+#~ msgid "A regression in zooming out using Ctrl + ScrollDown is fixed"
+#~ msgstr ""
+#~ "A Ctrl + görgetés kombinációval történő kicsinyítés regressziója javítva"
+
+#~ msgid "Renaming with the same name no longer shows an error dialog"
+#~ msgstr "Nem jelzi többé hibaként, ha olyan nevet ad, ami már létezik"
+
+#~ msgid "Ctrl + A when renaming now selects all the text in the entry"
+#~ msgstr "Átnevezéskor a Ctrl + A a bejegyzés összes szövegét kijelöli"
+
+#~ msgid "Selecting multiple items with Shift + Arrow keys now works properly"
+#~ msgstr ""
+#~ "Több elem kijelölése a Shift + Nyílbillentyű kombinációval most "
+#~ "megfelelően működik"
+
+#~ msgid "The appearance of the cursor now matches the action"
+#~ msgstr "A kurzor megjelenése igazodik a művelethez"
+
+#~ msgid "The Trash sidebar item can no longer be removed"
+#~ msgstr "A Kuka oldalsáveleme többé nem távolítható el"
+
+#~ msgid "Network sidebar plugins such as NextCloud are now added correctly"
+#~ msgstr ""
+#~ "A hálózat oldalsáv-bővítményei, mint például a NextCloud, megfelelően "
+#~ "hozzáadásra kerülnek"
+
+#~ msgid ""
+#~ "Duplication of subfolders in ListView under some circumstances is fixed"
+#~ msgstr ""
+#~ "Listanézetben az almappák többszöröződése bizonyos esetekben javítva lett"
+
+#~ msgid ""
+#~ "Bookmarks are now highlighted when a file they can accept is dragged onto "
+#~ "them"
+#~ msgstr ""
+#~ "A könyvjelzők kiemelődnek, ha egy általuk elfogadható fájlt rájuk húznak"
+
+#~ msgid ""
+#~ "Folders not being restored properly under some circumstances is fixed"
+#~ msgstr ""
+#~ "A bizonyos esetekben nem megfelelően helyreállított mappák javítva lettek"
+
+#~ msgid ""
+#~ "Show confirmation dialog in file chooser before overwriting an existing "
+#~ "file"
+#~ msgstr "Megerősítés kérése fájlok felülírása előtt a fájlválasztóban"
+
+#~ msgid "Ctrl + V now always pastes into background folder"
+#~ msgstr "A Ctrl + V mostantól mindig a háttérben lévő mappába illeszt be"
+
+#~ msgid "Shift + Ctrl + V now pastes into selected folder if there is one"
+#~ msgstr ""
+#~ "A Shift + Ctrl + V mostantól mindig a kijelölt mappába illeszt be, ha van "
+#~ "ilyen"
+
+#~ msgid "Show New Tab and New Window shortcuts in context menus"
+#~ msgstr "Új lap és új ablak gyorsparancsok a menükben"
+
+#~ msgid "Double click selects instead of exiting while renaming in list view"
+#~ msgstr ""
+#~ "Dupla kattintás kijelöl ahelyett, hogy kilépne átnevezéskor listanézetben"
+
+#~ msgid "Show public share icon in breadcrumbs"
+#~ msgstr "Publikus megosztás ikon kijelzése"
+
+#~ msgid "Prevent a crash when dragging to re-arrange bookmarks"
+#~ msgstr "A könyvjelzők átrendezése közbeni összeomlás megelőzve"
+
+#~ msgid "Close FileChooser with Esc key"
+#~ msgstr "A fájlválasztó bezárása az Esc billentyűvel"
+
+#~ msgid "Other updates:"
+#~ msgstr "További frissítések:"
+
+#~ msgid "Fix selecting multiple groups of files"
+#~ msgstr "Több fájlcsoport egyidejű megnyitása javítva"
+
+#~ msgid "Allow dropping bookmark directly below the Recent bookmark"
+#~ msgstr "Egyenesen a Legutóbbiak könyvjelző alá is helyezhetők könyvjelzők"
+
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "Fájlok összehasonlításánál előjövő fagyás javítva"
+
+#~ msgid "Performance improvements"
+#~ msgstr "Teljesítményjavítások"
+
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "Fájlból jövő eszközikon esetén történő összeomlás javítva"
+
+#~ msgid "Improve pathbar animation"
+#~ msgstr "Útvonalsáv animációjának fejlesztése"
+
+#~ msgid "Update documentation"
+#~ msgstr "Dokumentáció frissítve"
+
+#~ msgid "Update translations"
+#~ msgstr "Frissített fordítások"
+
+#~ msgid "Improve MTP support"
+#~ msgstr "Javított MTP-támogatás"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "Fájlrendezési javítások"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "Több videó megnyitásánál történő összeomlás javítva"
+
+#~ msgid "Build fixes"
+#~ msgstr "Fordítási javítások"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "Bővítmények fordításának javítása"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "Memóriaszivárgások javítva"
+
+#~ msgid "Crash fixes"
+#~ msgstr "Összeomlások javítva"
+
+#~ msgid "Over 100 major and minor bug fixes and improvements"
+#~ msgstr "Több mint 100 kisebb-nagyobb hibajavítás és fejlesztés"
+
+#~ msgid "New translations"
+#~ msgstr "Új fordítások"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Kisebb hibajavítások"
+
+#~ msgid "Improved networking support"
+#~ msgstr "Továbbfejlesztett hálózati támogatás"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr "Javított ablak geometria, balra vagy jobbra ugrásnál"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr ""
+#~ "A Ctrl megnyomása már nem szakítja meg az átnevezést ha a \"Mutató "
+#~ "kijelzése\" opció aktív"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "A bemeneti nyelv váltása megszakít műveleteket"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "Különbőző összeomlásos hibák javítása"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "Webböngészők, mint a Firefox most már emlékeznek a legutóbb használt "
+#~ "letöltési könyvtárra"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "Az előnyben részesített nagyítási szint megőrződik"
+
+#~ msgid "Improved input method support"
+#~ msgstr "Javított beviteli mód támogatás"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "910x640 a minimum ablakméret"
+
+#~ msgid "Security fixes"
+#~ msgstr "Biztonsági javítások"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "Engedélyezve a húzd és ejtsd fülek az ablakok között"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "A keresési lehetőségek egyesítése a Ctrl+F funkcióba"
+
+#~ msgid "Improved translation support"
+#~ msgstr "Javított fordítási támogatás"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "Javítva az alkalmazás kiadási dátumai"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "Javított fájlmegnyitási lehetőség Samba megosztáson keresztül"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr ""
+#~ "Javítva a Kukában visszaállítás művelet közben összeomlást okozó hiba"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr "Javított vágás/másolás/beillesztés érzékenység a helyi menüben"
+
+#~ msgid "Translation updates"
+#~ msgstr "Fordítási frissítések"
+
+#~ msgid "About Files"
+#~ msgstr "A Fájlkezelőről"

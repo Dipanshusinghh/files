@@ -1,0 +1,1099 @@
+# Russian translation for pantheon-files
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-files package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2026-04-30 21:20+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementaryos.org/projects/files/extra/"
+"ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:29+0000\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "Файлы"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "Просматривайте свои файлы"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr ""
+"folder;manager;explore;disk;filesystem;папка;каталог;менеджер;обзор;диск;файловая "
+"система;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "Новое окно"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "Новое окно от имени администратора"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "Просмотр и управление файлами и папками"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"Без труда управляйте вашими файлами и используйте папки для их организации. "
+"Вы можете использовать ваш любимый тип отображения: значки, список или "
+"таблицу. Имейте доступ ко всем вашим файлам, включая локальные, на внешнем "
+"или на удалённом устройстве, используя FTP, SFTP, AFP, WebDAV или доступ к "
+"Windows."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr ""
+"Быстрый доступ к настройкам, таких как уровень масштабирования и показ "
+"скрытых файлов"
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr "Легко просматривайте информацию о файлах в виде списка"
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr "Просматривайте деревья папок быстрее в виде колонок"
+
+#: data/files.metainfo.xml.in.in:59
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+msgid "Minor updates:"
+msgstr "Незначительные обновления:"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr "Исправлена регрессия, приводившая к сбою, если шаблонов слишком много"
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "Обновлены переводы"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr "Улучшения:"
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr "Добавлена возможность отображения панели предпросмотра в виде колонок"
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+"Список результатов поиска теперь сначала отображает совпадения в текущей "
+"папке"
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr "Добавлен компактный формат даты"
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr "Диалог конфликта файлов теперь отображает отсутствующие значки"
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr "Исправлено моргание адресной строки при некоторых способах навигации"
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr ""
+"Больше не предлагается возможность установить приложение по умолчанию для "
+"папок"
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr ""
+"В виде списка полоса прокрутки больше не закрывает собой даты изменения"
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr "Навигация внутри папки корзины теперь работает корректно"
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr ""
+"Представление теперь корректно обновляется после безвозвратного удаления "
+"папки"
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr "Число отображаемых в контекстном меню шаблонов теперь ограничено"
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr "Окно «Свойства» теперь показывает точную дату изменения"
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr "Дальнейшие приготовления к портированию на GTK4"
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr "Обновлено представление разрешений файла"
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr "Фокус на боковой панели по нажатии Ctrl + Влево"
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr "Восстановление прошлых вкладок теперь опционально"
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr ""
+"Перетаскивание и выделение больше нельзя выполнить с помощью вторичной "
+"кнопки мыши"
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr ""
+"Удалена возможность удаления закладок путём перетаскивания их из бокового "
+"меню"
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr "Исправлена неожиданная прокрутка после переименования папки"
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr ""
+"Исправлен вылет при переключении в вид сетки при некоторых обстоятельствах"
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr "Выделение теперь сохраняется при обновлении"
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+"Исправлена ошибка, из-за которой Файлы не запускались при восстановлении "
+"отключённой папки"
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr ""
+"Исправлена ошибка, из-за которой папка продолжала быть открытой даже после "
+"демонтирования локации"
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+"Новая панель вкладок с улучшенными анимациями, более плавным перетаскиванием "
+"и реорганизованными контекстными меню"
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "Запустить Pantheon Files с правами администратора"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr "Для запуска Файлов с правами администратора требуется аутентификация"
+
+#~ msgid "Design updates for Bulk Rename"
+#~ msgstr "Обновлён дизайн средства массового переименования"
+
+#~ msgid "Implement a bulk rename functionality"
+#~ msgstr "Реализована функциональность массового переименования"
+
+#~ msgid "Use a colorful level bar to show disk usage in the properties dialog"
+#~ msgstr ""
+#~ "Теперь используется цветная полоска уровня использования диска в окне "
+#~ "свойств"
+
+#~ msgid ""
+#~ "Move global settings from the context menu to an app menu in the headerbar"
+#~ msgstr "Глобальные настройки были перенесены в меню в заголовок окна"
+
+#~ msgid "File Manager"
+#~ msgstr "Файловый менеджер"
+
+#~ msgid ""
+#~ "Provide option to select folders with single click and activate with "
+#~ "double click"
+#~ msgstr ""
+#~ "Опция для выбора папок одинарным щелчком и активации двойным щелчоком"
+
+#~ msgid ""
+#~ "Only show the properties overlay when files are selected, not when hovered"
+#~ msgstr ""
+#~ "Отображение оверлея со свойствами, только когда файл выбран, а не при "
+#~ "наведении"
+
+#~ msgid "Fixes:"
+#~ msgstr "Исправления:"
+
+#~ msgid "Fix dimmed window after use of filechooser portal"
+#~ msgstr "Исправлено затемнение окна после использования портала filechooser"
+
+#~ msgid "Fix possible crash when rapidly changing view modes"
+#~ msgstr ""
+#~ "Исправлено падение программы при быстром переключении видов отображения"
+
+#~ msgid "Fix startup when restored remote location is no longer connected"
+#~ msgstr ""
+#~ "Испралена загрузка программы, когда удалённое хранилище больше не доступно"
+
+#~ msgid ""
+#~ "Ensure infobar shows in connection server dialog when connection attempt "
+#~ "fails"
+#~ msgstr ""
+#~ "Испралено отображение инфобара в диалоге подключения сервера, когда не "
+#~ "удаётся подключиться к серверу"
+
+#~ msgid "Ensure correct icon for bookmark to a file that is not a folder"
+#~ msgstr "Исправлена иконка закладок файлов"
+
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "Исправлено падание программы при удалении закладки"
+
+#~ msgid "A regression in zooming out using Ctrl + ScrollDown is fixed"
+#~ msgstr ""
+#~ "Исправлена ошибка при уменьшении масштаба с помощью Ctrl + ScrollDown"
+
+#~ msgid "Renaming with the same name no longer shows an error dialog"
+#~ msgstr "Переименование с тем же именем больше не выдаёт ошибку"
+
+#~ msgid "Ctrl + A when renaming now selects all the text in the entry"
+#~ msgstr "При переименовании Ctrl + A теперь выделяет весь текст в поле"
+
+#~ msgid "Selecting multiple items with Shift + Arrow keys now works properly"
+#~ msgstr ""
+#~ "Выбор нескольких объектов, используя Shift + Стрелки, теперь работает "
+#~ "должным образом"
+
+#~ msgid "The appearance of the cursor now matches the action"
+#~ msgstr "Внешний вид курсора теперь совпадает с действием"
+
+#~ msgid "The Trash sidebar item can no longer be removed"
+#~ msgstr "Корзина больше не может быть удалена из бокового меню"
+
+#~ msgid "Network sidebar plugins such as NextCloud are now added correctly"
+#~ msgstr ""
+#~ "Сетевые плагины для боковой панели, такие как NextCloud, теперь "
+#~ "добавляются правильно"
+
+#~ msgid ""
+#~ "Duplication of subfolders in ListView under some circumstances is fixed"
+#~ msgstr ""
+#~ "Исправлено дублирование подпапок, возникавшее в представлении столбцов "
+#~ "при некоторых обстоятельствах"
+
+#~ msgid ""
+#~ "Bookmarks are now highlighted when a file they can accept is dragged onto "
+#~ "them"
+#~ msgstr ""
+#~ "Закладки теперь подсвечиваются, когда на них перетаскивается файл, "
+#~ "который они могут принять"
+
+#~ msgid ""
+#~ "Folders not being restored properly under some circumstances is fixed"
+#~ msgstr ""
+#~ "Исправлено неправильное восстановление папок при некоторых обстоятельствах"
+
+#~ msgid ""
+#~ "Show confirmation dialog in file chooser before overwriting an existing "
+#~ "file"
+#~ msgstr ""
+#~ "Показывать окно подтверждения в окне выбора файла перед перезаписью "
+#~ "существующего файла"
+
+#~ msgid "Ctrl + V now always pastes into background folder"
+#~ msgstr "Ctrl + V теперь всегда вставляет в папку на фоне"
+
+#~ msgid "Shift + Ctrl + V now pastes into selected folder if there is one"
+#~ msgstr ""
+#~ "Shift + Ctrl + V теперь вставляет в выбранную папку, если таковая имеется"
+
+#~ msgid "Show New Tab and New Window shortcuts in context menus"
+#~ msgstr ""
+#~ "Отображение сочетаний клавиш Новая вкладка и Новое окно в контекстном меню"
+
+#~ msgid "Double click selects instead of exiting while renaming in list view"
+#~ msgstr ""
+#~ "Двойное нажатие для выбора текста вместо выхода при переименовании в "
+#~ "списке"
+
+#~ msgid "Show public share icon in breadcrumbs"
+#~ msgstr "Показать значок общего доступа в навигации"
+
+#~ msgid "Prevent a crash when dragging to re-arrange bookmarks"
+#~ msgstr "Исправлен сбой при изменении порядка закладок"
+
+#~ msgid "Close FileChooser with Esc key"
+#~ msgstr "Закрытие окна выбора файла клавишей Esc"
+
+#~ msgid "Use new emblems for git status"
+#~ msgstr "Новые значки для статуса git"
+
+#~ msgid "Show selection actions in secondary click menu"
+#~ msgstr ""
+#~ "Отображение действий для выбранного объекта в меню вторичной кнопки мыши"
+
+#~ msgid "Always show Permissions page in Properties dialog"
+#~ msgstr "Страница разрешений всегда показывается в диалоге «Свойства»"
+
+#~ msgid ""
+#~ "In Permissions page, show user and group numeric IDs when names not "
+#~ "available"
+#~ msgstr ""
+#~ "В разделе «Права доступа» отображаются числовые ID пользователя и группы, "
+#~ "когда имена недоступны"
+
+#~ msgid "In Permissions page, show message when no information available"
+#~ msgstr ""
+#~ "В разделе «Права доступа», теперь отображается сообщение, когда "
+#~ "информация недоступна"
+
+#~ msgid "Other updates:"
+#~ msgstr "Остальные обновления:"
+
+#~ msgid "Only allow one FileChooser per parent window"
+#~ msgstr "Разрешён только один диалог выбора файлов на родительское окно"
+
+#~ msgid ""
+#~ "Navigate to folder when pressing enter in FileChooser instead of selecting"
+#~ msgstr ""
+#~ "Переход в папку по нажатию Enter в диалоге выбора вместо выбора мышью"
+
+#~ msgid ""
+#~ "Use \"Send Mail\" portal instead of contract, improving compatibility "
+#~ "with alternate email apps"
+#~ msgstr ""
+#~ "Используется портал «Отправить почту» вместо договора, что улучшает "
+#~ "совместимость с альтернативными почтовыми приложениями"
+
+#~ msgid "Add file filters and New Folder options to file chooser portal"
+#~ msgstr ""
+#~ "Добавлены фильтры файлов и опции «Новая папка» в портал выбора файлов"
+
+#~ msgid ""
+#~ "Allow blank passwords for remote connections, e.g. for SSH via a private "
+#~ "key"
+#~ msgstr ""
+#~ "Разрешены пустые пароли для удалённых подключений, например для SSH через "
+#~ "приватный ключ"
+
+#~ msgid "Make ejecting devices safer"
+#~ msgstr "Извлечение устройств теперь безопаснее"
+
+#~ msgid "Add option to stop drive if possible"
+#~ msgstr "Добавлена опция остановки диска, если это возможно"
+
+#~ msgid "Show unformatted drives and drives without media"
+#~ msgstr "Отображение неотформатированных дисков и дисков без медиа"
+
+#~ msgid ""
+#~ "Fix pasting of selected pathbar text into another window using middle-"
+#~ "click"
+#~ msgstr ""
+#~ "Исправлена вставка выделенного текста из поля пути в другое окно с "
+#~ "помощью среднего щелчка мыши"
+
+#~ msgid "Fix selecting multiple groups of files"
+#~ msgstr "Исправлен выбор нескольких групп файлов"
+
+#~ msgid "Allow dropping bookmark directly below the Recent bookmark"
+#~ msgstr ""
+#~ "Разрешено перетаскивание закладки непосредственно под закладкой «Недавние»"
+
+#~ msgid "Do not show unusable drop target below the Trash bookmark"
+#~ msgstr ""
+#~ "Больше не отображается неиспользуемая область перетаскивания закладок под "
+#~ "корзиной"
+
+#~ msgid "Fix sidebar showing both drive and volume for same device"
+#~ msgstr ""
+#~ "Исправлено отображение диска и объёма одного и того же устройства на "
+#~ "боковой панели"
+
+#~ msgid "Fix sidebar showing SSH servers in both Storage and Network sections"
+#~ msgstr ""
+#~ "Исправлено отображение SSH-серверов в категориях «Накопитель» и «Сеть» на "
+#~ "боковой панели"
+
+#~ msgid "Show translated bookmark names when changing languages"
+#~ msgstr "Отображение переведённых названий закладок при смене языка"
+
+#~ msgid ""
+#~ "Stop some audio file icons disappearing when scrolling or changing view"
+#~ msgstr ""
+#~ "Прекращено исчезновение некоторых значков аудиофайлов при прокрутке или "
+#~ "смене вида просмотра"
+
+#~ msgid ""
+#~ "Stop brief appearance of status overlay when changing root folder in "
+#~ "Column View"
+#~ msgstr ""
+#~ "Убрано кратковременное наложение слоя статуса при изменении корневой "
+#~ "папки в представлении столбцом"
+
+#~ msgid "Remove message about reporting issues when running from Terminal"
+#~ msgstr "Удалено сообщение о проблемах при запуске из терминала"
+
+#~ msgid "Open bookmarks in a new tab with Ctrl + Click"
+#~ msgstr "Открытие закладок в новой вкладке с помощью Ctrl + Щелчок"
+
+#~ msgid ""
+#~ "Fix dropping uris onto storage devices and network locations in sidebar"
+#~ msgstr ""
+#~ "Исправлено падение uri на устройствах хранения данных и расположения сети "
+#~ "на боковой панели"
+
+#~ msgid "Fix restoring tabs after a system restart"
+#~ msgstr "Исправлено восстановление вкладок после перезагрузки системы"
+
+#~ msgid ""
+#~ "Don't unselect when secondary clicking blank space around a file or folder"
+#~ msgstr ""
+#~ "Выделение не снимается при вторичном нажатии на пустом пространстве "
+#~ "вокруг файла или папки"
+
+#~ msgid ""
+#~ "Show the folder context menu when secondary clicking outside of a "
+#~ "selection"
+#~ msgstr ""
+#~ "Отображение контекстного меню папки при вторичном щелчке за пределами "
+#~ "выделения"
+
+#~ msgid "Fix small context menus on breadcrumbs"
+#~ msgstr "Исправлены мелкие контекстные меню на навигационной цепочке"
+
+#~ msgid "Fix bookmarking a single selected item with Ctrl + D"
+#~ msgstr ""
+#~ "Исправлено создание закладки одного выделенного элемента с помощью Ctrl + "
+#~ "D"
+
+#~ msgid "Fix renaming bookmarks in the sidebar"
+#~ msgstr "Исправлено переименование закладок в боковой панели"
+
+#~ msgid "Fix an issue with showing color tags when thumbnails are hidden"
+#~ msgstr ""
+#~ "Исправлена проблема с отображением цветовых меток, когда миниатюры скрыты"
+
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "Исправление зависания при сравнении скопированных файлов"
+
+#~ msgid ""
+#~ "Fix truncation of final column in Column View under some circumstances"
+#~ msgstr ""
+#~ "Исправление усечения последнего столбца в представлении столбцов при "
+#~ "некоторых обстоятельствах"
+
+#~ msgid "Show more keyboard accelerators in menus"
+#~ msgstr "Отображать больше клавиатурных ускорителей в меню"
+
+#~ msgid "Fix connecting to AFP servers so that passwords are remembered"
+#~ msgstr "Исправлено подключение к серверам AFP, чтобы пароли запоминались"
+
+#~ msgid "Fix MTP mounts"
+#~ msgstr "Исправлено монтирование MTP"
+
+#~ msgid "Launch files with double click instead of single click"
+#~ msgstr "Запуск файлов двойным щелчком вместо одинарного щелчка"
+
+#~ msgid "Provide a File Chooser portal for Flatpak apps"
+#~ msgstr "Предоставление портала выбора файлов для Flatpak приложений"
+
+#~ msgid "Brand new animated Sidebar"
+#~ msgstr "Совершенно новая анимированная боковая панель"
+
+#~ msgid "Dark style support"
+#~ msgstr "Поддержка тёмного стиля"
+
+#~ msgid "Mint and Bubblegum color tags"
+#~ msgstr "Мятный и бубльгумовый цвета меток"
+
+#~ msgid "Do not restore locations that have become inaccessible"
+#~ msgstr "Не восстанавливать местоположения, которые стали недоступными"
+
+#~ msgid ""
+#~ "Clicking between thumbnail and text now activates/selects in Grid view"
+#~ msgstr ""
+#~ "Щелчок между миниатюрой и текстом теперь активирует/выбирает в режиме "
+#~ "просмотра сеткой"
+
+#~ msgid "AFC protocol support"
+#~ msgstr "Поддержка протокола AFC"
+
+#~ msgid "Add a smaller minimum icon size in list view"
+#~ msgstr "Добавлен меньший минимальный размер значков в представлении списком"
+
+#~ msgid "Show emblems inline in list views"
+#~ msgstr "Отображение эмблем в линию в представлениях списком"
+
+#~ msgid "Performance improvements"
+#~ msgstr "Улучшение производительности"
+
+#~ msgid "Stability improvements"
+#~ msgstr "Улучшения стабильности"
+
+#~ msgid "Rename \"Devices\" to \"Storage\""
+#~ msgstr "«Устройства» переименовано на «Накопитель»"
+
+#~ msgid "Bookmark menu option for network mounts in sidebar"
+#~ msgstr "Опция меню закладок для сетевых хранилищ на боковой панели"
+
+#~ msgid "Show folder item count in List View"
+#~ msgstr "Отображение количества элементов папки в представлении списком"
+
+#~ msgid ""
+#~ "Now shows thumbnails on locally mounted MTP and PTP devices as well as on "
+#~ "network locations by default"
+#~ msgstr ""
+#~ "Теперь по умолчанию отображаются миниатюры на локально подключённых "
+#~ "устройствах MTP и PTP, а также в сетевых расположениях"
+
+#~ msgid ""
+#~ "Properties window: Allow the filename to be copied when it cannot be "
+#~ "edited"
+#~ msgstr ""
+#~ "Окно свойств: Разрешено копировать имя файла, если его нельзя "
+#~ "редактировать"
+
+#~ msgid "Improved tooltip formatting for devices in the sidebar"
+#~ msgstr ""
+#~ "Улучшено форматирование всплывающих подсказок для устройств на боковой "
+#~ "панели"
+
+#~ msgid "Fix crash when pressing Enter and another key at the same time"
+#~ msgstr ""
+#~ "Исправлен вылет при одновременном нажатии любой клавиши вместе с клавишей "
+#~ "Enter"
+
+#~ msgid "Fix pathbar handling of \"~\" and \"..\" in path"
+#~ msgstr "Исправлена обработка «~» и «..» в путях"
+
+#~ msgid "Filechooser pathbar no longer crashes when invoked from a Flatpak"
+#~ msgstr ""
+#~ "Панель пути выбора файлов больше не вылетает когда вызвана из Flatpak"
+
+#~ msgid ""
+#~ "Do not show git status for repositories on FUSE filesystems to prevent "
+#~ "possible blocking"
+#~ msgstr ""
+#~ "Не показывать статус Git для репозиториев на файловых системах FUSE для "
+#~ "предотвращения возможной блокировки"
+
+#~ msgid "\"Personal\" is now \"Bookmarks\""
+#~ msgstr "«Личные» теперь «Закладки»"
+
+#~ msgid ""
+#~ "Add warning and error colored disk usage bars when disk becomes too full"
+#~ msgstr ""
+#~ "Добавлены цветные полоски с предупреждениями и уведомления о ошибках "
+#~ "когда диск становится слишком заполненным"
+
+#~ msgid ""
+#~ "Prevent window resizing when filename column width exceeds available space"
+#~ msgstr ""
+#~ "Запретить изменение размера окна, если ширина столбца имени файла "
+#~ "превышает доступное пространство"
+
+#~ msgid "Fix handling of filenames containing the # character"
+#~ msgstr "Исправлена обработка названий файлов содержащих символ #"
+
+#~ msgid "Fix regressions regarding pathbar context menus and clicking"
+#~ msgstr ""
+#~ "Исправление регрессий в отношении контекстных меню и щелчков на панели"
+
+#~ msgid "Paste images into other apps instead of file paths where possible"
+#~ msgstr ""
+#~ "Вставка изображений в другие приложения вместо пути файла когда возможно"
+
+#~ msgid "Paste into a selected folder when using Ctrl + V"
+#~ msgstr ""
+#~ "Вставка в выбранную папку при использовании сочетания клавиш Ctrl + V"
+
+#~ msgid "Show file info overlay in List View as well"
+#~ msgstr "Также показывать информацию о файле в виде списка"
+
+#~ msgid "Traverse search results with Tab key"
+#~ msgstr "Просмотр результатов поиска с помощью клавиши Tab"
+
+#~ msgid "Show an error message when attempting to open trashed files"
+#~ msgstr ""
+#~ "Отображение сообщения об ошибке при попытке открыть файлы из корзины"
+
+#~ msgid ""
+#~ "Fix uneditable area in pathbar which is showing home folder placeholder"
+#~ msgstr ""
+#~ "Исправлена нередактируемая область на панели путей, которая отображает "
+#~ "заполнитель домашней папки"
+
+#~ msgid "Fix an issue that prevented file modification times from showing"
+#~ msgstr ""
+#~ "Исправлена проблема предотвращающая показ времени редактирования файла"
+
+#~ msgid "Fix size of restored tiled window"
+#~ msgstr "Исправлен размер восстановленного мозаичного окна"
+
+#~ msgid "Fix color tags disappearing when thumbnails hidden"
+#~ msgstr "Исправлено исчезновение цветных меток при скрытых миниатюрах"
+
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "Исправлена ошибка, когда значок устройства поступает с файла"
+
+#~ msgid "Fix device icon sometimes missing"
+#~ msgstr "Исправлен иногда отсутствующий значок устройства"
+
+#~ msgid "Fix occasional view freeze after renaming"
+#~ msgstr "Исправление случайного зависания представления после переименования"
+
+#~ msgid "Improve renaming logic when dealing with leading/trailing whitespace"
+#~ msgstr ""
+#~ "Улучшена логика переименования при работе с начинающими/конечными "
+#~ "отступами"
+
+#~ msgid "Fix breadcrumbs sometimes incorrect at startup"
+#~ msgstr ""
+#~ "Исправлена время от времени некорректно работающая навигационная цепочка "
+#~ "во время запуска"
+
+#~ msgid "Do not show file:// prefix in navigation buttons menus"
+#~ msgstr "Не показывать префикс file:// в навигационных кнопках меню"
+
+#~ msgid "Fix \"New Folder\" keyboard shortcut label in menu"
+#~ msgstr "Исправлена надпись сочетания клавиш «Новая папка» в меню"
+
+#~ msgid "Fix navigation with back/forward button context menu"
+#~ msgstr ""
+#~ "Исправлена навигация с помощью контекстного меню кнопки «Назад/вперёд»"
+
+#~ msgid "Fix path bar sometimes showing wrong path when closing a tab"
+#~ msgstr ""
+#~ "Исправлена панель путей, иногда отображающая неверный путь при закрытии "
+#~ "вкладки"
+
+#~ msgid ""
+#~ "Ensure keyboard shortcuts work immediately after creating or renaming a "
+#~ "file"
+#~ msgstr ""
+#~ "Гарантирована работа сочетаний клавиш сразу же после создания или "
+#~ "переименования файла"
+
+#~ msgid ""
+#~ "Do not include \"file://\" in pathbar text or when pasting path as text"
+#~ msgstr ""
+#~ "«file://» больше не включается в текст панели пути или при вставке пути "
+#~ "как текста"
+
+#~ msgid "Show keyboard shortcuts in menu items"
+#~ msgstr "Отображение сочетаний клавиш в пунктах меню"
+
+#~ msgid "Fix an issue with breadcrumbs in the file chooser"
+#~ msgstr "Исправлена проблема с навигационной цепочкой в окне выбора файла"
+
+#~ msgid "Show a warning when ejecting a volume that's still in use"
+#~ msgstr ""
+#~ "Отображение предупреждения при извлечении тома, который всё ещё "
+#~ "используется"
+
+#~ msgid "Fix cursor update after horizontal scroll in Column View"
+#~ msgstr ""
+#~ "Исправлено обновление курсора после горизонтальной прокрутки в "
+#~ "представлении столбцом"
+
+#~ msgid "Fix folder-open icon persisting after closing Column View"
+#~ msgstr ""
+#~ "Исправлена ошибка, когда значок открытой папки, оставался после закрытия "
+#~ "представления столбцом"
+
+#~ msgid "Use destructive action styling for some trash dialog buttons"
+#~ msgstr ""
+#~ "Использование стиля деструктивных действий для некоторых кнопок диалога "
+#~ "корзины"
+
+#~ msgid "New features:"
+#~ msgstr "Новые возможности:"
+
+#~ msgid "Initial git plugin support"
+#~ msgstr "Начальная поддержка плагина Git"
+
+#~ msgid "Follow global history setting when restoring and saving tabs"
+#~ msgstr ""
+#~ "Соблюдение настроек глобальной истории при восстановлении и сохранении "
+#~ "вкладок"
+
+#~ msgid "Ensure tabs showing same folder remain synchronized"
+#~ msgstr ""
+#~ "Удостоверяться что вкладки показывающие одинаковую папку остаются "
+#~ "синхронизированными"
+
+#~ msgid "Fix drag with secondary button on empty space"
+#~ msgstr ""
+#~ "Исправлено перетаскивание с помощью правой кнопки мыши на пустое "
+#~ "пространство"
+
+#~ msgid "Show custom media type icons for installed apps"
+#~ msgstr "Показ значков на пользовательских расширениях приложений"
+
+#~ msgid "Fix appearance of inactive diskspace indicator"
+#~ msgstr "Исправлен вид индикатора неактивного дискового пространства"
+
+#~ msgid "Improve pathbar animation"
+#~ msgstr "Улучшена анимация при перетаскивании"
+
+#~ msgid "Update documentation"
+#~ msgstr "Обновлена документация"
+
+#~ msgid "Update translations"
+#~ msgstr "Обновлены переводы"
+
+#~ msgid "Initial cloudproviders plugin support"
+#~ msgstr "Начальная поддержка плагина для облачных поставщиков"
+
+#~ msgid "Fix selecting pasted files"
+#~ msgstr "Исправлен выбор вставленных файлов"
+
+#~ msgid "Fix color label visibility while using dark theme"
+#~ msgstr "Исправление видимости цветной метки при использовании тёмной темы"
+
+#~ msgid "Fix selecting files using Shift key"
+#~ msgstr "Исправление выбора файлов с помощью клавиши Shift"
+
+#~ msgid "Draw checkerboard background for image items"
+#~ msgstr "Шахматный фон для элементов изображения"
+
+#~ msgid "Improved styling for disk space bars"
+#~ msgstr "Улучшено оформление полосок дискового пространства"
+
+#~ msgid "Show more search results"
+#~ msgstr "Показывать больше результатов поиска"
+
+#~ msgid "Ensure valid tab name generation"
+#~ msgstr "Обеспечение генерирования правильных названия для вкладок"
+
+#~ msgid "Properly sort folders by date and size"
+#~ msgstr "Правильная сортировка папок по дате и размеру"
+
+#~ msgid ""
+#~ "Launching Files from Terminal now opens new tab instead of new window"
+#~ msgstr ""
+#~ "Запуск Файлов из Терминала теперь открывает новую вкладку вместо нового "
+#~ "окна"
+
+#~ msgid "Improve MTP support"
+#~ msgstr "Улучшеная поддержка MTP"
+
+#~ msgid "Various tagging feature refinements"
+#~ msgstr "Различные усовершенствования функции тегов"
+
+#~ msgid "Keyboard navigation improvements"
+#~ msgstr "Улучшения навигации с клавиатуры"
+
+#~ msgid "Symlink copy and paste fixes"
+#~ msgstr "Исправления копирования и вставки символьных ссылок"
+
+#~ msgid "Avoid crash when Templates folder is null"
+#~ msgstr "Предотвращение сбоев, если папка «Шаблоны» пустая"
+
+#~ msgid "Reduce memory footprint of FileChooserDialog"
+#~ msgstr "Уменьшен объем памяти FileChooserDialog"
+
+#~ msgid "Avoid crash when selecting image file in some situations"
+#~ msgstr ""
+#~ "Предотвращён сбой при выборе файла изображения в некоторых ситуациях"
+
+#~ msgid ""
+#~ "Fix unclosable progress window while copying network files to removable "
+#~ "storage"
+#~ msgstr ""
+#~ "Исправлено окно прогресса, которое нельзя было закрыть, при копировании "
+#~ "сетевых файлов на съёмные носители"
+
+#~ msgid "Fix drag and drop after double clicking a blank area"
+#~ msgstr "Исправление перетаскивания после двойного щелчка по пустой области"
+
+#~ msgid "Avoid crash while scrolling over view switcher"
+#~ msgstr "Предотвращён сбой при прокрутке над переключателем вида"
+
+#~ msgid "Avoid possible crash in some copy and paste situations"
+#~ msgstr ""
+#~ "Предотвращение возможного сбоя в некоторых ситуациях, при копировании и "
+#~ "вставке"
+
+#~ msgid "Keyboard navigation fix for cherry picking select files in Grid view"
+#~ msgstr ""
+#~ "Исправление ошибок навигации с помощью клавиатуры во время выбора в "
+#~ "режиме просмотра сеткой"
+
+#~ msgid "Don't hardcode search placeholder text style, fixes dark theme issue"
+#~ msgstr ""
+#~ "Исправлен код стиля текста-заполнителя, решающий проблему с тёмной темой"
+
+#~ msgid "Minor spacing adjustments to location bar"
+#~ msgstr "Незначительные корректировки отступов на панели местоположения"
+
+#~ msgid "Fix F2 renaming behavior"
+#~ msgstr "Исправлено поведение при переименовании клавишей F2"
+
+#~ msgid "Minor spacing adjustments to location breadcrumbs"
+#~ msgstr ""
+#~ "Незначительные поправки в отступах расположения навигационной цепочки"
+
+#~ msgid "Consistently remember color tags"
+#~ msgstr "Надёжное запоминание цветных меток"
+
+#~ msgid ""
+#~ "Reload thumbnails when changing zoom level to avoid showing placeholder "
+#~ "unnecessarily"
+#~ msgstr ""
+#~ "Перезагрузка миниатюр при изменении уровня масштабирования, чтобы "
+#~ "избежать отображение заполнителя"
+
+#~ msgid "Fix running scripts with spaces in filename"
+#~ msgstr "Исправлена работа запущенных скриптов с пробелами в названии файла"
+
+#~ msgid "Fix high CPU regression in version 4.1.4"
+#~ msgstr "Исправлено значительное ухудшение работы процессора в версии 4.1.4"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "Исправление сортировки файлов"
+
+#~ msgid "Meson: fix soversion names"
+#~ msgstr "Meson: исправлено название версий"
+
+#~ msgid "Remove CMake build system"
+#~ msgstr "Удалена система сборки CMake"
+
+#~ msgid "Fix missing File System properties menu"
+#~ msgstr "Исправлено отсутствующее меню свойств файловой системы"
+
+#~ msgid "Drop intltool dependency"
+#~ msgstr "Удалена зависимость от intltool"
+
+#~ msgid "Fix default file type handler logic"
+#~ msgstr "Исправлена логика обработчика типов стандартных файлов"
+
+#~ msgid "Fix initial search window size too small"
+#~ msgstr "Исправлен изначально маленький размер окна поиска"
+
+#~ msgid "Add option to disable local file thumbnails"
+#~ msgstr "Добавлена опция для отключения миниатюр локальных файлов"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "Исправлена ошибка при открытии нескольких видеофайлов"
+
+#~ msgid "Fix some timing issues around adding and removing files"
+#~ msgstr ""
+#~ "Исправлены некоторые проблемы синхронизации связанные с созданием и "
+#~ "удалением файлов"
+
+#~ msgid "Meson: fix missing library headers"
+#~ msgstr "Meson: исправлены отсутствующие заголовки библиотек"
+
+#~ msgid "Fix color tag display"
+#~ msgstr "Исправлено отображение цветных меток"
+
+#~ msgid "Show reserved space in Properties window"
+#~ msgstr "Отображение зарезервированного места в окне «Свойства»"
+
+#~ msgid "Add border radius to text background"
+#~ msgstr "Добавлено скругление к фону текста"
+
+#~ msgid "Fix file mimetype association regression"
+#~ msgstr "Исправлено ухудшение ассоциирования типов файлов"
+
+#~ msgid "New pathbar tooltips"
+#~ msgstr "Новые всплывающие подсказки на панели путей"
+
+#~ msgid "Build fixes"
+#~ msgstr "Исправления сборки"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "Исправления сборки расширений"
+
+#~ msgid "Fix Ctrl+Tab behavior"
+#~ msgstr "Исправлено поведение Ctrl+Tab"
+
+#~ msgid "Fix building without Unity library"
+#~ msgstr "Исправлена сборка без библиотеки Unity"
+
+#~ msgid "Hide breadcrumbs and show placeholder and search icon in home folder"
+#~ msgstr "Навигационная цепочка в домашней папке заменена поиском"
+
+#~ msgid "Style error dialogs"
+#~ msgstr "Обновлён внешний вид диалоговых окон ошибок"
+
+#~ msgid "Right click fixes"
+#~ msgstr "Исправления щелчка правой кнопкой мыши"
+
+#~ msgid "Reload recent view when privacy setting changes"
+#~ msgstr ""
+#~ "Перезагрузка просмотра недавних, при изменении настройки "
+#~ "конфиденциальности"
+
+#~ msgid "`Connect Server` fixes"
+#~ msgstr "Исправления в функции `Подключить сервер`"
+
+#~ msgid "Do not activate multiple files with single click"
+#~ msgstr "Больше нельзя активировать несколько файлов одним щелчком мыши"
+
+#~ msgid "Use `Tab` to toggle View and Sidebar keyboard focus"
+#~ msgstr ""
+#~ "Используйте «Tab» для переключения фокуса клавиатуры «Вид» и «Боковая "
+#~ "панель»"
+
+#~ msgid "Delete color tag database entries for trashed files"
+#~ msgstr "Удаление записей цветных меток для стёртых файлов из базы данных"
+
+#~ msgid "Throttle tab closing"
+#~ msgstr "Ускоренно закрытие вкладок"
+
+#~ msgid "`Ctrl` key fixes"
+#~ msgstr "Исправлено поведение клавиши `Ctrl`"
+
+#~ msgid "Drag and drop fixes"
+#~ msgstr "Исправления перетаскивания"
+
+#~ msgid "Show icons in `Open with` menus"
+#~ msgstr "Отображение значков в меню `Открыть с помощью`"
+
+#~ msgid "Tooltip fixes"
+#~ msgstr "Исправления всплывающих подсказок"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "Исправления утечек памяти"
+
+#~ msgid "Crash fixes"
+#~ msgstr "Исправления сбоев"
+
+#~ msgid "Trash: respect sound setting"
+#~ msgstr "Корзина: соблюдение настроек громкости"
+
+#~ msgid "Localization fixes"
+#~ msgstr "Исправления локализации"
+
+#~ msgid "Over 100 major and minor bug fixes and improvements"
+#~ msgstr "Более 100 крупных и мелких исправлений и улучшений"
+
+#~ msgid "Honor 12/24hr system setting"
+#~ msgstr "Соблюдается настроенное отображение 12/24 часовых форматов"
+
+#~ msgid "Distinguish between tabs with the same name"
+#~ msgstr "Различать вкладки с одинаковыми именами"
+
+#~ msgid ""
+#~ "Support launching from other applications with a target file selected"
+#~ msgstr "Поддержка запуска из других приложений с выбранным целевым файлом"
+
+#~ msgid "New translations"
+#~ msgstr "Новые переводы"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Исправления незначительных ошибок"
+
+#~ msgid "Improved networking support"
+#~ msgstr "Улучшенная поддержка сетевых подключений"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr "Корректные размеры окна при привязке к левой или правой стороне"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr ""
+#~ "Нажатие Ctrl не отменяет переименование, если активен параметр «Выделять "
+#~ "указатель»"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "Смена раскладки отменяет действия"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "Различные исправления падений"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "Веб-браузеры, такие как Firefox, теперь запоминают последний используемый "
+#~ "каталог загрузок"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "Запоминание предпочтительного уровня масштабирования"
+
+#~ msgid "Improved input method support"
+#~ msgstr "Улучшенная поддержка методов ввода"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "Минимальный размер окна 910x640"
+
+#~ msgid "Security fixes"
+#~ msgstr "Исправления безопасности"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "Добавлена возможность переноса вкладок между окнами"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "Объединение функций поиска в Ctrl+F"
+
+#~ msgid "Improved translation support"
+#~ msgstr "Улучшенная поддержка переводов"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "Исправление даты релиза в appdata"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "Улучшение открытия файлов через Samba"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr "Исправлено падение после восстановления элементов из корзины"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr ""
+#~ "Улучшение взаимодействия с элементами вырезать/копировать/вставить в "
+#~ "контекстном меню"
+
+#~ msgid "Translation updates"
+#~ msgstr "Обновления перевода"
+
+#~ msgid "system-file-manager"
+#~ msgstr "system-file-manager"
+
+#~ msgid "About Files"
+#~ msgstr "О программе"

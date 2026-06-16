@@ -1,0 +1,3224 @@
+# Greek translation for marlin
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the marlin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: marlin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2025-11-13 21:55+0000\n"
+"Last-Translator: Orionas Kakomoiroglou "
+"<209243298+OrionasKakomoiroglou@users.noreply.github.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/files/files/el/"
+">\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:25+0000\n"
+
+#: filechooser-portal/FileChooserDialog.vala:89 src/View/Window.vala:192
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: filechooser-portal/FileChooserDialog.vala:95 src/View/Window.vala:197
+msgid "Next"
+msgstr "Επόμενο"
+
+#: filechooser-portal/FileChooserDialog.vala:112 libcore/DndHandler.vala:105
+#: libcore/View/Dialogs/ConnectServerDialog.vala:206
+#: libcore/View/Dialogs/FileConflictDialog.vala:166
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:70
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:331
+#: src/View/Widgets/ProgressInfoWidget.vala:63
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: filechooser-portal/FileChooserDialog.vala:126
+#: filechooser-portal/FileChooserDialog.vala:132
+msgid "Open Files as Read Only"
+msgstr "Άνοιγμα αρχείων για μόνο για ανάγνωση"
+
+#: filechooser-portal/FileChooserDialog.vala:126
+#: filechooser-portal/FileChooserDialog.vala:132
+msgid "Open File as Read Only"
+msgstr "Άνοιγμα αρχείου μόνο για ανάγνωση"
+
+#: filechooser-portal/FileChooserDialog.vala:378
+msgid "Enter new filename"
+msgstr "Εισάγετε νέο όνομα αρχείου"
+
+#: filechooser-portal/Main.vala:107
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: filechooser-portal/Main.vala:107 src/View/Sidebar/BookmarkRow.vala:313
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: filechooser-portal/Main.vala:222 filechooser-portal/Main.vala:379
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: filechooser-portal/Main.vala:454
+#, c-format
+msgid "This file is a link to “%s”"
+msgstr "Αυτό το αρχείο είναι σύνδεσμος για το \"%s\""
+
+#: filechooser-portal/Main.vala:457
+msgid "This file is a link."
+msgstr "Αυτό το αρχείο είναι σύνδεσμος."
+
+#: filechooser-portal/Main.vala:460
+msgid ""
+"Replacing a link will overwrite the target's contents. The link will remain"
+msgstr ""
+"Η αντικατάστασή του θα αντικαταστήσει το περιεχόμενό του. Ο σύνδεσμος θα "
+"παραμείνει"
+
+#: filechooser-portal/Main.vala:462
+#, c-format
+msgid "Replace “%s”?"
+msgstr "Αντικατάσταση \"%s\";"
+
+#: filechooser-portal/Main.vala:463
+msgid "Replacing this file will overwrite its current contents"
+msgstr ""
+"Η αντικατάστασή του αρχείου θα αντικαταστήσει το τρέχον περιεχόμενό του."
+
+#: filechooser-portal/Main.vala:476
+#: libcore/View/Dialogs/FileConflictDialog.vala:168
+msgid "Replace"
+msgstr "Αντικατάσταση"
+
+#: libcore/Directory.vala:752
+msgid "Server did not respond within time limit"
+msgstr "Ο διακομιστής δεν ανταποκρίθηκε εντός του χρονικού ορίου"
+
+#: libcore/DndHandler.vala:50
+#, c-format
+msgid "Failed to execute \"%s\""
+msgstr "Αποτυχία εκτέλεσης του \"%s\""
+
+#: libcore/DndHandler.vala:100
+msgid "Move Here"
+msgstr "Μετακίνηση εδώ"
+
+#: libcore/DndHandler.vala:101
+msgid "Copy Here"
+msgstr "Αντιγραφή εδώ"
+
+#: libcore/DndHandler.vala:102
+msgid "Link Here"
+msgstr "Σύνδεσμος Εδώ"
+
+#: libcore/Enums.vala:133 src/View/AbstractDirectoryView.vala:2338
+msgid "Name"
+msgstr "Όνομα"
+
+#: libcore/Enums.vala:136 src/Dialogs/BulkRenamer/RenamerDialog.vala:82
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:88
+msgid "Creation Date"
+msgstr "Hμερομηνία Δημιουργίας"
+
+#: libcore/Enums.vala:139
+msgid "Last modification date"
+msgstr "Τελευταία τροποποίηση"
+
+#: libcore/Enums.vala:142 src/View/AbstractDirectoryView.vala:2343
+#: src/View/ListView.vala:27
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: libcore/Enums.vala:165
+msgid "Number sequence"
+msgstr "Αλληλουχία Αριθμού"
+
+#: libcore/Enums.vala:168 src/Dialogs/BulkRenamer/RenamerModifier.vala:314
+msgid "Text"
+msgstr "Κείμενο"
+
+#: libcore/Enums.vala:171 src/View/AbstractDirectoryView.vala:2353
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: libcore/Enums.vala:187
+msgid "Suffix"
+msgstr "Κατάληξη"
+
+#: libcore/Enums.vala:190
+msgid "Prefix"
+msgstr "Πρόθημα"
+
+#: libcore/Enums.vala:200
+msgid "Text to put at the end"
+msgstr "Κείμενο για το τέλος"
+
+#: libcore/Enums.vala:203
+msgid "Text to put at the start"
+msgstr "Κείμενο για την αρχή"
+
+#: libcore/Enums.vala:222
+msgid "Default Format - Date only"
+msgstr "Προεπιλεγμένη Μορφή - Μόνο ημερομηνία"
+
+#: libcore/Enums.vala:224
+msgid "Default Format - Date and Time"
+msgstr "Προεπιλεγμένη Μορφή - Ημερομηνία και Ώρα"
+
+#: libcore/Enums.vala:226
+msgid "Locale Format - Date and Time"
+msgstr "Μορφή καθορισμένη από τη γλώσσα - Ημερομηνία και Ώρα"
+
+#: libcore/Enums.vala:228
+msgid "ISO 8601 Format - Date only"
+msgstr "Μορφή ISO 8601 - Μόνο ημερομηνία"
+
+#: libcore/Enums.vala:230
+msgid "ISO 8601 Format - Date and Time"
+msgstr "Μορφή ISO 8601 - Ημερομηνία και Ώρα"
+
+#: libcore/Enums.vala:246
+msgid "Date created"
+msgstr "Ημερομηνία Δημιουργίας"
+
+#: libcore/Enums.vala:248
+msgid "Date Modified"
+msgstr "Ημερομηνία τροποποίησης"
+
+#: libcore/Enums.vala:250
+msgid "Current Date"
+msgstr "Τρέχουσα Ημερομηνία"
+
+#. TRANSLATORS "ISO" is the acronym for "International Standards Organisation"
+#: libcore/Enums.vala:268
+msgid "ISO"
+msgstr "ISO"
+
+#: libcore/Enums.vala:270
+msgid "Locale"
+msgstr "Γλώσσα"
+
+#: libcore/Enums.vala:272
+msgid "Informal"
+msgstr "Ανεπίσημο"
+
+#. TRANSLATORS Adjective applied to datetime format
+#: libcore/Enums.vala:275
+msgid "Compact"
+msgstr "Συμπαγής"
+
+#: libcore/File.vala:659 libcore/File.vala:1213
+msgid "Inaccessible"
+msgstr "Μη προσβάσιμη"
+
+#: libcore/File.vala:977
+msgid "Failed to parse the desktop file"
+msgstr "Αποτυχία ανάλυσης αρχείου desktop"
+
+#: libcore/File.vala:981
+msgid "Failed to parse the desktop file: "
+msgstr "Αποτυχία ανάλυσης αρχείου desktop: "
+
+#: libcore/File.vala:993
+msgid "Failed to create command from file: "
+msgstr "Αποτυχία δημιουργίας εντολής από αρχείο: "
+
+#: libcore/File.vala:1002
+msgid "Unable to Launch Desktop File: "
+msgstr "Αποτυχία ανοίγματος αρχείου desktop: "
+
+#: libcore/File.vala:1206
+msgid "Empty"
+msgstr "Κενό"
+
+#: libcore/File.vala:1208
+#, c-format
+msgid "%'d item"
+msgid_plural "%'d items"
+msgstr[0] "%'d αντικείμενο"
+msgstr[1] "%'d αντικείμενα"
+
+#: libcore/File.vala:1252
+#, c-format
+msgid "link to %s"
+msgstr "σύνδεσμος προς το %s"
+
+#: libcore/FileUtils.vala:80
+#, c-format
+msgid "Could not determine original location of \"%s\""
+msgstr "Αδυναμία προσδιορισμού αρχικής τοποθεσίας του \"%s\""
+
+#: libcore/FileUtils.vala:83
+msgid "The item cannot be restored from trash"
+msgstr "Το αντικείμενο δεν μπορεί να επαναφερθεί από τον κάδο"
+
+#: libcore/FileUtils.vala:184
+#, c-format
+msgid "The original folder %s no longer exists"
+msgstr "Ο αρχικός φάκελος %s δεν υπάρχει πλέον"
+
+#: libcore/FileUtils.vala:185
+msgid ""
+"The folder can be recreated and selected files that were originally there "
+"will be restored to it. Otherwise, files that were in this folder will not "
+"be restored."
+msgstr ""
+"Ο φάκελος μπορεί να αναδημιουργηθεί και τα επιλεγμένα αρχεία που ήταν εκεί "
+"να αποκατασταθούν σε αυτόν. Αλλιώς, τα αρχεία που υπήρχαν σε αυτόν τον "
+"φάκελο δεν θα αποκατασταθούν."
+
+#: libcore/FileUtils.vala:189
+msgid "Ignore"
+msgstr "Παράβλεψη"
+
+#: libcore/FileUtils.vala:190
+msgid "Recreate"
+msgstr "Αναδημιουργία"
+
+#: libcore/FileUtils.vala:201
+#, c-format
+msgid "Could not recreate folder %s. Will ignore all files in this folder"
+msgstr ""
+"Δεν ήταν δυνατή η αναδημιουργία του φακέλου %s. Θα αγνοηθούν όλα τα αρχεία "
+"σε αυτόν τον φάκελο"
+
+#: libcore/FileUtils.vala:574
+#, c-format
+msgid "Could not rename to '%s'"
+msgstr "Αδύνατη η μετονομασία σε \"%s\""
+
+#. TRANSLATORS '%s' is a placeholder for the time. It may be moved but not changed.
+#: libcore/FileUtils.vala:687
+#, c-format
+msgid "Today at %s"
+msgstr "Σήμερα στις %s"
+
+#. TRANSLATORS '%s' is a placeholder for the time. It may be moved but not changed.
+#: libcore/FileUtils.vala:695
+#, c-format
+msgid "Yesterday at %s"
+msgstr "Χθες στις %s"
+
+#. TRANSLATORS '%%A' is a placeholder for the day name, '%s' is a placeholder for the time. These may be moved and reordered but not changed.
+#: libcore/FileUtils.vala:703
+#, c-format
+msgid "%%A at %s"
+msgstr "%% στις %s"
+
+#: libcore/FileUtils.vala:928
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d δευτερόλεπτο"
+msgstr[1] "%'d δευτερόλεπτα"
+
+#: libcore/FileUtils.vala:932 libcore/FileUtils.vala:940
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d λεπτό"
+msgstr[1] "%'d λεπτά"
+
+#. TRANSLATORS The %s will be translated into "x hours, y minutes"
+#. TRANSLATORS: folders, files
+#: libcore/FileUtils.vala:939 src/Dialogs/PropertiesWindow.vala:1270
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: libcore/FileUtils.vala:939
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d ώρα"
+msgstr[1] "%'d ώρες"
+
+#: libcore/FileUtils.vala:943
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "περίπου %'d ώρα"
+msgstr[1] "περίπου %'d ώρες"
+
+#. TRANSLATORS A noun to append to a filename to indicate that it is a duplicate of another file.
+#: libcore/FileUtils.vala:951
+msgid "copy"
+msgstr "αντίγραφο"
+
+#. TRANSLATORS A noun to append to a filename to indicate that it is a symbolic link to another file.
+#: libcore/FileUtils.vala:953
+msgid "link"
+msgstr "σύνδεσμος"
+
+#. TRANSLATORS Punctuation used to prefix "copy" or "link" and acting as an opening parenthesis. Must not occur in translated "copy" or "link", or in file extensions.
+#: libcore/FileUtils.vala:955
+msgid "("
+msgstr "("
+
+#. TRANSLATORS Punctuation used as a suffix to "copy" or "link" and acting as a closing parenthesis. Must not occur in translated "copy" or "link", or in file extensions.
+#: libcore/FileUtils.vala:957
+msgid ")"
+msgstr ")"
+
+#: libcore/marlin-file-operations.c:113 libcore/marlin-file-operations.c:154
+#: libcore/marlin-file-operations.c:201 libcore/marlin-file-operations.c:285
+#: libcore/FileOperations/DeleteJob.vala:43
+msgid "Error while deleting."
+msgstr "Σφάλμα κατά τη διαγραφή."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:119
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr ""
+"Τα αρχεία στο φάκελο \"%s\" δεν μπορούν να διαγραφούν διότι δεν έχετε "
+"δικαίωμα προβολής τους."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:124 libcore/marlin-file-operations.c:1096
+#: libcore/FileOperations/CommonJob.vala:354
+#, c-format
+msgid ""
+"There was an error getting information about the files in the folder \"%s\"."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών για τα αρχεία του φακέλου "
+"\"%s\"."
+
+#: libcore/marlin-file-operations.c:135 libcore/marlin-file-operations.c:1107
+msgid "_Skip files"
+msgstr "_Παράλειψη αρχείων"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:159
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr ""
+"Ο φάκελος \"%s\" δεν μπορεί να διαγραφεί διότι δεν έχετε δικαίωμα ανάγνωσής "
+"του."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:164 libcore/marlin-file-operations.c:1149
+#: libcore/FileOperations/CommonJob.vala:306
+#, c-format
+msgid "There was an error reading the folder \"%s\"."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του φακέλου \"%s\"."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:204
+#, c-format
+msgid "Could not remove the folder %s."
+msgstr "Αδυναμία διαγραφής του φακέλου %s."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:288
+#, c-format
+msgid "There was an error deleting %s."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη διαγραφή του %s."
+
+#: libcore/marlin-file-operations.c:452 libcore/marlin-file-operations.c:455
+#: libcore/marlin-file-operations.c:458
+msgid "Cannot move file to trash or delete it"
+msgstr "Η μετακίνηση του αρχείου στον κάδο ή η διαγραφή του είναι αδύνατη"
+
+#: libcore/marlin-file-operations.c:453
+msgid "It is not permitted to trash or delete files on a read only filesystem."
+msgstr ""
+"Δεν επιτρέπεται να διαγράψετε αρχεία σε ένα σύστημα αρχείων μόνο για "
+"ανάγνωση."
+
+#: libcore/marlin-file-operations.c:456
+msgid ""
+"It is not permitted to trash or delete files inside folders for which you do "
+"not have write privileges."
+msgstr ""
+"Δεν επιτρέπεται να διαγράψετε αρχεία μέσα σε φακέλους για τους οποίους δεν "
+"έχετε δικαιώματα εγγραφής."
+
+#: libcore/marlin-file-operations.c:459
+msgid ""
+"It is not permitted to trash or delete folders for which you do not have "
+"write privileges."
+msgstr ""
+"Δεν επιτρέπεται να διαγράψετε φακέλους για τους οποίους δεν έχετε δικαίωμα "
+"εγγραφής."
+
+#: libcore/marlin-file-operations.c:461
+msgid "Cannot move file to trash. Try to delete it immediately?"
+msgstr ""
+"Δεν είναι δυνατή η μετακίνηση του αρχείου στον κάδο. Να γίνει προσπάθεια "
+"άμεσης διαγραφής του αρχείου;"
+
+#: libcore/marlin-file-operations.c:462
+msgid ""
+"This file could not be moved to trash. See details below for further "
+"information."
+msgstr ""
+"Η μετακίνηση αυτού του αρχείου στον κάδο ήταν αδύνατη. Δείτε τις "
+"λεπτομέρειες παρακάτω για περισσότερες πληροφορίες."
+
+#: libcore/marlin-file-operations.c:466
+msgid "Cannot move file to trash. Try to delete it?"
+msgstr ""
+"Η μετακίνηση του αρχείου στον κάδο είναι αδύνατη. Να γίνει προσπάθεια για "
+"διαγραφή;"
+
+#: libcore/marlin-file-operations.c:467
+msgid ""
+"This file could not be moved to trash. You may not be able to delete it "
+"either."
+msgstr ""
+"Η μετακίνηση αυτού του αρχείου στον κάδο ήταν αδύνατη. Επιπλέον, μπορεί να "
+"μην είστε σε θέση να το διαγράψετε."
+
+#: libcore/marlin-file-operations.c:473
+msgid ""
+"\n"
+" Deleting a file removes it permanently"
+msgstr ""
+"\n"
+" Η διαγραφή του αρχείου είναι οριστική"
+
+#: libcore/marlin-file-operations.c:641
+msgid "Trashing Files"
+msgstr "Μεταφορά Αρχείων στα Απορρίμματα"
+
+#: libcore/marlin-file-operations.c:643
+msgid "Deleting Files"
+msgstr "Γίνεται διαγραφή αρχείων"
+
+#: libcore/marlin-file-operations.c:944 libcore/marlin-file-operations.c:1083
+#: libcore/marlin-file-operations.c:1136
+#: libcore/FileOperations/CommonJob.vala:76
+#: libcore/FileOperations/CopyMoveJob.vala:50
+msgid "Error while copying."
+msgstr "Σφάλμα κατά την αντιγραφή."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:951
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+"Δεν είναι δυνατή η αντιγραφή του φακέλου \"%s\", διότι δεν έχετε δικαίωμα "
+"δημιουργίας του στον προορισμό."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:956
+#, c-format
+msgid "There was an error creating the folder \"%s\"."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη δημιουργία του φακέλου \"%s\"."
+
+#: libcore/marlin-file-operations.c:1081 libcore/marlin-file-operations.c:1134
+#: libcore/FileOperations/CopyMoveJob.vala:48
+msgid "Error while moving."
+msgstr "Σφάλμα κατά τη μετακίνηση."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1091
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+"Δεν είναι δυνατή η αντιγραφή των αρχείων του φακέλου \"%s\", διότι δεν έχετε "
+"δικαιώματα ανάγνωσής τους."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1144
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr ""
+"Ο φάκελος \"%s\" δεν μπορεί να αντιγραφεί, διότι δεν έχετε δικαίωμα "
+"ανάγνωσής του."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted full path of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1198 libcore/marlin-file-operations.c:1849
+#: libcore/marlin-file-operations.c:2356
+#, c-format
+msgid "Error while moving \"%s\"."
+msgstr "Σφάλμα κατά τη μετακίνηση του \"%s\"."
+
+#: libcore/marlin-file-operations.c:1200
+msgid "Could not remove the source folder."
+msgstr "Δεν ήταν δυνατή η διαγραφή του φακέλου προέλευσης."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1290 libcore/marlin-file-operations.c:1342
+#: libcore/marlin-file-operations.c:1853
+#, c-format
+msgid "Error while copying \"%s\"."
+msgstr "Σφάλμα κατά την αντιγραφή του \"%s\"."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1295
+#, c-format
+msgid "Could not remove files from the already existing folder %s."
+msgstr ""
+"Δεν είναι δυνατή η απομάκρυνση των αρχείων από τον ήδη υπάρχοντα φάκελο %s."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1347
+#, c-format
+msgid "Could not remove the already existing file %s."
+msgstr "Δεν είναι δυνατή η απομάκρυνση του ήδη υπάρχοντος αρχείου %s."
+
+#: libcore/marlin-file-operations.c:1579 libcore/marlin-file-operations.c:2193
+msgid "You cannot move a folder into itself."
+msgstr "Δεν επιτρέπεται η μετακίνηση ενός φακέλου στον εαυτό του."
+
+#: libcore/marlin-file-operations.c:1580 libcore/marlin-file-operations.c:2194
+msgid "You cannot copy a folder into itself."
+msgstr "Δεν επιτρέπεται η αντιγραφή ενός φακέλου στον εαυτό του."
+
+#: libcore/marlin-file-operations.c:1581 libcore/marlin-file-operations.c:2195
+msgid "The destination folder is inside the source folder."
+msgstr "Ο φάκελος προορισμού βρίσκεται μέσα στο φάκελο προέλευσης."
+
+#: libcore/marlin-file-operations.c:1613
+msgid "You cannot move a file over itself."
+msgstr "Δεν επιτρέπεται η μετακίνηση ενός αρχείου στον εαυτό του."
+
+#: libcore/marlin-file-operations.c:1614
+msgid "You cannot copy a file over itself."
+msgstr "Δεν επιτρέπεται η αντιγραφή ενός αρχείου στον εαυτό του."
+
+#: libcore/marlin-file-operations.c:1615
+msgid "The source file would be overwritten by the destination."
+msgstr ""
+"Το αρχείο προέλευσης θα έπρεπε να αντικατασταθεί από το αρχείο προορισμού."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1859
+#, c-format
+msgid "Could not remove the already existing file with the same name in %s."
+msgstr ""
+"Δεν είναι δυνατή η απομάκρυνση του ήδη υπάρχοντος αρχείου με το ίδιο όνομα "
+"στο %s."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/marlin-file-operations.c:1930
+#, c-format
+msgid "Cannot copy \"%s\" here."
+msgstr "Αδύνατη η αντιγραφή του \"%s\" εδώ."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:1935
+#, c-format
+msgid "There was an error copying the file into %s."
+msgstr "Υπήρξε ένα σφάλμα κατά την αντιγραφή του αρχείου στο %s."
+
+#: libcore/marlin-file-operations.c:2102
+msgid "Copying Files"
+msgstr "Αντιγραφή αρχείων"
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:2360
+#, c-format
+msgid "There was an error moving the file into %s."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη μετακίνηση του αρχείου στο %s."
+
+#: libcore/marlin-file-operations.c:2555
+msgid "Moving Files"
+msgstr "Γίνεται μετακίνηση αρχείων"
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:2682
+#, c-format
+msgid "Error while creating link to %s."
+msgstr "Σφάλμα κατά τη δημιουργία συνδέσμου προς το %s."
+
+#: libcore/marlin-file-operations.c:2685
+msgid "Symbolic links only supported for local files"
+msgstr "Οι συμβολικοί σύνδεσμοι υποστηρίζονται μόνο για τοπικά αρχεία"
+
+#: libcore/marlin-file-operations.c:2688
+msgid "The target doesn't support symbolic links."
+msgstr "Ο προορισμός δεν υποστηρίζει συμβολικούς συνδέσμους."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:2693
+#, c-format
+msgid "There was an error creating the symlink in %s."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη δημιουργία συμβολικού συνδέσμου στο %s."
+
+#: libcore/marlin-file-operations.c:2991
+msgid "Zero files to process"
+msgstr "Μηδέν αρχεία προς εξεργασία"
+
+#: libcore/marlin-file-operations.c:2998
+msgid "Cannot copy into trash."
+msgstr "Αδύνατη η αντιγραφή στον κάδο."
+
+#: libcore/marlin-file-operations.c:2999 libcore/marlin-file-operations.c:3007
+msgid "It is not permitted to copy files into the trash"
+msgstr "Δεν επιτρέπεται η αντιγραφή αρχείων στον κάδο"
+
+#: libcore/marlin-file-operations.c:3122
+msgid "untitled folder"
+msgstr "ανώνυμος φάκελος"
+
+#: libcore/marlin-file-operations.c:3130
+msgid "new file"
+msgstr "νέο αρχείο"
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3299
+#, c-format
+msgid "Error while creating directory %s."
+msgstr "Σφάλμα κατά τη δημιουργία του φακέλου %s."
+
+#. TRANSLATORS: %s is a placeholder for the basename of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3302
+#, c-format
+msgid "Error while creating file %s."
+msgstr "Σφάλμα κατά τη δημιουργία του αρχείου %s."
+
+#. TRANSLATORS: %s is a placeholder for the full path of a file.  It may change position but must not be translated or removed
+#: libcore/marlin-file-operations.c:3308
+#, c-format
+msgid "There was an error creating the directory in %s."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη δημιουργία του φακέλου στο %s."
+
+#: libcore/ProgressInfo.vala:31 libcore/ProgressInfo.vala:32
+#: libcore/ProgressInfo.vala:33
+msgid "Preparing"
+msgstr "Γίνεται προετοιμασία"
+
+#: libcore/Resources.vala:22 src/DesktopLauncher.vala:25
+msgid "Files"
+msgstr "Αρχεία"
+
+#: libcore/Resources.vala:60
+msgid "AFP"
+msgstr "AFP"
+
+#: libcore/Resources.vala:61
+msgid "AFC"
+msgstr "AFC"
+
+#: libcore/Resources.vala:62
+msgid "DAV"
+msgstr "DAV"
+
+#: libcore/Resources.vala:63
+msgid "DAVS"
+msgstr "DAVS"
+
+#: libcore/Resources.vala:64
+msgid "FTP"
+msgstr "FTP"
+
+#: libcore/Resources.vala:65 src/View/Sidebar/SidebarWindow.vala:53
+msgid "Network"
+msgstr "Δίκτυο"
+
+#: libcore/Resources.vala:66
+msgid "SFTP"
+msgstr "SFTP"
+
+#: libcore/Resources.vala:67
+msgid "SMB"
+msgstr "SMB"
+
+#: libcore/Resources.vala:68 src/View/Sidebar/BookmarkListBox.vala:173
+msgid "Trash"
+msgstr "Κάδος"
+
+#: libcore/Resources.vala:69
+msgid "Recent"
+msgstr "Πρόσφατα"
+
+#: libcore/Resources.vala:70
+msgid "MTP"
+msgstr "MTP"
+
+#: libcore/Resources.vala:71
+msgid "GPHOTO2"
+msgstr "GPHOTO2"
+
+#: libcore/Resources.vala:72 src/Dialogs/VolumePropertiesWindow.vala:41
+#: src/View/Sidebar/DeviceListBox.vala:146
+msgid "File System"
+msgstr "Σύστημα αρχείων"
+
+#: libcore/UndoManager.vala:22
+msgid "Undo Copy"
+msgstr "Αναίρεση αντιγραφής"
+
+#: libcore/UndoManager.vala:24
+msgid "Undo Duplicate"
+msgstr "Αναίρεση διπλότυπου"
+
+#: libcore/UndoManager.vala:26
+msgid "Undo Move"
+msgstr "Αναίρεση μετακίνησης"
+
+#: libcore/UndoManager.vala:28
+msgid "Undo Rename"
+msgstr "Αναίρεση μετονομασίας"
+
+#: libcore/UndoManager.vala:30
+msgid "Undo Create Empty File"
+msgstr "Αναίρεση δημιουργίας κενού αρχείου"
+
+#: libcore/UndoManager.vala:32
+msgid "Undo Create File from Template"
+msgstr "Αναίρεση δημιουργίας αρχείου από τα πρότυπα"
+
+#: libcore/UndoManager.vala:34
+msgid "Undo Create Folder"
+msgstr "Αναίρεση δημιουργίας φακέλου"
+
+#: libcore/UndoManager.vala:36
+msgid "Undo Move to Trash"
+msgstr "Αναίρεση μετακίνηση στον κάδο"
+
+#: libcore/UndoManager.vala:38
+msgid "Undo Create Link"
+msgstr "Αναίρεση δημιουργίας συνδέσμου"
+
+#: libcore/UndoManager.vala:40
+msgid "Undo Restore from Trash"
+msgstr "Αναίρεση επαναφοράς από τον κάδο"
+
+#: libcore/UndoManager.vala:42
+msgid "Undo Set Permissions"
+msgstr "Αναίρεση ορισμός δικαιωμάτων"
+
+#: libcore/UndoManager.vala:44
+msgid "Undo Set Permissions Recursively"
+msgstr "Αναίρεση ορισμού δικαιωμάτων αναδρομικά"
+
+#: libcore/UndoManager.vala:46
+msgid "Undo Change Owner"
+msgstr "Αναίρεση αλλαγής ιδιοκτήτη"
+
+#: libcore/UndoManager.vala:48
+msgid "Undo Change Group"
+msgstr "Αναίρεση αλλαγής ομάδας"
+
+#: libcore/UndoManager.vala:57
+msgid "Redo Copy"
+msgstr "Επανάληψη αντιγραφής"
+
+#: libcore/UndoManager.vala:59
+msgid "Redo Duplicate"
+msgstr "Επανάληψη διπλότυπου"
+
+#: libcore/UndoManager.vala:61
+msgid "Redo Move"
+msgstr "Επανάληψη μετακίνησης"
+
+#: libcore/UndoManager.vala:63
+msgid "Redo Rename"
+msgstr "Επανάληψη μετονομασίας"
+
+#: libcore/UndoManager.vala:65
+msgid "Redo Create Empty File"
+msgstr "Επανάληψη δημιουργίας κενού αρχείου"
+
+#: libcore/UndoManager.vala:67
+msgid "Redo Create File from Template"
+msgstr "Επανάληψη δημιουργίας αρχείου από τα πρότυπα"
+
+#: libcore/UndoManager.vala:69
+msgid "Redo Create Folder"
+msgstr "Επανάληψη δημιουργίας φακέλου"
+
+#: libcore/UndoManager.vala:71
+msgid "Redo Move to Trash"
+msgstr "Επανάληψη μετακίνηση στον κάδο"
+
+#: libcore/UndoManager.vala:73
+msgid "Redo Create Link"
+msgstr "Επανάληψη δημιουργίας συνδέσμου"
+
+#: libcore/UndoManager.vala:75
+msgid "Redo Restore from Trash"
+msgstr "Επανάληψη επαναφοράς από τον κάδο"
+
+#: libcore/UndoManager.vala:77
+msgid "Redo Set Permissions"
+msgstr "Επανάληψη ορισμός δικαιωμάτων"
+
+#: libcore/UndoManager.vala:79
+msgid "Redo Set Permissions Recursively"
+msgstr "Επανάληψη ορισμού δικαιωμάτων αναδρομικά"
+
+#: libcore/UndoManager.vala:81
+msgid "Redo Change Owner"
+msgstr "Επανάληψη αλλαγής ιδιοκτήτη"
+
+#: libcore/UndoManager.vala:83
+msgid "Redo Change Group"
+msgstr "Επανάληψη αλλαγής ομάδας"
+
+#: libcore/UndoManager.vala:380
+msgid "Original location could not be determined"
+msgstr "Η αρχική τοποθεσία δεν μπορεί να καθορισθεί"
+
+#: libcore/UndoManager.vala:381
+msgid "Open trash folder and restore manually"
+msgstr "Άνοιγμα φακέλου κάδου και επαναφορά χειροκίνητα"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CommonJob.vala:155
+#: libcore/FileOperations/CommonJob.vala:176
+#: libcore/FileOperations/CommonJob.vala:219
+#: libcore/FileOperations/CommonJob.vala:253
+#, c-format
+msgid "Error while copying to \"%s\"."
+msgstr "Σφάλμα κατά την αντιγραφή στο \"%s\"."
+
+#: libcore/FileOperations/CommonJob.vala:156
+msgid "The destination is not a folder."
+msgstr "Ο προορισμός δεν είναι φάκελος."
+
+#: libcore/FileOperations/CommonJob.vala:181
+msgid "You do not have permissions to access the destination folder."
+msgstr "Δεν έχετε δικαιώματα πρόσβασης του φακέλου προορισμού."
+
+#: libcore/FileOperations/CommonJob.vala:183
+msgid "There was an error getting information about the destination."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών για τον προορισμό."
+
+#: libcore/FileOperations/CommonJob.vala:220
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr ""
+"Δεν υπάρχει διαθέσιμος χώρος στον προορισμό. Δοκιμάστε να απομακρύνετε "
+"κάποια αρχεία για να κερδίσετε χώρο."
+
+#. TRANSLATORS: %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "There is 100 MB available, but 150 MB is required".
+#: libcore/FileOperations/CommonJob.vala:226
+#, c-format
+msgid "There is %s available, but %s is required."
+msgstr "Υπάρχουν διαθέσιμα %s, αλλά απαιτούνται %s."
+
+#: libcore/FileOperations/CommonJob.vala:254
+msgid "The destination is read-only."
+msgstr "Ο προορισμός είναι μόνο για ανάγνωση."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CommonJob.vala:302
+#, c-format
+msgid ""
+"The folder \"%s\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+"Δεν είναι δυνατός ο χειρισμός του φακέλου \"%s\", διότι δεν έχετε δικαίωμα "
+"ανάγνωσής του."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CommonJob.vala:350
+#, c-format
+msgid ""
+"Files in the folder \"%s\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr ""
+"Δεν είναι δυνατός ο χειρισμός των αρχείων του φακέλου \"%s\", διότι δεν "
+"έχετε δικαιώματα ανάγνωσής τους."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CommonJob.vala:395
+#, c-format
+msgid ""
+"The file \"%s\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr ""
+"Δεν είναι δυνατός ο χειρισμός του αρχείου \"%s\", διότι δεν έχετε δικαίωμα "
+"ανάγνωσής του."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CommonJob.vala:399
+#, c-format
+msgid "There was an error getting information about \"%s\"."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών για το \"%s\"."
+
+#: libcore/FileOperations/CommonJob.vala:497
+#: src/Dialogs/AbstractPropertiesDialog.vala:67
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:76
+msgid "Emptying Trash"
+msgstr "Γίνεται άδειασμα του κάδου"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:85
+msgid "Permanently delete all items from Trash?"
+msgstr "Να γίνει μόνιμη διαγραφή όλων των αντικειμένων στον κάδο απορριμμάτων;"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:86
+msgid ""
+"All items in all trash directories, including those on any mounted external "
+"drives, will be permanently deleted."
+msgstr ""
+"Όλα τα αντικείμενα σε όλους τους φακέλους κάδου, συμπεριλαμβανομένων και "
+"αυτών σε εξωτερικούς δίσκους, θα διαγραφούν οριστικά."
+
+#: libcore/FileOperations/EmptyTrashJob.vala:89
+msgid "Permanently delete all items from Trash on this mount?"
+msgstr ""
+"Θέλετε να διαγράψετε οριστικά όλα τα αντικείμενα από τον κάδο ανακύκλωσης σε "
+"αυτόν τον τόμο;"
+
+#: libcore/FileOperations/EmptyTrashJob.vala:90
+msgid "All items in the trash on this mount, will be permanently deleted."
+msgstr ""
+"Όλα τα αντικείμενα στον κάδο ανακύκλωσης αυτού του τόμου θα διαγραφούν "
+"οριστικά."
+
+#: libcore/FileOperations/MountUtils.vala:31
+#, c-format
+msgid "Unable to unmount '%s'"
+msgstr "Αδυναμία κατάργησης του '%s'"
+
+#: libcore/FileOperations/MountUtils.vala:52
+#, c-format
+msgid "Unable to eject '%s'"
+msgstr "Αδυναμία εξαγωγής του '%s'"
+
+#: libcore/FileOperations/MountUtils.vala:119
+#, c-format
+msgid "Unable to mount '%s'"
+msgstr "Αδυναμία προσάρτησης του '%s'"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must not be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to copy 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/FileOperations/CopyMoveJob.vala:64
+#, c-format
+msgid "Preparing to copy %'d file (%s)"
+msgid_plural "Preparing to copy %'d files (%s)"
+msgstr[0] "Προετοιμασία αντιγραφής %'d αρχείου (%s)"
+msgstr[1] "Προετοιμασία αντιγραφής %'d αρχείων (%s)"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must not be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to move 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/FileOperations/CopyMoveJob.vala:74
+#, c-format
+msgid "Preparing to move %'d file (%s)"
+msgid_plural "Preparing to move %'d files (%s)"
+msgstr[0] "Προετοιμασία μετακίνησης %'d αρχείου (%s)"
+msgstr[1] "Προετοιμασία μετακίνησης %'d αρχείων (%s)"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CopyMoveJob.vala:87
+#, c-format
+msgid "Creating links in \"%s\""
+msgstr "Δημιουργία συνδέσμων στο \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:92
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "Δημιουργία συνδέσμων προς %'d αρχείο"
+msgstr[1] "Δημιουργία συνδέσμων προς %'d αρχεία"
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/FileOperations/CopyMoveJob.vala:138
+#, c-format
+msgid "Moving \"%s\" to \"%s\""
+msgstr "Γίνεται μετακίνηση του \"%s\" σε \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:138
+#, c-format
+msgid "Copying \"%s\" to \"%s\""
+msgstr "Γίνεται αντιγραφή του \"%s\" σε \"%s\""
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/FileOperations/CopyMoveJob.vala:142
+#, c-format
+msgid "Duplicating \"%s\""
+msgstr "Δημιουργείται διπλότυπο του \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:152
+#, c-format
+msgid "Moving %'d file (in \"%s\") to \"%s\""
+msgid_plural "Moving %'d files (in \"%s\") to \"%s\""
+msgstr[0] "Γίνεται μετακίνηση %'d αρχείου (στο \"%s\") σε \"%s\""
+msgstr[1] "Γίνεται μετακίνηση %'d αρχείων (στο \"%s\") σε \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:157
+#, c-format
+msgid "Copying %'d file (in \"%s\") to \"%s\""
+msgid_plural "Copying %'d files (in \"%s\") to \"%s\""
+msgstr[0] "Γίνεται αντιγραφή %'d αρχείου (στο \"%s\") σε \"%s\""
+msgstr[1] "Γίνεται αντιγραφή %'d αρχείων (στο \"%s\") σε \"%s\""
+
+#. TRANSLATORS: \"%s\" is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed.
+#. \" is an escaped quotation mark.  This may be replaced with another suitable character (escaped if necessary).
+#: libcore/FileOperations/CopyMoveJob.vala:166
+#, c-format
+msgid "Duplicating %'d file (in \"%s\")"
+msgid_plural "Duplicating %'d files (in \"%s\")"
+msgstr[0] "Δημιουργείται %'d διπλότυπο αρχείου (στο \"%s\")"
+msgstr[1] "Δημιουργούνται %'d διπλότυπα αρχείων (στο \"%s\")"
+
+#: libcore/FileOperations/CopyMoveJob.vala:179
+#, c-format
+msgid "Moving %'d file to \"%s\""
+msgid_plural "Moving %'d files to \"%s\""
+msgstr[0] "Γίνεται μετακίνηση %'d αρχείου στο \"%s\""
+msgstr[1] "Γίνεται μετακίνηση %'d αρχείων στο \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:184
+#, c-format
+msgid "Copying %'d file to \"%s\""
+msgid_plural "Copying %'d files to \"%s\""
+msgstr[0] "Γίνεται αντιγραφή %'d αρχείου στο \"%s\""
+msgstr[1] "Γίνεται αντιγραφή %'d αρχείων στο \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:191
+#, c-format
+msgid "Duplicating %'d file"
+msgid_plural "Duplicating %'d files"
+msgstr[0] "Δημιουργία %'d διπλοτύπου αρχείου"
+msgstr[1] "Δημιουργία %'d διπλοτύπων αρχείων"
+
+#. TRANSLATORS: %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed. So this represents something like "4 kb of 4 MB".
+#: libcore/FileOperations/CopyMoveJob.vala:214
+#, c-format
+msgid "%s of %s"
+msgstr "%s από %s"
+
+#. TRANSLATORS: The two first %s and the last %s will expand to a size
+#. like "2 bytes" or "3 MB", the third %s to a time duration like
+#. "2 minutes". It must not be translated or removed.
+#. So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. The singular/plural form will be used depending on the remaining time (i.e. the "%s left" part).
+#. The order in which %s appear can be changed by using the right positional specifier.
+#: libcore/FileOperations/CopyMoveJob.vala:231
+#, c-format
+msgid "%s of %s — %s left (%s/sec)"
+msgid_plural "%s of %s — %s left (%s/sec)"
+msgstr[0] "%s από %s — Απομένει %s (%s/δευτ)"
+msgstr[1] "%s από %s — Απομένουν %s (%s/δευτ)"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/CopyMoveJob.vala:245
+#, c-format
+msgid "Preparing to move to \"%s\""
+msgstr "Γίνεται προετοιμασία μετακίνησης στο \"%s\""
+
+#: libcore/FileOperations/CopyMoveJob.vala:250
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "Γίνεται προετοιμασία μετακίνησης %'d αρχείου"
+msgstr[1] "Γίνεται προετοιμασία μετακίνησης %'d αρχείων"
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/DeleteJob.vala:55
+#, fuzzy, c-format
+msgid "Are you sure you want to permanently delete \"%s\" from the trash?"
+msgstr ""
+"Είστε βέβαιος ότι θέλετε να διαγράψετε οριστικά το \"%B\" από τα απορρίμματα;"
+
+#: libcore/FileOperations/DeleteJob.vala:57
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] ""
+"Σίγουρα θέλετε να διαγράψετε οριστικά το %'d επιλεγμένο αντικείμενο από τα "
+"απορρίμματα;"
+msgstr[1] ""
+"Σίγουρα θέλετε να διαγράψετε οριστικά τα %'d επιλεγμένα αντικείμενα από τα "
+"απορρίμματα;"
+
+#: libcore/FileOperations/DeleteJob.vala:63
+msgid "If you delete an item, it will be permanently lost."
+msgstr "Αν διαγράψετε ένα αντικείμενο, θα χαθεί οριστικά."
+
+#. TRANSLATORS: '\"%s\"' is a placeholder for the quoted basename of a file.  It may change position but must not be translated or removed
+#. '\"' is an escaped quoted mark.  This may be replaced with another suitable character (escaped if necessary)
+#: libcore/FileOperations/DeleteJob.vala:78
+#, fuzzy, c-format
+msgid "Permanently delete “%s”?"
+msgstr "Να γίνει μόνιμη διαγραφή όλων των αντικειμένων στον κάδο απορριμμάτων;"
+
+#: libcore/FileOperations/DeleteJob.vala:80
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε οριστικά το %'d επιλεγμένο "
+"αντικείμενο;"
+msgstr[1] ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε οριστικά τα %'d επιλεγμένα "
+"αντικείμενα;"
+
+#: libcore/FileOperations/DeleteJob.vala:86
+msgid "Deleted items are not sent to Trash and are not recoverable."
+msgstr ""
+
+#: libcore/FileOperations/DeleteJob.vala:109
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "%'d αρχείο απομένει για διαγραφή"
+msgstr[1] "%'d αρχεία απομένουν για διαγραφή"
+
+#: libcore/FileOperations/DeleteJob.vala:114
+msgid "Deleting files"
+msgstr "Διαγραφή αρχείων"
+
+#. TRANSLATORS: %s will expand to a time like "2 minutes". It must not be translated or removed.
+#. The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
+#: libcore/FileOperations/DeleteJob.vala:127
+#, fuzzy, c-format
+msgid "%s left"
+msgid_plural "%s left"
+msgstr[0] "%T απομένει"
+msgstr[1] "%T απομένουν"
+
+#. TRANSLATORS: %'d is a placeholder for a number. It must not be translated or removed.
+#. %s is a placeholder for a size like "2 bytes" or "3 MB".  It must not be translated or removed.
+#. So this represents something like "Preparing to delete 100 files (200 MB)"
+#. The order in which %'d and %s appear can be changed by using the right positional specifier.
+#: libcore/FileOperations/DeleteJob.vala:144
+#, fuzzy, c-format
+msgid "Preparing to delete %'d file (%s)"
+msgid_plural "Preparing to delete %'d files (%s)"
+msgstr[0] "Προετοιμασία διαγραφής %'d αρχείου (%S)"
+msgstr[1] "Προετοιμασία διαγραφής %'d αρχείων (%S)"
+
+#: libcore/FileOperations/DeleteJob.vala:155
+msgid "Moving files to trash"
+msgstr "Γίνεται μετακίνηση των αρχείων στον κάδο"
+
+#: libcore/FileOperations/DeleteJob.vala:158
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "%'d αρχείο απομένει για μεταφορά στα απορρίμματα"
+msgstr[1] "%'d αρχεία απομένουν για μεταφορά στα απορρίματα"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:32
+msgid "Public FTP"
+msgstr "Δημόσιο FTP"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:38
+msgid "FTP (with login)"
+msgstr "FTP (με σύνδεση)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:45
+msgid "SSH"
+msgstr "SSH"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:51
+msgid "AFP (Apple Filing Protocol)"
+msgstr "AFP (Apple Filing Protocol)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:57
+msgid "Windows share"
+msgstr "Windows share"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:63
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:70
+msgid "Secure WebDAV (HTTPS)"
+msgstr "Ασφαλές WebDAV (HTTPS)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:112
+msgid "Server Details"
+msgstr "Λεπτομέρειες διακομιστή"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:116
+msgid "Server name or IP address"
+msgstr "Όνομα διακομιστή ή Διεύθυνση IP"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:119
+msgid "Server:"
+msgstr "Διακομιστής:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:129
+msgid "Port:"
+msgstr "Θύρα:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:156
+#: libcore/View/Dialogs/FileConflictDialog.vala:89
+#: libcore/View/Dialogs/FileConflictDialog.vala:123
+#: src/Dialogs/PropertiesWindow.vala:242
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:161
+msgid "Name of share on server (Optional)"
+msgstr "Όνομα κοινοποίησης στο διακομιστή (Προαιρετικό)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:164
+msgid "Share:"
+msgstr "Κοινή χρήση:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:167
+msgid "Path of shared folder on server (Optional)"
+msgstr "Διαδρομή διαμοιρασμένου φακέλου στο διακομιστή (Προαιρετικό)"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:171
+msgid "Folder:"
+msgstr "Φάκελος:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:175
+msgid "User Details"
+msgstr "Λεπτομέρειες χρήστη"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:180
+msgid "Name of Windows domain"
+msgstr "Όνομα διευθύνσης Windows"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:182
+msgid "Domain name:"
+msgstr "Όνομα τομέα:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:187
+msgid "Name of user on server"
+msgstr "Όνομα χρήστη στο διακομιστή"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:189
+msgid "User name:"
+msgstr "Όνομα χρήστη:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:197
+msgid "Password:"
+msgstr "Συνθηματικό:"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:199
+msgid "Remember this password"
+msgstr "Απομνημόνευση αυτού του συνθηματικού"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:209
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:216
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:266
+msgid "Connecting…"
+msgstr "Γίνεται σύνδεση…"
+
+#: libcore/View/Dialogs/ConnectServerDialog.vala:373
+msgid "Please verify your user details."
+msgstr "Παρακαλώ επαληθεύστε τις πληροφορίες χρήστη."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:64
+msgid "File conflict"
+msgstr "Σύγκρουση αρχείων"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:77
+msgid "Original file"
+msgstr "Αρχικό αρχείο"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:79
+#: libcore/View/Dialogs/FileConflictDialog.vala:113
+#: src/Dialogs/PropertiesWindow.vala:546 src/View/DetailsColumn.vala:122
+msgid "Size:"
+msgstr "Μέγεθος:"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:97
+#: libcore/View/Dialogs/FileConflictDialog.vala:131
+msgid "Last modified:"
+msgstr "Τελευταία τροποποίηση:"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:111
+msgid "Replace with"
+msgstr "Αντικατάσταση με"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:145
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:154
+msgid "_Select a new name for the destination"
+msgstr "_Επιλέξτε ένα νέο όνομα για τον προορισμό"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:158
+msgid "Apply this action to all files"
+msgstr "Εφαρμογή αυτής της ενέργειας σε όλα τα αρχεία"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:160
+#: libcore/View/Dialogs/StockDialogs.vala:22
+msgid "_Skip"
+msgstr "_Παράλειψη"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:161
+msgid "Re_name"
+msgstr "Μετ_ονομασία"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:163
+msgid "Keep Newest"
+msgstr "Διατήρηση Νεότερου"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:164
+msgid "Skip if original was modified more recently"
+msgstr "Παράλειψη αν το αρχικό αρχείο τροποποιήθηκε πιο πρόσφατα"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:281
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr "Συγχώνευση φακέλου \"%s\";"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:282
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"Η συγχώνευση θα ζητήσει επιβεβαίωση προτού αντικαταστήσει αρχεία στο φάκελο "
+"που συγκρούονται με τα αρχεία που αντιγράφονται."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:284
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένας παλαιότερος φάκελος με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:286
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένας νεότερος φάκελος με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:288
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένας φάκελος με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:291
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr "Αντικατάσταση φακέλου \"%s\";"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:292
+msgid "Replacing it will remove all files in the folder."
+msgstr "Η αντικατάστασή του θα διαγράψει όλα τα αρχεία του φακέλου."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:293
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένας φάκελος με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:296
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "Αντικατάσταση αρχείου \"%s\";"
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:297
+msgid "Replacing it will overwrite its content."
+msgstr "Η αντικατάστασή του θα αντικαταστήσει το περιεχόμενό του."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:300
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένα παλαιότερο αρχείο με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:302
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένα νεότερο αρχείο με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:304
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "Υπάρχει ήδη ένα αρχείο με το ίδιο όνομα στο \"%s\"."
+
+#: libcore/View/Dialogs/FileConflictDialog.vala:336
+msgid "Merge"
+msgstr "Συγχώνευση"
+
+#: libcore/View/Dialogs/StockDialogs.vala:20
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: libcore/View/Dialogs/StockDialogs.vala:21
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:333
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: libcore/View/Dialogs/StockDialogs.vala:23
+msgid "S_kip All"
+msgstr "Π_αράλειψη Όλων"
+
+#: libcore/View/Dialogs/StockDialogs.vala:24
+msgid "_Retry"
+msgstr "_Επανάληψη"
+
+#: libcore/View/Dialogs/StockDialogs.vala:25
+msgid "Delete _All"
+msgstr "Διαγραφή _όλων"
+
+#: libcore/View/Dialogs/StockDialogs.vala:26
+msgid "_Replace"
+msgstr "_Αντικατάσταση"
+
+#: libcore/View/Dialogs/StockDialogs.vala:27
+msgid "Replace _All"
+msgstr "Αντικατάσταση _Όλων"
+
+#: libcore/View/Dialogs/StockDialogs.vala:28
+msgid "_Merge"
+msgstr "_Συγχώνευση"
+
+#: libcore/View/Dialogs/StockDialogs.vala:29
+msgid "Merge _All"
+msgstr "Συγχώνευση _όλων"
+
+#: libcore/View/Dialogs/StockDialogs.vala:30
+msgid "Copy _Anyway"
+msgstr "Αντιγραφή _Παρ' αυτά"
+
+#: libcore/View/Dialogs/StockDialogs.vala:31
+msgid "Empty _Trash"
+msgstr "Άδειασμα _Απορριμμάτων"
+
+#: libcore/View/HeaderBar/BasicBreadcrumbsEntry.vala:201
+#, c-format
+msgid "Navigate to %s"
+msgstr "Πλοήγηση σε %s"
+
+#: libcore/View/HeaderBar/BasicBreadcrumbsEntry.vala:312
+#, c-format
+msgid "Go to %s"
+msgstr "Μετάβαση σε %s"
+
+#: libcore/View/HeaderBar/BasicBreadcrumbsEntry.vala:389
+#, fuzzy
+msgid "Type Path"
+msgstr "Τύπος"
+
+#: libcore/View/HeaderBar/BasicLocationBar.vala:88
+msgid "Type a path"
+msgstr ""
+
+#: libcore/View/HeaderBar/ViewSwitcher.vala:21
+msgid "View as Grid"
+msgstr "Προβολή σε πλέγμα"
+
+#: libcore/View/HeaderBar/ViewSwitcher.vala:31
+msgid "View as List"
+msgstr "Προβολή σε λίστα"
+
+#: libcore/View/HeaderBar/ViewSwitcher.vala:42
+msgid "View in Columns"
+msgstr "Προβολή σε στήλες"
+
+#: plugins/pantheon-files-trash/plugin.vala:19
+msgid "Restore All"
+msgstr "Επαναφορά όλων"
+
+#: plugins/pantheon-files-trash/plugin.vala:20
+msgid "Empty the Trash"
+msgstr "Άδειασμα του κάδου"
+
+#: plugins/pantheon-files-trash/plugin.vala:21
+#, fuzzy
+msgid "Restore Selected"
+msgstr "Επαναφορά όλων"
+
+#: plugins/pantheon-files-trash/plugin.vala:22
+#, fuzzy
+msgid "Delete Selected"
+msgstr " επιλέχτηκε"
+
+#: plugins/send-by-email/plugin.vala:42
+msgid "Send by Email"
+msgstr ""
+
+#: src/Application.vala:64
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"Περιήγηση του συστήματος αρχείων με το διαχειριστή αρχείων"
+
+#: src/Application.vala:65
+msgid "Show the version of the program"
+msgstr "Εμφάνιση της έκδοσης του προγράμματος."
+
+#: src/Application.vala:71
+#, fuzzy
+msgid "Open one or more URIs, each in their own tab"
+msgstr "Άνοιγμα uri (s) σε νέα καρτέλα"
+
+#: src/Application.vala:72 src/View/AbstractDirectoryView.vala:1927
+msgid "New Window"
+msgstr "Νέο παράθυρο"
+
+#: src/Application.vala:73
+msgid "Quit Files"
+msgstr "Έξοδος από τα Αρχεία"
+
+#: src/Application.vala:74
+msgid "Enable debug logging"
+msgstr "Ενεργοποίηση καταγραφής εντοπισμού σφαλμάτων"
+
+#: src/Application.vala:77
+#, fuzzy
+msgid "[URI…]"
+msgstr "[URI…]"
+
+#: src/Application.vala:89
+msgid "Error: Running Files as root using sudo is not possible."
+msgstr ""
+
+#: src/Application.vala:90
+msgid "Please use the command: io.elementary.files-pkexec [folder]"
+msgstr ""
+
+#: src/Application.vala:107
+msgid "--quit cannot be used with URIs."
+msgstr "το --quit δεν μπορεί να χρησιμοποιηθεί σε URI."
+
+#: src/DesktopLauncher.vala:21
+msgid "Browse your files"
+msgstr "Περιηγηθείτε στα αρχεία σας"
+
+#: src/DesktopLauncher.vala:22
+msgid "File Manager"
+msgstr "Διαχειριστής αρχείων"
+
+#: src/DesktopLauncher.vala:23
+msgid "New _Window"
+msgstr "Νέο _παράθυρο"
+
+#: src/DesktopLauncher.vala:24
+msgid "New Window As _Administrator"
+msgstr "Νέο παράθυρο ως _διαχειριστής"
+
+#: src/ProgressUIHandler.vala:131 src/ProgressUIHandler.vala:187
+msgid "File Operations"
+msgstr "Λειτουργίες αρχείων"
+
+#. TRANSLATORS: %s will be replaced by the title of the file operation
+#: src/ProgressUIHandler.vala:181
+#, c-format
+msgid "Completed %s"
+msgstr "Ολοκληρώθηκε %s"
+
+#: src/ProgressUIHandler.vala:184
+msgid "All file operations have ended"
+msgstr ""
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:44
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:53
+msgid "General"
+msgstr "Γενικά"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:120
+msgid "Device Usage"
+msgstr "Χρήση συσκευής"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:143
+#, fuzzy, c-format
+msgid "%s free out of %s"
+msgstr "(%s ελεύθερα από %s)"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:151
+msgid "Capacity:"
+msgstr "Χωρητικότητα:"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:152
+#: src/Dialogs/AbstractPropertiesDialog.vala:155
+#: src/Dialogs/AbstractPropertiesDialog.vala:158
+#: src/Dialogs/PropertiesWindow.vala:475 src/Dialogs/PropertiesWindow.vala:514
+#: src/View/DetailsColumn.vala:273
+msgid "Unknown"
+msgstr ""
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:154
+msgid "Available:"
+msgstr "Διαθέσιμα:"
+
+#: src/Dialogs/AbstractPropertiesDialog.vala:157
+msgid "Used:"
+msgstr "Χρησιμοποιούνται:"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:21
+#, fuzzy
+msgid "Original filename"
+msgstr "Αρχικό αρχείο"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:23
+#, fuzzy
+msgid "Modified original"
+msgstr "Τροποποιήθηκε"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:25
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:252
+#, fuzzy
+msgid "New basename"
+msgstr "Μετονομασία"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:66
+#, fuzzy
+msgid "Bulk Rename"
+msgstr "Μετονομασία"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:72
+#: src/View/Sidebar/BookmarkRow.vala:338
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:81
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:87
+msgid "Number Sequence"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:83
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:89
+msgid "Fixed Text"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:93
+msgid "Add Prefix…"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:112
+msgid "Add Suffix…"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:129
+#, fuzzy
+msgid "Basename:"
+msgstr "_Όνομα χρήστη:"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:163
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:243
+#, fuzzy
+msgid "Original Basename"
+msgstr "Αρχικό αρχείο"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:168
+#, fuzzy
+msgid "Replacement text"
+msgstr "Αντικατάσταση με"
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:186
+msgid "Number in order of:"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:261
+msgid "Text to be replaced"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerDialog.vala:328
+msgid "Apply"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerListRow.vala:70
+#, fuzzy
+msgid "Ignored"
+msgstr "Παράβλεψη"
+
+#: src/Dialogs/BulkRenamer/RenamerListRow.vala:70
+msgid "Name is not changed"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerListRow.vala:74
+#, fuzzy
+msgid "Cannot rename"
+msgstr "Μετονομασία"
+
+#: src/Dialogs/BulkRenamer/RenamerListRow.vala:74
+msgid "Name is invalid or already exists"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerListRow.vala:78
+#, fuzzy
+msgid "Will be renamed"
+msgstr "Όνομα αρχείου"
+
+#: src/Dialogs/BulkRenamer/RenamerModifier.vala:43
+#, fuzzy
+msgid "Reverse Order"
+msgstr "Αντίστροφη σειρά"
+
+#: src/Dialogs/BulkRenamer/RenamerModifier.vala:52
+msgid "Start Number"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerModifier.vala:60
+msgid "Digits"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerModifier.vala:150
+msgid "Separator"
+msgstr ""
+
+#: src/Dialogs/BulkRenamer/RenamerModifier.vala:310
+#, c-format
+msgid "%0*d,%0*d,%0*d…"
+msgstr ""
+
+#: src/Dialogs/ChooseAppDialog.vala:50
+msgid "Set as default"
+msgstr "Ορισμός ως προεπιλογή"
+
+#: src/Dialogs/PropertiesWindow.vala:116
+#: src/View/AbstractDirectoryView.vala:2036
+#: src/View/Sidebar/AbstractMountableRow.vala:277
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: src/Dialogs/PropertiesWindow.vala:220
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: src/Dialogs/PropertiesWindow.vala:263
+msgid "Contains:"
+msgstr "Περιέχoνται:"
+
+#: src/Dialogs/PropertiesWindow.vala:277
+#, c-format
+msgid "%i file could not be read due to permissions or other errors."
+msgid_plural "%i files could not be read due to permissions or other errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Dialogs/PropertiesWindow.vala:282
+msgid "Actual Size Could Be Larger"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:303 src/Dialogs/PropertiesWindow.vala:322
+msgid "unknown"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:486 src/View/DetailsColumn.vala:314
+msgid "Loading…"
+msgstr "Γίνεται φόρτωση..."
+
+#: src/Dialogs/PropertiesWindow.vala:520 src/View/DetailsColumn.vala:283
+msgid "Could not be determined"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:568 src/View/DetailsColumn.vala:145
+msgid "Created:"
+msgstr "Δημιουργήθηκε:"
+
+#: src/Dialogs/PropertiesWindow.vala:582 src/View/DetailsColumn.vala:160
+msgid "Modified:"
+msgstr "Τροποποιήθηκε:"
+
+#: src/Dialogs/PropertiesWindow.vala:598 src/View/DetailsColumn.vala:176
+msgid "Deleted:"
+msgstr "Διαγράφηκε:"
+
+#: src/Dialogs/PropertiesWindow.vala:608 src/View/DetailsColumn.vala:185
+msgid "Media type:"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:615 src/View/DetailsColumn.vala:192
+msgid "Resolution:"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:623
+#: src/Dialogs/VolumePropertiesWindow.vala:76
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+#: src/Dialogs/PropertiesWindow.vala:633 src/View/DetailsColumn.vala:200
+msgid "Target:"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:641 src/View/DetailsColumn.vala:210
+msgid "Original Location:"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:664
+#: src/View/AbstractDirectoryView.vala:2006
+msgid "Other Application…"
+msgstr "Άλλη εφαρμογή..."
+
+#: src/Dialogs/PropertiesWindow.vala:684
+msgid "Open with:"
+msgstr "Άνοιγμα με:"
+
+#: src/Dialogs/PropertiesWindow.vala:951
+msgid "Unable to determine file ownership and permissions"
+msgstr ""
+
+#: src/Dialogs/PropertiesWindow.vala:958
+msgid "Owner:"
+msgstr "Ιδιοκτήτης:"
+
+#: src/Dialogs/PropertiesWindow.vala:959
+msgid "Group:"
+msgstr "Ομάδα:"
+
+#: src/Dialogs/PropertiesWindow.vala:1261
+#, c-format
+msgid "%u subfolder"
+msgid_plural "%u subfolders"
+msgstr[0] "%u υποφάκελος"
+msgstr[1] "%u υποφάκελοι"
+
+#: src/Dialogs/PropertiesWindow.vala:1265
+#: src/Dialogs/PropertiesWindow.vala:1287
+#, c-format
+msgid "%u file"
+msgid_plural "%u files"
+msgstr[0] "%u αρχείο"
+msgstr[1] "%u αρχεία"
+
+#: src/Dialogs/PropertiesWindow.vala:1283 src/View/Widgets/OverlayBar.vala:182
+#, c-format
+msgid "%u folder"
+msgid_plural "%u folders"
+msgstr[0] "%u φάκελος"
+msgstr[1] "%u φάκελοι"
+
+#: src/Dialogs/PropertiesWindow.vala:1292
+#, c-format
+msgid "%u selected item"
+msgid_plural "%u selected items"
+msgstr[0] "%u επιλεγμένο αντικείμενο"
+msgstr[1] "%u επιλεγμένα αντικείμενα"
+
+#. TRANSLATORS: total (folders, files)
+#: src/Dialogs/PropertiesWindow.vala:1294
+#, c-format
+msgid "%s (%s, %s)"
+msgstr "%s (%s, %s)"
+
+#: src/Dialogs/VolumePropertiesWindow.vala:25
+msgid "Disk Properties"
+msgstr "Ιδιότητες δίσκου"
+
+#: src/Dialogs/VolumePropertiesWindow.vala:86
+msgid "Format:"
+msgstr "Μορφή:"
+
+#: src/Utils/MimeActions.vala:282
+msgid "Multiple file types selected"
+msgstr "Επιλέχθηκαν πολλαπλοί τύποι αρχείων"
+
+#: src/Utils/MimeActions.vala:283
+msgid "No single app can open all these types of file"
+msgstr "Δεν μπορεί μια εφαρμογή να ανοίξει όλους αυτούς τους τύπους αρχείων"
+
+#: src/Utils/MimeActions.vala:311
+msgid "Failed to open files"
+msgstr "Το άνοιγμα των αρχείων απέτυχε"
+
+#: src/Utils/MimeActions.vala:321
+msgid "Could not open URIs"
+msgstr ""
+
+#: src/Utils/MimeActions.vala:324
+msgid "Could not open files or URIs with this app"
+msgstr ""
+
+#: src/Utils/Permissions.vala:29
+#, fuzzy
+#| msgid "Owner:"
+msgid "Owner"
+msgstr "Ιδιοκτήτης:"
+
+#: src/Utils/Permissions.vala:31
+#, fuzzy
+#| msgid "Group:"
+msgid "Group"
+msgstr "Ομάδα:"
+
+#: src/Utils/Permissions.vala:34
+#, fuzzy
+#| msgid "Everyone:"
+msgid "Everyone"
+msgstr "Όλοι:"
+
+#: src/View/AbstractDirectoryView.vala:313
+msgid "This folder only contains hidden files"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:320
+#: src/View/AbstractDirectoryView.vala:326
+msgid "Show"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:326
+msgid "Hide"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:879
+#: src/View/AbstractDirectoryView.vala:1205
+#, fuzzy
+msgid "Cannot execute this file"
+msgstr "Το άνοιγμα αυτού του αρχείου είναι αδύνατο"
+
+#. TRANSLATORS: '%s' is a quoted placehorder for the name of a file. It can be moved but not omitted
+#: src/View/AbstractDirectoryView.vala:889
+#, c-format
+msgid "“%s” must be moved from Trash before opening"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:890
+msgid ""
+"Files inside Trash cannot be opened. To open this file, it must be moved "
+"elsewhere."
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:905
+msgid "Cannot open this file"
+msgstr "Το άνοιγμα αυτού του αρχείου είναι αδύνατο"
+
+#: src/View/AbstractDirectoryView.vala:918
+msgid "Cannot identify file type to open"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:1641
+msgid "Cannot drop this file"
+msgstr "Η ρίψη αυτού του αρχείου είναι αδύνατη"
+
+#: src/View/AbstractDirectoryView.vala:1642
+msgid "Invalid file name provided"
+msgstr "Δόθηκε μη έγκυρο όνομα αρχείου"
+
+#: src/View/AbstractDirectoryView.vala:1913 src/View/Window.vala:239
+msgid "New Tab"
+msgstr "Νέα καρτέλα"
+
+#: src/View/AbstractDirectoryView.vala:1950
+msgid "Run"
+msgstr "Εκτέλεση"
+
+#: src/View/AbstractDirectoryView.vala:1957
+#, c-format
+msgid "Open in %s"
+msgstr "Άνοιγμα σε %s"
+
+#: src/View/AbstractDirectoryView.vala:2016
+msgid "Open in"
+msgstr "Άνοιγμα σε"
+
+#: src/View/AbstractDirectoryView.vala:2018
+#: src/View/Widgets/BreadcrumbsEntry.vala:446
+msgid "Open with"
+msgstr "Άνοιγμα με"
+
+#: src/View/AbstractDirectoryView.vala:2029
+#, fuzzy
+msgid "Add to Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: src/View/AbstractDirectoryView.vala:2049
+msgid "Select All"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:2058
+msgid "Invert Selection"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:2067
+#, fuzzy
+msgid "Deselect All"
+msgstr "Επαναφορά όλων"
+
+#: src/View/AbstractDirectoryView.vala:2078
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#. TRANSLATORS Verb to indicate action of menuitem will be to duplicate a file.
+#: src/View/AbstractDirectoryView.vala:2086
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: src/View/AbstractDirectoryView.vala:2093
+msgid "Move to Trash"
+msgstr "Μετακίνηση στον κάδο"
+
+#: src/View/AbstractDirectoryView.vala:2098
+#, fuzzy
+msgid "Delete Permanently"
+msgstr "Οριστική διαγραφή"
+
+#: src/View/AbstractDirectoryView.vala:2105
+msgid "Restore from Trash"
+msgstr "Επαναφορά από τον κάδο"
+
+#: src/View/AbstractDirectoryView.vala:2128
+msgid "Open Parent Folder"
+msgstr "Άνοιγμα γονικού φακέλου"
+
+#: src/View/AbstractDirectoryView.vala:2131
+msgid "Remove from History"
+msgstr "Αφαίρεση από το ιστορικό"
+
+#: src/View/AbstractDirectoryView.vala:2157
+#, fuzzy
+msgid "Rename…"
+msgstr "Μετονομασία"
+
+#: src/View/AbstractDirectoryView.vala:2164
+#, fuzzy
+msgid "Copy as Link"
+msgstr "Επικόλληση"
+
+#: src/View/AbstractDirectoryView.vala:2187
+#: src/View/AbstractDirectoryView.vala:2269
+#, fuzzy
+msgid "Paste Link into Folder"
+msgstr "Επικόλληση στον φάκελο"
+
+#: src/View/AbstractDirectoryView.vala:2192
+#: src/View/AbstractDirectoryView.vala:2246
+msgid "Paste into Folder"
+msgstr "Επικόλληση στον φάκελο"
+
+#: src/View/AbstractDirectoryView.vala:2202
+#: src/View/AbstractDirectoryView.vala:2274
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: src/View/AbstractDirectoryView.vala:2315
+#, fuzzy
+#| msgid "Set as default"
+msgid "Set as Wallpaper"
+msgstr "Ορισμός ως προεπιλογή"
+
+#: src/View/AbstractDirectoryView.vala:2348 src/View/ListView.vala:28
+msgid "Type"
+msgstr "Τύπος"
+
+#: src/View/AbstractDirectoryView.vala:2358
+msgid "Reversed Order"
+msgstr "Αντίστροφη σειρά"
+
+#: src/View/AbstractDirectoryView.vala:2363
+msgid "Folders Before Files"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:2383
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+#: src/View/AbstractDirectoryView.vala:2392
+msgid "Folder"
+msgstr "Φάκελος"
+
+#: src/View/AbstractDirectoryView.vala:2398
+msgid "Empty File"
+msgstr "Κενό αρχείο"
+
+#: src/View/AbstractDirectoryView.vala:2412
+msgid "Template"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:2414
+msgid "…too many templates"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:2420
+msgid "New"
+msgstr "Νέος/-o"
+
+#: src/View/AbstractDirectoryView.vala:2714
+#, c-format
+msgid "Untitled %s"
+msgstr ""
+
+#: src/View/AbstractDirectoryView.vala:3005
+#: src/View/AbstractDirectoryView.vala:3211
+msgid "Cannot remove files from here"
+msgstr "Η αφαίρεση αρχείων από εδώ είναι αδύνατη"
+
+#: src/View/AbstractDirectoryView.vala:3006
+#: src/View/AbstractDirectoryView.vala:3184
+#: src/View/AbstractDirectoryView.vala:3195
+#: src/View/AbstractDirectoryView.vala:3212
+msgid "You do not have permission to change this location"
+msgstr "Δεν έχετε τα δικαιώματα για να αλλάξετε αυτήν την τοποθεσία"
+
+#: src/View/AbstractDirectoryView.vala:3152
+msgid "Cannot copy files that are in the trash"
+msgstr "Η αντιγραφή των αρχείων που βρίσκονται στον κάδο είναι αδύνατη"
+
+#: src/View/AbstractDirectoryView.vala:3153
+msgid "Cutting the selection instead"
+msgstr "Αποκοπή της επιλογής πάραυτα"
+
+#: src/View/AbstractDirectoryView.vala:3183
+#: src/View/AbstractDirectoryView.vala:3194
+msgid "Cannot paste files here"
+msgstr "Η επικόλληση αρχείων εδώ είναι αδύνατη"
+
+#: src/View/DetailsColumn.vala:118
+#, fuzzy
+#| msgid "Name"
+msgid "Name:"
+msgstr "Όνομα"
+
+#: src/View/DetailsColumn.vala:217
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties…"
+msgstr "Ιδιότητες"
+
+#: src/View/DirectoryNotFound.vala:27 src/View/ViewContainer.vala:377
+msgid "This Folder Does Not Exist"
+msgstr "Αυτός ο φάκελος δεν υπάρχει"
+
+#: src/View/DirectoryNotFound.vala:28
+#, c-format
+msgid "The folder \"%s\" can't be found."
+msgstr "Ο φάκελος \"%s\" δεν βρέθηκε."
+
+#: src/View/DirectoryNotFound.vala:30
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: src/View/DirectoryNotFound.vala:30
+#, c-format
+msgid "Create the folder \"%s\""
+msgstr "Δημιουργείστε τον φάκελο \"%s\""
+
+#: src/View/DirectoryNotFound.vala:45
+#, fuzzy
+msgid "Failed to create the folder"
+msgstr ""
+"Αποτυχία δημιουργίας του φακέλου\n"
+"\n"
+"%s"
+
+#: src/View/ListView.vala:26
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#: src/View/ListView.vala:29
+msgid "Modified"
+msgstr "Τροποποιήθηκε"
+
+#: src/View/PrivacyModeOn.vala:28
+msgid "Privacy mode is on"
+msgstr ""
+
+#: src/View/PrivacyModeOn.vala:28
+msgid "No recent files are remembered"
+msgstr ""
+
+#: src/View/PrivacyModeOn.vala:30
+msgid "Change security settings"
+msgstr ""
+
+#: src/View/PrivacyModeOn.vala:31
+msgid "Open the system security and privacy settings app"
+msgstr ""
+
+#: src/View/Slot.vala:31
+#, fuzzy
+#| msgid "This Folder Does Not Exist"
+msgid "This Folder does not contain any files"
+msgstr "Αυτός ο φάκελος δεν υπάρχει"
+
+#: src/View/Slot.vala:32
+msgid "Trash does not contain any files"
+msgstr ""
+
+#: src/View/Slot.vala:33
+msgid "There Are No Recent Files"
+msgstr "Δεν υπάρχουν πρόσφατα αρχεία"
+
+#: src/View/Slot.vala:34
+msgid "Access Denied"
+msgstr "Δεν επιτρέπεται η πρόσβαση"
+
+#: src/View/ViewContainer.vala:356 src/View/Sidebar/BookmarkListBox.vala:131
+msgid "Home"
+msgstr "Προσωπικός φάκελος"
+
+#: src/View/ViewContainer.vala:378
+msgid "You cannot create a folder here."
+msgstr "Δεν μπορείτε να δημιουργήσετε έναν φάκελο εδώ"
+
+#: src/View/ViewContainer.vala:383
+msgid "The network is unavailable"
+msgstr "Το δίκτυο δεν είναι διαθέσιμο"
+
+#: src/View/ViewContainer.vala:385
+msgid "A working network is needed to reach this folder"
+msgstr ""
+
+#: src/View/ViewContainer.vala:391
+msgid "This Folder Does Not Belong to You"
+msgstr "Αυτός ο φάκελος δεν σας ανήκει"
+
+#: src/View/ViewContainer.vala:392
+msgid "You don't have permission to view this folder."
+msgstr "Δεν έχετε δικαιώματα για να δείτε αυτό το φάκελο."
+
+#: src/View/ViewContainer.vala:396
+msgid "Unable to Mount Folder"
+msgstr "Δεν είναι δυνατή η προσάρτηση του φακέλου"
+
+#: src/View/ViewContainer.vala:398
+msgid "Could not connect to the server for this folder."
+msgstr ""
+"Η σύνδεση με το διακομιστή γι' αυτόν το φάκελο δεν μπόρεσε να επιτευχθεί."
+
+#: src/View/ViewContainer.vala:404
+msgid "Unable to Display Folder Contents"
+msgstr ""
+
+#: src/View/ViewContainer.vala:406
+msgid "The operation timed out."
+msgstr ""
+
+#: src/View/ViewContainer.vala:412
+msgid "Unable to Show Folder"
+msgstr "Αδυναμία εμφάνισης φακέλου"
+
+#: src/View/ViewContainer.vala:414
+msgid "The server for this folder could not be located."
+msgstr "Ο διακομιστής γι' αυτόν το φάκελο δεν μπορεί να εντοπιστεί."
+
+#: src/View/Window.vala:214
+msgid "Menu"
+msgstr ""
+
+#: src/View/Window.vala:244
+#, fuzzy
+msgid "Closed Tabs"
+msgstr "Κλείσιμο"
+
+#: src/View/Window.vala:441 src/View/Widgets/BreadcrumbsEntry.vala:410
+msgid "Open in New Window"
+msgstr "Άνοιγμα σε νέο παράθυρο"
+
+#: src/View/Window.vala:442
+#, fuzzy
+msgid "Duplicate Tab"
+msgstr "Δημιουργείται αντίγραφο του \"%B\""
+
+#. TRANSLATORS: For RTL this should be "to the left"
+#: src/View/Window.vala:446
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/View/Window.vala:447
+#, fuzzy
+msgid "Close Other Tabs"
+msgstr "Κλείσιμο"
+
+#: src/View/Window.vala:448
+#, fuzzy
+msgid "Close Tab"
+msgstr "Κλείσιμο"
+
+#: src/View/Window.vala:728 src/View/Window.vala:738
+msgid "(as Administrator)"
+msgstr "(ως διαχειριστής)"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:113
+#: src/View/Sidebar/AbstractMountableRow.vala:196
+#, fuzzy, c-format
+msgid "Eject '%s'"
+msgstr "Διαγραφή του '%s'"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:113
+#: src/View/Sidebar/AbstractMountableRow.vala:196
+#, fuzzy, c-format
+msgid "Unmount '%s'"
+msgstr "Αδυναμία προσάρτησης του %s"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:266
+#, fuzzy
+msgid "Permanently Delete Trash on this Mount"
+msgstr ""
+"Θέλετε να διαγράψετε οριστικά όλα τα αντικείμενα απ'τον κάδο ανακύκλωσης σε "
+"αυτόν τον τόμο;"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:270
+msgid "_Unmount"
+msgstr "_Αποπροσάρτηση"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:331
+#, c-format
+msgid "%s free"
+msgstr ""
+
+#: src/View/Sidebar/AbstractMountableRow.vala:332
+#, fuzzy, c-format
+msgid "%s used of %s"
+msgstr "%S από %S"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:362
+#: src/View/Sidebar/NetworkRow.vala:50 src/View/Sidebar/VolumeRow.vala:80
+#: src/View/Sidebar/VolumelessMountRow.vala:42
+#: src/View/Widgets/SearchResults.vala:63
+#, fuzzy, c-format
+msgid "%s (%s)"
+msgstr "%s (%s, %s)"
+
+#: src/View/Sidebar/AbstractMountableRow.vala:362
+msgid "Not mounted"
+msgstr ""
+
+#: src/View/Sidebar/BookmarkListBox.vala:139
+#, fuzzy
+msgid "View the home folder"
+msgstr ""
+"Αποτυχία δημιουργίας του φακέλου\n"
+"\n"
+"%s"
+
+#: src/View/Sidebar/BookmarkListBox.vala:156
+msgid "View the list of recently used files"
+msgstr "Προβολή της λίστας των πρόσφατα χρησιμοποιημένων αρχείων"
+
+#: src/View/Sidebar/BookmarkListBox.vala:181
+msgid "Open the Trash"
+msgstr "Άνοιγμα του κάδου"
+
+#: src/View/Sidebar/BookmarkRow.vala:309
+msgid "Open in New _Tab"
+msgstr "Άνοιγμα σε νέα _καρτέλα"
+
+#: src/View/Sidebar/BookmarkRow.vala:310
+msgid "Open in New _Window"
+msgstr "Άνοιγμα σε νέο _παράθυρο"
+
+#: src/View/Sidebar/BookmarkRow.vala:334
+msgid "Remove"
+msgstr "Κατάργηση"
+
+#: src/View/Sidebar/BookmarkRow.vala:352
+#, fuzzy
+msgid "Permanently Delete All Trash"
+msgstr "Να γίνει μόνιμη διαγραφή όλων των αντικειμένων στον κάδο απορριμμάτων;"
+
+#: src/View/Sidebar/BookmarkRow.vala:352
+#, fuzzy
+msgid "Permanently Delete Trash"
+msgstr "Να γίνει μόνιμη διαγραφή όλων των αντικειμένων στον κάδο απορριμμάτων;"
+
+#: src/View/Sidebar/DeviceListBox.vala:158
+#, fuzzy
+msgid "View the root of the local filesystem"
+msgstr "Προβολή της λίστας των πρόσφατα χρησιμοποιημένων αρχείων"
+
+#: src/View/Sidebar/DriveRow.vala:70
+#, c-format
+msgid "%s contains no accessible data."
+msgstr ""
+
+#: src/View/Sidebar/DriveRow.vala:71
+msgid ""
+"To use this drive you may need to replug it, or insert media or format it."
+msgstr ""
+
+#: src/View/Sidebar/DriveRow.vala:102
+msgid "Unformatted or no media"
+msgstr ""
+
+#: src/View/Sidebar/DriveRow.vala:128 src/View/Sidebar/VolumeRow.vala:188
+#, fuzzy
+msgid "Safely Remove"
+msgstr "Κατάργηση"
+
+#: src/View/Sidebar/NetworkListBox.vala:130
+msgid "Entire Network"
+msgstr "Όλο το δίκτυο σας"
+
+#: src/View/Sidebar/NetworkListBox.vala:140
+msgid "Browse the contents of the network"
+msgstr "Περιήγηση στα περιεχόμενα του δικτύου"
+
+#: src/View/Sidebar/SidebarWindow.vala:36
+#: src/View/Widgets/SearchResults.vala:300
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: src/View/Sidebar/SidebarWindow.vala:37
+msgid "Common places plus saved folders and files"
+msgstr ""
+
+#. TRANSLATORS: Generic term for collection of storage devices, mount points, etc.
+#: src/View/Sidebar/SidebarWindow.vala:45
+msgid "Storage"
+msgstr ""
+
+#: src/View/Sidebar/SidebarWindow.vala:46
+msgid "Internal and connected storage devices"
+msgstr ""
+
+#: src/View/Sidebar/SidebarWindow.vala:54
+msgid "Devices and places available via a network"
+msgstr ""
+
+#: src/View/Sidebar/SidebarWindow.vala:79
+#, fuzzy
+msgid "Connect Server…"
+msgstr "Σύνδεση σε διακομιστή..."
+
+#: src/View/Sidebar/VolumeRow.vala:181
+#, fuzzy
+msgid "Mount"
+msgstr "_Προσάρτηση"
+
+#: src/View/Sidebar/VolumeRow.vala:191
+msgid "Eject Media"
+msgstr ""
+
+#: src/View/Sidebar/VolumelessMountRow.vala:42
+#, fuzzy
+msgid "Bind mount"
+msgstr "_Αποπροσάρτηση"
+
+#: src/View/Widgets/AppMenu.vala:35
+msgid "Zoom Out"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:44
+msgid "Zoom 1:1"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:53
+msgid "Zoom In"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:91
+msgid "Double-click to Navigate"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:92
+msgid "Double-click on a folder opens it, single-click selects it"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:96
+msgid "Sort Folders before Files"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:100
+#, fuzzy
+#| msgid "Restore '%s' from trash"
+msgid "Restore Tabs from Last Time"
+msgstr "Επαναφορά του '%s' από τον κάδο"
+
+#: src/View/Widgets/AppMenu.vala:104
+#, fuzzy
+msgid "Show in View"
+msgstr "Προβολή κρυφών αρχείων"
+
+#: src/View/Widgets/AppMenu.vala:111
+#, fuzzy
+msgid "Hidden Files"
+msgstr "Προβολή κρυφών αρχείων"
+
+#: src/View/Widgets/AppMenu.vala:115
+#, fuzzy
+msgid "Local Thumbnails"
+msgstr "Εμφάνιση περισσότερων _λεπτομερειών"
+
+#: src/View/Widgets/AppMenu.vala:120
+#, fuzzy
+msgid "Remote Thumbnails"
+msgstr "Εμφάνιση περισσότερων _λεπτομερειών"
+
+#: src/View/Widgets/AppMenu.vala:125
+msgid "File Preview (Column View)"
+msgstr ""
+
+#. TRANSLATORS The format of the date (possibly with time) shown in the Modified column of the file view
+#: src/View/Widgets/AppMenu.vala:131
+msgid "Date & Time Format"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:229
+msgid "No operation to undo"
+msgstr ""
+
+#: src/View/Widgets/AppMenu.vala:236
+msgid "No operation to redo"
+msgstr ""
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:141
+#: src/View/Widgets/LocationBar.vala:216
+msgid "Search or Type Path"
+msgstr ""
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:403
+msgid "Open in New Tab"
+msgstr "Άνοιγμα σε νέα καρτέλα"
+
+#: src/View/Widgets/BreadcrumbsEntry.vala:453
+msgid "Open in Other Application…"
+msgstr "Άνοιγμα σε άλλη εφαρμογή..."
+
+#: src/View/Widgets/LocationBar.vala:74
+msgid ""
+"Caution. Administrative rights will be granted after successful "
+"authentication"
+msgstr ""
+
+#: src/View/Widgets/LocationBar.vala:212
+msgid "Reload this folder"
+msgstr "Ανανέωση αυτού του φακέλου"
+
+#: src/View/Widgets/LocationBar.vala:225
+#, fuzzy
+msgid "Searching…"
+msgstr "Γίνεται φόρτωση..."
+
+#: src/View/Widgets/OverlayBar.vala:173
+#, c-format
+msgid "%u folders"
+msgstr "%u φάκελοι"
+
+#: src/View/Widgets/OverlayBar.vala:175 src/View/Widgets/OverlayBar.vala:185
+#, fuzzy, c-format
+msgid " and %u other item (%s) selected"
+msgid_plural " and %u other items (%s) selected"
+msgstr[0] " και %u άλλο αντικείμενο (%s) επιλέχθηκαν"
+msgstr[1] " και %u άλλο αντικείμενο (%s) επιλέχθηκαν"
+
+#: src/View/Widgets/OverlayBar.vala:179 src/View/Widgets/OverlayBar.vala:189
+msgid " selected"
+msgstr " επιλέχτηκε"
+
+#: src/View/Widgets/OverlayBar.vala:192
+#, c-format
+msgid "%u items selected (%s)"
+msgstr "%u επιλεγμένα αντικείμενα (%s)"
+
+#. TRANSLATORS: %u will be substituted by the number of sub folders
+#: src/View/Widgets/OverlayBar.vala:237
+#, fuzzy, c-format
+msgid "%u sub-folder, "
+msgid_plural "%u sub-folders, "
+msgstr[0] "%u υποφάκελος, "
+msgstr[1] "%u υποφάκελος, "
+
+#. TRANSLATORS: %u will be substituted by the number of readable files
+#: src/View/Widgets/OverlayBar.vala:243
+#, fuzzy, c-format
+msgid "%u file, "
+msgid_plural "%u files, "
+msgstr[0] "%u αρχείο, "
+msgstr[1] "%u αρχείο, "
+
+#. TRANSLATORS: %s will be substituted by the approximate disk space used by the folder
+#: src/View/Widgets/OverlayBar.vala:253
+#, c-format
+msgid "%s approx."
+msgstr ""
+
+#. TRANSLATORS: 'size' refers to disk space
+#: src/View/Widgets/OverlayBar.vala:256
+msgid "unknown size"
+msgstr "άγνωστο μέγεθος"
+
+#. TRANSLATORS: %u will be substituted by the number of unreadable files
+#: src/View/Widgets/OverlayBar.vala:260
+#, fuzzy, c-format
+msgid "%u file not readable"
+msgid_plural "%u files not readable"
+msgstr[0] "%u αρχείο δεν είναι αναγνώσιμο"
+msgstr[1] "%u αρχείο δεν είναι αναγνώσιμο"
+
+#: src/View/Widgets/PermissionButton.vala:53
+msgid "Read"
+msgstr "Ανάγνωση"
+
+#: src/View/Widgets/PermissionButton.vala:61
+msgid "Write"
+msgstr "Εγγραφή"
+
+#: src/View/Widgets/PermissionButton.vala:69
+msgid "Execute"
+msgstr "Εκτέλεση"
+
+#: src/View/Widgets/SearchResults.vala:76
+msgid "More Results …"
+msgstr ""
+
+#: src/View/Widgets/SearchResults.vala:292
+msgid "In This Folder"
+msgstr "Σε αυτό το φάκελο"
+
+#: src/View/Widgets/SearchResults.vala:296
+#, fuzzy
+msgid "Below This Folder"
+msgstr "Σε αυτό το φάκελο"
+
+#: src/View/Widgets/SearchResults.vala:305
+#, fuzzy
+msgid "Recently Used"
+msgstr "Πρόσφατα"
+
+#~ msgid "This Folder Is Empty"
+#~ msgstr "Αυτός ο φάκελος είναι άδειος"
+
+#~ msgid "Trash Is Empty"
+#~ msgstr "Ο κάδος είναι άδειος"
+
+#, fuzzy
+#~| msgid "Server Details"
+#~ msgid "More Details…"
+#~ msgstr "Λεπτομέρειες διακομιστή"
+
+#~ msgid "File not Found"
+#~ msgstr "Το αρχείο δεν βρέθηκε"
+
+#~ msgid "The file selected no longer exists."
+#~ msgstr "Το επιλεγμένο αρχείο δεν υπάρχει πλέον."
+
+#~ msgid "_Mount"
+#~ msgstr "_Προσάρτηση"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Replace"
+#~ msgstr "Αντικατάσταση"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Modify"
+#~ msgstr "Τροποποιήθηκε"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Date created"
+#~ msgstr "Δημιουργία"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Date modified"
+#~ msgstr "Τροποποιήθηκε"
+
+#, fuzzy
+#~ msgctxt "bulk-rename"
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#, fuzzy
+#~| msgid "New"
+#~ msgctxt "bulk-rename"
+#~ msgid "New"
+#~ msgstr "Νέος/-o"
+
+#, fuzzy
+#~| msgid "Replacing it will overwrite its content."
+#~ msgid ""
+#~ "Replacing the target file for this link will overwrite its current "
+#~ "contents."
+#~ msgstr "Η αντικατάστασή του θα αντικαταστήσει το περιεχόμενό του."
+
+#, fuzzy
+#~| msgid "File Operations"
+#~ msgid "Undo Last File Operation"
+#~ msgstr "Λειτουργίες αρχείων"
+
+#, fuzzy
+#~| msgid "File Operations"
+#~ msgid "Redo Last Undone File Operation"
+#~ msgstr "Λειτουργίες αρχείων"
+
+#~ msgid "Preparing to trash %'d file"
+#~ msgid_plural "Preparing to trash %'d files"
+#~ msgstr[0] "Προετοιμασία μεταφοράς στα απορρίμματα %'d αρχείου"
+#~ msgstr[1] "Προετοιμασία μεταφοράς στα απορρίματα %'d αρχείων"
+
+#~ msgid "Error while moving files to trash."
+#~ msgstr "Σφάλμα κατά τη μετακίνηση αρχείων στον κάδο."
+
+#, fuzzy
+#~ msgid "Paste Link"
+#~ msgstr "Επικόλληση"
+
+#~ msgid "_Eject"
+#~ msgstr "_Εξαγωγή"
+
+#, fuzzy
+#~| msgid "Empty _Trash"
+#~ msgid "Empty All Trash"
+#~ msgstr "Άδειασμα _Απορριμμάτων"
+
+#~ msgid "Devices"
+#~ msgstr "Συσκευές"
+
+#, fuzzy
+#~| msgid "File System"
+#~ msgid "FileSystem"
+#~ msgstr "Σύστημα αρχείων"
+
+#, fuzzy
+#~| msgid "Unable to start %s"
+#~ msgid "Unable to start '%s'"
+#~ msgstr "Αδυναμία εκκίνησης %s"
+
+#~ msgid "Open your personal folder"
+#~ msgstr "Άνοιγμα του προσωπικού σας φακέλου"
+
+#, fuzzy
+#~ msgid "Connect Server"
+#~ msgstr "Σύνδεση σε διακομιστή"
+
+#, fuzzy
+#~ msgid "Connect to a network server"
+#~ msgstr "Σύνδεση σε δικτυακό διακομιστή αρχείων"
+
+#, fuzzy
+#~ msgid "%s on %s"
+#~ msgstr "%S από %S"
+
+#~ msgid " and %u other items (%s) selected"
+#~ msgstr " και %u άλλα αντικείμενα (%s) επιλέχθηκαν"
+
+#~ msgid "%u sub-folders, "
+#~ msgstr "%u υποφάκελοι, "
+
+#~ msgid "%u files, "
+#~ msgstr "%u αρχεία, "
+
+#~ msgid "%u files not readable"
+#~ msgstr "%u αρχεία δεν είναι αναγνώσιμα"
+
+#, fuzzy
+#~| msgid "%'dst link to %s"
+#~ msgid "%s (link %d)"
+#~ msgstr "%'dος σύνδεσμος προς το %s"
+
+#~ msgid " (%'d"
+#~ msgstr " (%'d"
+
+#~ msgid "Link to %s"
+#~ msgstr "Σύνδεσμος προς το %s"
+
+#~ msgid "Another link to %s"
+#~ msgstr "Κι άλλος σύνδεσμος προς το %s"
+
+#~ msgid "%'dnd link to %s"
+#~ msgstr "%'dος σύνδεσμος προς το %s"
+
+#~ msgid "%'drd link to %s"
+#~ msgstr "%'dος σύνδεσμος προς το %s"
+
+#~ msgid "%'dth link to %s"
+#~ msgstr "%'dος σύνδεσμος προς το %s"
+
+#~ msgid "Show Copy Dialog"
+#~ msgstr "Εμφάνιση διαλόγου αντιγραφής"
+
+#~ msgid "Cancel All In-progress Actions"
+#~ msgstr "Ακύρωση όλων των ενεργειών σε εξέλιξη"
+
+#~ msgid "Bookmark"
+#~ msgstr "Προσθήκη στους σελιδοδείκτες"
+
+#~ msgid "Personal"
+#~ msgstr "Προσωπικά"
+
+#~ msgid "Your common places and bookmarks"
+#~ msgstr "Οι συνήθεις τοποθεσίες και οι σελιδοδείκτες σας"
+
+#~ msgid "Your network places"
+#~ msgstr "Οι δικτυακές σας τοποθεσίες"
+
+#~ msgid "Your local partitions and devices"
+#~ msgstr "Τα τοπικά σας διαμερίσματα και συσκευές"
+
+#~ msgid "Delete %d copied items"
+#~ msgstr "Διαγραφή %d αντεγραμμένων αντικειμένων"
+
+#~ msgid "Delete %d duplicated items"
+#~ msgstr "Διαγραφή %d αντιγραφέντων αντικειμένων"
+
+#~ msgid "Move %d items back to '%s'"
+#~ msgstr "Μετακίνηση  %d αντικειμένων πίσω σε '%s'"
+
+#~ msgid "Move '%s' back to '%s'"
+#~ msgstr "Μετακίνηση του '%s' πίσω στο '%s'"
+
+#~ msgid "Rename '%s' as '%s'"
+#~ msgstr "Μετονομασία του '%s' ως '%s'"
+
+#~ msgid "Restore %d items from trash"
+#~ msgstr "Επαναφορά %d αντικειμένων από τον κάδο"
+
+#~ msgid "Restore '%s' to '%s'"
+#~ msgstr "Επαναφορά του '%s' στο '%s'"
+
+#~ msgid "Move %d items back to trash"
+#~ msgstr "Μετακίνηση %d αντικειμένων πίσω στον κάδο"
+
+#~ msgid "Move '%s' back to trash"
+#~ msgstr "Μετακίνηση του '%s' πίσω στον κάδο"
+
+#~ msgid "Delete links to %d items"
+#~ msgstr "Διαγραφή συνδέσμων σε  %d αντικείμενα"
+
+#~ msgid "Delete link to '%s'"
+#~ msgstr "Διαγραφή συνδέσμου στο '%s'"
+
+#~ msgid "Restore original permissions of items enclosed in '%s'"
+#~ msgstr ""
+#~ "Επαναφορά αρχικών δικαιωμάτων των αντικειμένων που εσωκλείονται στο '%s'"
+
+#~ msgid "Restore original permissions of '%s'"
+#~ msgstr "Επαναφορά των αρχικών δικαιωμάτων του '%s'"
+
+#~ msgid "Restore group of '%s' to '%s'"
+#~ msgstr "Επαναφορά ομάδας του '%s' σε '%s'"
+
+#~ msgid "Restore owner of '%s' to '%s'"
+#~ msgstr "Επαναφορά του ιδιοκτήτη του '%s' σε '%s'"
+
+#~ msgid "Copy %d items to '%s'"
+#~ msgstr "Αντιγραφή %d αντικειμένων στο '%s'"
+
+#~ msgid "Copy '%s' to '%s'"
+#~ msgstr "Αντιγραφή του '%s' στο '%s'"
+
+#~ msgid "Duplicate of %d items in '%s'"
+#~ msgstr "Δημιουργία αντιγράφων %d αντικειμένων σε '%s'"
+
+#~ msgid "Duplicate '%s' in '%s'"
+#~ msgstr "Δημιουργία αντιγράφου του '%s' σε '%s'"
+
+#~ msgid "Move %d items to '%s'"
+#~ msgstr "Μετακίνηση %d αντικειμένων σε '%s'"
+
+#~ msgid "Move '%s' to '%s'"
+#~ msgstr "Μετακίνηση του '%s' στο '%s'"
+
+#~ msgid "Create new file '%s' from template "
+#~ msgstr "Δημιουργία νέου αρχείου '%s' από πρότυπο "
+
+#~ msgid "Create an empty file '%s'"
+#~ msgstr "Δημιουργία ενός κενού αρχείου '%s'"
+
+#~ msgid "Create a new folder '%s'"
+#~ msgstr "Δημιουργία νέου φακέλου '%s'"
+
+#~ msgid "Move %d items to trash"
+#~ msgstr "Μετακίνηση %d αντικειμένων στον κάδο"
+
+#~ msgid "Move '%s' to trash"
+#~ msgstr "Μετακίνηση του '%s' στον κάδο"
+
+#~ msgid "Create links to %d items"
+#~ msgstr "Δημιουργία συνδέσμων σε %d στοιχεία"
+
+#~ msgid "Create link to '%s'"
+#~ msgstr "Δημιουργία συνδέσμου προς το '%s'"
+
+#~ msgid "Set permissions of items enclosed in '%s'"
+#~ msgstr "Ορισμός δικαιωμάτων των αντικειμένων που περιέχονται στο '%s'"
+
+#~ msgid "Set permissions of '%s'"
+#~ msgstr "Ορισμός δικαιωμάτων του '%s'"
+
+#~ msgid "Set group of '%s' to '%s'"
+#~ msgstr "Ορισμός ομάδας του '%s' σε '%s'"
+
+#~ msgid "Set owner of '%s' to '%s'"
+#~ msgstr "Ορισμός του ιδιοκτήτη του '%s' σε '%s'"
+
+#~ msgid "_Undo copy of %d item"
+#~ msgid_plural "_Undo copy of %d items"
+#~ msgstr[0] "_Αναίρεση αντηγραφής %d στοιχείου"
+#~ msgstr[1] "_Αναίρεση αντιγραφής %d στοιχείων"
+
+#~ msgid "_Undo duplicate of %d item"
+#~ msgid_plural "_Undo duplicate of %d items"
+#~ msgstr[0] "Αναίρεση δημιουργίας διπλότυπου %d αντικειμένου"
+#~ msgstr[1] "Αναίρεση δημιουργίας διπλότυπου %d αντικειμένων"
+
+#~ msgid "_Undo move of %d item"
+#~ msgid_plural "_Undo move of %d items"
+#~ msgstr[0] "_Αναίρεση μετακίνισης %d στοιχείου"
+#~ msgstr[1] "_Αναίρεση μετακίνισης %d στοιχείων"
+
+#~ msgid "_Undo rename of %d item"
+#~ msgid_plural "_Undo rename of %d items"
+#~ msgstr[0] "_Αναίρεση μετονομασίας %d στοιχείου"
+#~ msgstr[1] "_Αναίρεση μετονομασίας %d στοιχείων"
+
+#~ msgid "_Undo move to trash of %d item"
+#~ msgid_plural "_Undo move to trash of %d items"
+#~ msgstr[0] "_Αναίρεση μετακίνισης %d στοιχείου στα απορρίμματα"
+#~ msgstr[1] "_Αναίρεση μετακίνισης %d στοιχείων στα απορρίμματα"
+
+#~ msgid "_Undo restore from trash of %d item"
+#~ msgid_plural "_Undo restore from trash of %d items"
+#~ msgstr[0] "_Αναίρεση επαναφοράς %d στοιχείου από τα απορρίμματα"
+#~ msgstr[1] "_Αναίρεση επαναφοράς %d στοιχείων από τα απορρίμματα"
+
+#~ msgid "_Undo delete of %d item"
+#~ msgid_plural "_Undo delete of %d items"
+#~ msgstr[0] "_Αναίρεση διαγραφής του %d στοιχείου"
+#~ msgstr[1] "_Αναίρεση διαγραφής των %d στοιχείων"
+
+#~ msgid "Undo recursive change permissions of %d item"
+#~ msgid_plural "Undo recursive change permissions of %d items"
+#~ msgstr[0] "Αναίρεση αναδρομικής αλλαγής στα δικαιώματα του %d αντικειμένου"
+#~ msgstr[1] "Αναίρεση αναδρομικής αλλαγής στα δικαιώματα των %d αντικειμένων"
+
+#~ msgid "_Redo copy of %d item"
+#~ msgid_plural "_Redo copy of %d items"
+#~ msgstr[0] "Επανάληψη αντιγραφής %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη αντιγραφής %d αντικειμένων"
+
+#~ msgid "_Redo duplicate of %d item"
+#~ msgid_plural "_Redo duplicate of %d items"
+#~ msgstr[0] "Επανάληψη δημιουργίας αντιγράφου %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη δημιουργίας αντιγράφων %d αντικειμένων"
+
+#~ msgid "_Redo move of %d item"
+#~ msgid_plural "_Redo move of %d items"
+#~ msgstr[0] "Επανάληψη μετακίνησης %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη μετακίνησης %d αντικειμένων"
+
+#~ msgid "_Redo rename of %d item"
+#~ msgid_plural "_Redo rename of %d items"
+#~ msgstr[0] "Επανάληψη μετονομασίας %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη μετονομασίας %d αντικειμένων"
+
+#~ msgid "_Redo creation of %d folder"
+#~ msgid_plural "_Redo creation of %d folders"
+#~ msgstr[0] "Επανάληψη δημιουργίας %d φακέλου"
+#~ msgstr[1] "Επανάληψη δημιουργίας %d φακέλων"
+
+#~ msgid "_Redo move to trash of %d item"
+#~ msgid_plural "_Redo move to trash of %d items"
+#~ msgstr[0] "Επανάληψη μετακίνησης στον κάδο  %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη μετακίνησης στον κάδο %d αντικειμένων"
+
+#~ msgid "_Redo restore from trash of %d item"
+#~ msgid_plural "_Redo restore from trash of %d items"
+#~ msgstr[0] "Επανάληψη επαναφοράς από τον κάδο %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη επαναφοράς από τον κάδο %d αντικειμένων"
+
+#~ msgid "_Redo delete of %d item"
+#~ msgid_plural "_Redo delete of %d items"
+#~ msgstr[0] "Επανάληψη διαγραφής %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη διαγραφής %d αντικειμένων"
+
+#~ msgid "Redo recursive change permissions of %d item"
+#~ msgid_plural "Redo recursive change permissions of %d items"
+#~ msgstr[0] "Επανάληψη διαδοχικής αλλαγής των δικαιωμάτων του %d αντικειμένου"
+#~ msgstr[1] "Επανάληψη διαδοχικής αλλαγής των δικαιωμάτων των %d αντικειμένων"
+
+#, fuzzy
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Σίγουρα θέλετε να διαγράψετε οριστικά το \"%B\";"
+
+#~ msgid "Invalid"
+#~ msgstr "Μη έγκυρο"
+
+#~ msgid "Unable to unmount %V"
+#~ msgstr "Αδυναμία αποπροσάρτησης του %V"
+
+#~ msgid "Error while moving \"%F\"."
+#~ msgstr "Σφάλμα κατά την μετακίνηση του %F."
+
+#~ msgid "Show more _details"
+#~ msgstr "Εμφάνιση περισσότερων _λεπτομερειών"
+
+#~ msgid " (another copy)"
+#~ msgstr " (επιπλέον αντίγραφο)"
+
+#~ msgid "th copy)"
+#~ msgstr "ο αντίγραφο)"
+
+#~ msgid "st copy)"
+#~ msgstr "ο αντίγραφο)"
+
+#~ msgid "nd copy)"
+#~ msgstr "ο αντίγραφο)"
+
+#~ msgid "rd copy)"
+#~ msgstr "ο αντίγραφο)"
+
+#~ msgid "%s (copy)%s"
+#~ msgstr "%s (αντίγραφο)%s"
+
+#~ msgid "%s (another copy)%s"
+#~ msgstr "%s (επιπλέον αντίγραφο)%s"
+
+#~ msgid "%s (%'dth copy)%s"
+#~ msgstr "%s (%'dο αντίγραφο)%s"
+
+#~ msgid "%s (%'dst copy)%s"
+#~ msgstr "%s (%'dο αντίγραφο)%s"
+
+#~ msgid "%s (%'dnd copy)%s"
+#~ msgstr "%s (%'dο αντίγραφο)%s"
+
+#~ msgid "%s (%'drd copy)%s"
+#~ msgstr "%s (%'dο αντίγραφο)%s"
+
+#~ msgid ""
+#~ "Can't load the supported server method list.\n"
+#~ "Please check your gvfs installation."
+#~ msgstr ""
+#~ "Αδυναμία φόρτωσης της λίστας υποστηριζόμενων μεθόδων διακομιστή.\n"
+#~ "Παρακαλώ ελέγξτε την εγκατάσταση του gvfs σας."
+
+#~ msgid "The folder \"%s\" cannot be opened on \"%s\"."
+#~ msgstr "Ο φάκελος \"%s\" δεν μπορεί να ανοιχτεί στο \"%s\"."
+
+#~ msgid "The server at \"%s\" cannot be found."
+#~ msgstr "Ο διακομιστής στο \"%s\" δεν μπόρεσε να βρεθεί."
+
+#~ msgid "Try Again"
+#~ msgstr "Προσπαθήστε ξανά"
+
+#~ msgid "_Type:"
+#~ msgstr "_Τύπος:"
+
+#~ msgid "Operation cancelled"
+#~ msgstr "Η λειτουργία ακυρώθηκε"
+
+#~ msgid "These items may be restored or deleted from the trash."
+#~ msgstr ""
+#~ "Αυτά τα αντικείμενα μπορούν είτε να επαναφερθούν, είτε να διαγραφούν απο "
+#~ "τον κάδο."
+
+#~ msgid "Failed to open uris"
+#~ msgstr "Το άνοιγμα των uris απέτυχε"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (μη έγκυρο Unicode)"
+
+#~ msgid "Do you want to empty the trash before you unmount?"
+#~ msgstr "Θέλετε να αδειάσετε τον κάδο πριν την αποπροσάρτηση;"
+
+#~ msgid ""
+#~ "In order to regain the free space on this volume the trash must be "
+#~ "emptied. All trashed items on the volume will be permanently lost."
+#~ msgstr ""
+#~ "Για να ανακτήσετε ελεύθερο χώρο σε αυτό τον τόμο, θα πρέπει να αδειάσετε "
+#~ "τον κάδο. Όλα τα αντικείμενα του κάδου σε αυτόν τον τόμο θα χαθούν "
+#~ "οριστικά."
+
+#~ msgid "Do _not Empty Trash"
+#~ msgstr "Να _μη γίνει άδειασμα του κάδου"
+
+#~ msgid "Emptying the trash"
+#~ msgstr "Γίνεται άδειασμα του κάδου"
+
+#~ msgid "%a %-d %b at %-I:%M %p"
+#~ msgstr "%a %-d %b στις %-I:%M %p"
+
+#~ msgid "%a %-d %b %Y at %-I:%M %p"
+#~ msgstr "%a %-d %b %Y στις %-I:%M %p"
+
+#~ msgid "No Exec field specified"
+#~ msgstr "Δεν έχει οριστεί το πεδίο Exec"
+
+#~ msgid "No URL field specified"
+#~ msgstr "Δεν έχει οριστεί το πεδίο URL"
+
+#~ msgid "Invalid desktop file"
+#~ msgstr "Μη έγκυρο αρχείο επιφάνειας εργασίας"
+
+#~ msgid "Slashes are not allowed in filenames"
+#~ msgstr "Δεν επιτρέπεται η χρήση καθέτων στα ονόματα αρχείων"
+
+#~ msgid "Toplevel files cannot be renamed"
+#~ msgstr "Τα αρχεία ανωτάτου επιπέδου δεν μπορούν να μετονομαστούν"
+
+#~ msgid "Failed to preview"
+#~ msgstr "Αποτυχία προεπισκόπησης"
+
+#~ msgid "Other Application"
+#~ msgstr "Άλλη εφαρμογή"
+
+#~ msgid "Files isn't your default file manager."
+#~ msgstr ""
+#~ "Η εφαρμογή Αρχεία δεν είναι ο προεπιλεγμένος διαχειριστής αρχείων σας."
+
+#~ msgid "Set as Default"
+#~ msgstr "Ορισμός ως προεπιλογής"
+
+#~ msgid "There is nothing on the clipboard to paste"
+#~ msgstr "Δεν υπάρχει τίποτα στο πρόχειρο για επικόλληση."
+
+#~ msgid "Terminal"
+#~ msgstr "Τερματικό"
+
+#~ msgid "About _Files"
+#~ msgstr "Σχετικά με τα  _Αρχεία"
+
+#~ msgid "Everywhere Else"
+#~ msgstr "Οπουδήποτε αλλού"
+
+#~ msgid "A simple and powerful file manager"
+#~ msgstr "Ένας απλός και δυνατός διαχειριστής αρχείων"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Chris Triantafillis https://launchpad.net/~christriant\n"
+#~ "  Christos Iatropoulos https://launchpad.net/~ci4\n"
+#~ "  Cody Garver https://launchpad.net/~codygarver\n"
+#~ "  Daniel Fore https://launchpad.net/~danrabbit\n"
+#~ "  Filippos Kolyvas https://launchpad.net/~fkol-k4\n"
+#~ "  Jim Spentzos https://launchpad.net/~jamesspentzos\n"
+#~ "  Nick Risvas https://launchpad.net/~lambolighting\n"
+#~ "  Nikos Raptopoulos https://launchpad.net/~nraptopoulos\n"
+#~ "  PliachasPaschalis https://launchpad.net/~pliahas\n"
+#~ "  Stefanos Papanatsios https://launchpad.net/~stefan0spapanatsi0s\n"
+#~ "  Theodore Grammenos https://launchpad.net/~theodorewii121\n"
+#~ "  Theodoros Kentistos https://launchpad.net/~theokent\n"
+#~ "  Vasilis https://launchpad.net/~bilbilis5\n"
+#~ "  Zarkopafilis https://launchpad.net/~zarkopafilis\n"
+#~ "  adem https://launchpad.net/~haliladem111\n"
+#~ "  iakovos athanasiadhs https://launchpad.net/~liam21iakovos"

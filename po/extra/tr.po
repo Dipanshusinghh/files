@@ -1,0 +1,590 @@
+# Turkish translation for pantheon-files
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-files package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2022-11-08 00:58+0000\n"
+"Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/files/extra/tr/"
+">\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:29+0000\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "Dosyalar"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "Dosyalarınıza gözatın"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "klasör;yönetici;keşfet;disk;dosya sistemi;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "Yönetici Olarak Yeni Pencere"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "Dosya ve klasörlere göz atın ve yönetin"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"Kolaylıkla dosyalarınızı kopyalayabilir, yeniden adlandırabilir, "
+"taşıyabilirsiniz ya da düzenli olması için klasörleri kullanabilirsiniz. "
+"Dosyaları liste, ızgara veya sütun şeklinde görüntüleyip kolayca "
+"bulabilirsiniz. Tüm dosyalarınıza erişebilir, yerel dosyalarınızı harici "
+"cihazla ya da FTP, SFTP, AFP, Webdav ve Windows ile paylaşabilirsiniz."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:59
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+msgid "Minor updates:"
+msgstr "Küçük güncellemeler:"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "Çeviriler güncellendi"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr "İyileştirmeler:"
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "Pantheon Dosyalar'ı yönetici olarak çalıştır"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr "Dosyaları Yönetici olarak çalıştırmak için kimlik doğrulama gerekir"
+
+#~ msgid "File Manager"
+#~ msgstr "Dosya Yöneticisi"
+
+#~ msgid "Fixes:"
+#~ msgstr "Düzeltmeler:"
+
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "Bir yer imini kaldırırken oluşabilecek olası kilitlenme düzeltildi"
+
+#~ msgid "Other updates:"
+#~ msgstr "Diğer güncellemeler:"
+
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "Kopyalanan dosyaları kıyaslarken oluşan kilitlenme düzeltildi"
+
+#~ msgid "Dark style support"
+#~ msgstr "Koyu renk tema desteği eklendi"
+
+#~ msgid "Do not restore locations that have become inaccessible"
+#~ msgstr "Erişilemez hale gelen konumları geri yükleme"
+
+#~ msgid "Performance improvements"
+#~ msgstr "Performans iyileştirmeleri"
+
+#~ msgid "Stability improvements"
+#~ msgstr "Kararlılık iyileştirmeleri"
+
+#~ msgid "Bookmark menu option for network mounts in sidebar"
+#~ msgstr "Kenar çubuğundaki ağ bağlaması için yer imi menü seçeneği"
+
+#~ msgid "Show folder item count in List View"
+#~ msgstr "Liste Görünümünde dosyadaki öğe sayısınıda göster"
+
+#~ msgid ""
+#~ "Now shows thumbnails on locally mounted MTP and PTP devices as well as on "
+#~ "network locations by default"
+#~ msgstr ""
+#~ "Artık yerel olarak bağlanmış MTP ve PTP cihazlarının yanı sıra ağ "
+#~ "konumlarındaki küçük resimleri varsayılan olarak gösterir"
+
+#~ msgid ""
+#~ "Properties window: Allow the filename to be copied when it cannot be "
+#~ "edited"
+#~ msgstr ""
+#~ "Özellikler penceresi: Düzenlenemediğinde dosya isminin kopyalanmasına "
+#~ "izin ver"
+
+#~ msgid "Improved tooltip formatting for devices in the sidebar"
+#~ msgstr ""
+#~ "Kenar çubuğundaki cihazlar için geliştirilmiş araç ipucu biçimlendirmesi"
+
+#~ msgid "Fix crash when pressing Enter and another key at the same time"
+#~ msgstr ""
+#~ "Aynı anda Enter ve başka bir tuşa basıldığında kilitlenme düzeltildi"
+
+#~ msgid ""
+#~ "Add warning and error colored disk usage bars when disk becomes too full"
+#~ msgstr ""
+#~ "Disk çok dolduğunda uyarı ve hata renkli disk kullanım çubukları ekle"
+
+#~ msgid ""
+#~ "Prevent window resizing when filename column width exceeds available space"
+#~ msgstr ""
+#~ "Dosya adı sütun genişliği kullanılabilir alanı aştığında pencerenin "
+#~ "yeniden boyutlandırılmasını engelle"
+
+#~ msgid "Fix handling of filenames containing the # character"
+#~ msgstr "# Karakterini içeren dosya adlarının işlenmesini düzelt"
+
+#~ msgid "Fix regressions regarding pathbar context menus and clicking"
+#~ msgstr ""
+#~ "Yol çubuğu bağlam menüleri ve tıklamayla ilgili regresyonları düzeltin"
+
+#~ msgid "Paste images into other apps instead of file paths where possible"
+#~ msgstr ""
+#~ "Mümkün olduğunda görüntüleri dosya yolları yerine diğer uygulamaların "
+#~ "içine yapıştır"
+
+#~ msgid "Paste into a selected folder when using Ctrl + V"
+#~ msgstr ""
+#~ "Ctrl + V kombinasyonu kullanılırken seçilen bir klasörün içine yapıştır"
+
+#~ msgid "Show file info overlay in List View as well"
+#~ msgstr "Liste Görünümünde dosya bilgisini de göster"
+
+#~ msgid "Traverse search results with Tab key"
+#~ msgstr "Sekme tuşuyla arama sonuçlarını gez"
+
+#~ msgid "Show an error message when attempting to open trashed files"
+#~ msgstr "Çöpe atılan dosyaları açmaya çalışırken bir hata mesajı göster"
+
+#~ msgid ""
+#~ "Fix uneditable area in pathbar which is showing home folder placeholder"
+#~ msgstr ""
+#~ "Giriş çubuğundaki ana klasör yer tutucusunu gösteren düzenlenemeyen alanı "
+#~ "düzeltildi"
+
+#~ msgid "Fix an issue that prevented file modification times from showing"
+#~ msgstr ""
+#~ "Dosya değiştirme sürelerinin gösterilmesini engelleyen bir sorun "
+#~ "düzeltildi"
+
+#~ msgid "Fix size of restored tiled window"
+#~ msgstr "Geri yüklenen döşenmiş pencerenin boyutu düzeltildi"
+
+#~ msgid "Fix color tags disappearing when thumbnails hidden"
+#~ msgstr ""
+#~ "Küçük resimler gizlendiğinde renk etiketlerinin kaybolması düzeltildi"
+
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "Bir dosyadan cihaz simgesi geldiğinde oluşan kilitlenme düzeltildi"
+
+#~ msgid "Fix device icon sometimes missing"
+#~ msgstr "Aygıt simgesinin bazen olmaması düzeltildi"
+
+#~ msgid "Fix occasional view freeze after renaming"
+#~ msgstr ""
+#~ "Yeniden adlandırma işleminden sonra ara sıra görüntülenen donma düzeltildi"
+
+#~ msgid "Improve renaming logic when dealing with leading/trailing whitespace"
+#~ msgstr ""
+#~ "Önde gelen / sondaki boşluklarla uğraşırken yeniden adlandırma mantığını "
+#~ "geliştirildi"
+
+#~ msgid "Fix breadcrumbs sometimes incorrect at startup"
+#~ msgstr "Başlangıçta bazen yanlış olan dosya yolu hatası düzeltildi"
+
+#~ msgid "Do not show file:// prefix in navigation buttons menus"
+#~ msgstr "Gezinme düğmeleri menülerinde file: // önekini gösterme"
+
+#~ msgid "Fix \"New Folder\" keyboard shortcut label in menu"
+#~ msgstr "Menüdeki \"Yeni Klasör\" klavye kısayol etiketi düzeltildi"
+
+#~ msgid "Fix navigation with back/forward button context menu"
+#~ msgstr "Geri / ileri düğmesi içerik menüsü ile gezinme düzeltildi"
+
+#~ msgid "Fix path bar sometimes showing wrong path when closing a tab"
+#~ msgstr ""
+#~ "Bir sekmeyi kapatırken bazen yanlış yol gösteren yol çubuğu düzeltildi"
+
+#~ msgid ""
+#~ "Ensure keyboard shortcuts work immediately after creating or renaming a "
+#~ "file"
+#~ msgstr ""
+#~ "Dosya oluşturduktan veya yeniden adlandırdıktan hemen sonra klavye "
+#~ "kısayollarının çalıştığından emin olundu"
+
+#~ msgid ""
+#~ "Do not include \"file://\" in pathbar text or when pasting path as text"
+#~ msgstr ""
+#~ "Yol çubuğu metnine veya yolu metin olarak yapıştırırken \"file: //\" "
+#~ "eklenmez"
+
+#~ msgid "Show keyboard shortcuts in menu items"
+#~ msgstr "Menü öğelerinde klavye kısayollarını göster"
+
+#~ msgid "Fix an issue with breadcrumbs in the file chooser"
+#~ msgstr "Dosya seçicide dosya yolu görüntüleme ilgili bir sorun düzeltildi"
+
+#~ msgid "Show a warning when ejecting a volume that's still in use"
+#~ msgstr "Kullanımda olan bir birimi çıkartırken bir uyarı göster"
+
+#~ msgid "Fix cursor update after horizontal scroll in Column View"
+#~ msgstr ""
+#~ "Sütun Görünümünde yatay kaydırmadan sonra imleç güncellemesi düzeltildi"
+
+#~ msgid "Fix folder-open icon persisting after closing Column View"
+#~ msgstr ""
+#~ "Sütun Görünümü'nü kapattıktan sonra klasör açık simgesinin gösterilmeye "
+#~ "devam etmesi sorunu düzeltildi"
+
+#~ msgid "Use destructive action styling for some trash dialog buttons"
+#~ msgstr "Bazı çöp kutusu iletişim düğmeleri için yıkıcı eylem stilini kullan"
+
+#~ msgid "New features:"
+#~ msgstr "Yeni özellikler:"
+
+#~ msgid "Initial git plugin support"
+#~ msgstr "İlk git eklenti desteği"
+
+#~ msgid "Follow global history setting when restoring and saving tabs"
+#~ msgstr "Sekmeleri geri yüklerken ve kaydederken genel geçmiş ayarına uy"
+
+#~ msgid "Ensure tabs showing same folder remain synchronized"
+#~ msgstr "Aynı klasörü gösteren sekmelerin senkronize olduğundan emin ol"
+
+#~ msgid "Fix drag with secondary button on empty space"
+#~ msgstr "Boş alanda ikincil düğmeyle sürüklemek düzeltildi"
+
+#~ msgid "Show custom media type icons for installed apps"
+#~ msgstr "Yüklü uygulamalar için özel medya türü simgelerini göster"
+
+#~ msgid "Fix appearance of inactive diskspace indicator"
+#~ msgstr "Etkin olmayan disk alanı göstergesinin görünümünü düzeltildi"
+
+#~ msgid "Improve pathbar animation"
+#~ msgstr "Yol çubuğu animasyonunu iyileştirildi"
+
+#~ msgid "Update documentation"
+#~ msgstr "Dokümantasyon güncellendi"
+
+#~ msgid "Update translations"
+#~ msgstr "Çeviriler güncellendi"
+
+#~ msgid "Initial cloudproviders plugin support"
+#~ msgstr "İlk bulut sağlayıcıları eklenti desteği"
+
+#~ msgid "Fix selecting pasted files"
+#~ msgstr "Yapıştırılan dosyaları seçmek düzeltildi"
+
+#~ msgid "Fix color label visibility while using dark theme"
+#~ msgstr "Koyu tema kullanılırken renk etiketi görünürlüğü düzeltildi"
+
+#~ msgid "Fix selecting files using Shift key"
+#~ msgstr "Shift tuşunu kullanarak dosya seçmek düzeltildi"
+
+#~ msgid "Draw checkerboard background for image items"
+#~ msgstr "Resim öğeleri için dama tahtası arka planı çizilir"
+
+#~ msgid "Improved styling for disk space bars"
+#~ msgstr "Disk alanı çubukları için geliştirilmiş stil"
+
+#~ msgid "Show more search results"
+#~ msgstr "Daha fazla arama sonucu göster"
+
+#~ msgid "Ensure valid tab name generation"
+#~ msgstr "Geçerli sekme adı oluşturmayı sağla"
+
+#~ msgid "Properly sort folders by date and size"
+#~ msgstr "Klasörleri tarihe ve boyuta göre uygun şekilde sıralayın"
+
+#~ msgid ""
+#~ "Launching Files from Terminal now opens new tab instead of new window"
+#~ msgstr ""
+#~ "Dosyaları Terminal'den başlatmak artık yeni pencere yerine yeni sekme "
+#~ "açıyor"
+
+#~ msgid "Improve MTP support"
+#~ msgstr "MTP desteği geliştirildi"
+
+#~ msgid "Various tagging feature refinements"
+#~ msgstr "Çeşitli etiketleme özelliği iyileştirmeleri"
+
+#~ msgid "Keyboard navigation improvements"
+#~ msgstr "Klavye ile gezinme geliştirmeleri"
+
+#~ msgid "Symlink copy and paste fixes"
+#~ msgstr "Symlink kopyalama ve yapıştırma düzeltmeleri"
+
+#~ msgid "Avoid crash when Templates folder is null"
+#~ msgstr "Şablonlar klasörü boşken çökmekten kaçın"
+
+#~ msgid "Reduce memory footprint of FileChooserDialog"
+#~ msgstr "FileChooserDialog'un bellek miktarı azaltıldı"
+
+#~ msgid "Avoid crash when selecting image file in some situations"
+#~ msgstr "Bazı durumlarda görüntü dosyasını seçerken çökmekten kaçınıldı"
+
+#~ msgid ""
+#~ "Fix unclosable progress window while copying network files to removable "
+#~ "storage"
+#~ msgstr ""
+#~ "Ağ dosyalarını çıkarılabilir depolama birimine kopyalarken kapatılamaz "
+#~ "ilerleme penceresi sorunu düzeltildi"
+
+#~ msgid "Fix drag and drop after double clicking a blank area"
+#~ msgstr "Boş bir alanı çift tıklattıktan sonra sürükleyip bırakmayı düzeltin"
+
+#~ msgid "Avoid crash while scrolling over view switcher"
+#~ msgstr "Görünüm değiştiriciyi kaydırırken çökmekten kaçının"
+
+#~ msgid "Avoid possible crash in some copy and paste situations"
+#~ msgstr "Bazı kopyalama ve yapıştırma durumlarında olası çökmelerden kaçının"
+
+#~ msgid "Don't hardcode search placeholder text style, fixes dark theme issue"
+#~ msgstr ""
+#~ "Koyu renk temadaki arama yer tutucu metin stilinin doğrudan programın "
+#~ "içine gömülü olmasından dolayı oluşan sorun düzeltildi"
+
+#~ msgid "Minor spacing adjustments to location bar"
+#~ msgstr "Konum çubuğunda küçük boşluk ayarlamaları"
+
+#~ msgid "Fix F2 renaming behavior"
+#~ msgstr "F2 yeniden adlandırma davranışı düzeltildi"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "Dosya sıralama düzeltmeleri"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "Birden çok video dosyasını açarken oluşan kilitlenme düzeltildi"
+
+#~ msgid "Build fixes"
+#~ msgstr "Derleme düzeltmeleri"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "Eklenti derlemelerindeki hatalar düzeltildi"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "Bellek sızıntısı düzeltildi"
+
+#~ msgid "Crash fixes"
+#~ msgstr "Kilitlenme düzeltmeleri"
+
+#~ msgid "New translations"
+#~ msgstr "Yeni çeviriler"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Küçük hata düzeltmeleri"
+
+#~ msgid "Improved networking support"
+#~ msgstr "Ağ desteği iyileştirildi"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr "Sola veya sağa yapıştırmada doğru pencere geometrisi"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr ""
+#~ "\"İşaretçiyi Göster\" ayarı etkinken Ctrl'ye basmak artık yeniden "
+#~ "adlandırmayı iptal etmiyor"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "Giriş dilinin değiştirilmesi işlemleri iptal eder"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "Çeşitli kilitlenme düzeltmeleri"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "Firefox gibi tarayıcılar artık en son kullanılan indirme klasörünü "
+#~ "hatırlayacak"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "Tercih edilen yakınlaştırma seviyesini ayarla"
+
+#~ msgid "Improved input method support"
+#~ msgstr "Giriş yöntemi desteği iyileştirildi"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "Minimum pencere boyutu(910x640)"
+
+#~ msgid "Security fixes"
+#~ msgstr "Güvenlik Güncellemeleri"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "Pencelere arasında sürükle ve bırak özelliğini etkinleştirin"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "Arama işlevselliğini Ctrl+F 'ye birleştir"
+
+#~ msgid "Improved translation support"
+#~ msgstr "Çeviri desteği iyileştirildi"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "Uygulama verisi sürüm tarihlerini düzelt"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "Samba paylaşımları üzerinden dosya açmayı geliştirin"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr "Çöp kutusundaki öğeleri geri yüklerken bir kilitlenme düzeltildi"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr ""
+#~ "İçerik menüsünde kesme/kopyalama/yapıştırma hassasiyeti geliştirildi"
+
+#~ msgid "Translation updates"
+#~ msgstr "Çeviriler güncellendi"
+
+#~ msgid "system-file-manager"
+#~ msgstr "system-file-manager"
+
+#~ msgid "About Files"
+#~ msgstr "Dosyalar Hakkında"

@@ -1,0 +1,958 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2025-11-12 19:05+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/files/extra/he/"
+">\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.11.4\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "קבצים"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "ניווט בין הקבצים שלך"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr ""
+"תיקייה;תיקיה;ספריה;מנהל;מנווט;ניווט;עיון;מעיין;כונן;דיסק;מערכת "
+"קבצים;קובץ;קבצים;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "חלון חדש"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "חלון חדש בתור מנהל"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "ניווט בין וניהול של קבצים ותיקיות"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"ניתן להעתיק, להעביר ולשנות שמות של הקבצים שלך. בין אם מעניין אותך לראות את "
+"הקבצים ברשימות, טבלאות או עמודות, תמיד ניתן למצוא אותם בהישג יד. לגשת לקבצים "
+"שלך, בין אם באופן מקומי, בהתקן חיצוני או בחיבור מרוחק דרך FTP,‏ SFTP,‏ AFP,‏ "
+"Webdav או שיתוף Windows."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr "גישה מהירה להגדרות כגון רמות תקריב וקבצים נסתרים"
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr "הצגת נתוני על רבים יותר במבט חטוף בתצוגת רשימה"
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr "עיון בעצים מורכבים מהר יותר עם תצוגת עמודות"
+
+#: data/files.metainfo.xml.in.in:59
+msgid "elementary, Inc."
+msgstr "elementary בע״מ."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+msgid "Minor updates:"
+msgstr "תיקונים מזעריים:"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "התרגומים עודכנו"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr "שיפורים:"
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr "תבנית תאריך מצומצמת נוספה"
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr "חלונית סתירת קבצים מציג מעתה סמל שהיה חסר"
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr "הבהוב של סרגל הנתיב עם כמה שיטות ניווט עבר תיקון"
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr "האפשרות להגדרת יישום ברירת מחדל לא מוצעת יותר"
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr "פס הגלילה לא חופף יותר עם תאריך השינוי בתצוגת הרשימה"
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr "הניווט בתיקיית האשפה עובדת מעתה כראוי"
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr "התצוגה מתרעננת כעת כראוי לאחר מחיקה של תיקייה לצמיתות"
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr "מספר פריטי התבנית שמוצגים בתפריט ההקשר מוגבל כעת"
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr ""
+"חלון המאפיינים מציג את התאריך והשעה המדויקים שבהם הקובץ נערך בפעם האחרונה"
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr "הכנות נוספות להסבה ל־Gtk4"
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr "תצוגת הרשאות הקבצים עוצבה מחדש"
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr "התמקדות על סרגל הצד בלחיצה על Ctrl + שמאלה"
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr "שחזור לשוניות מהפעם האחרונה היא בגדר רשות מעתה"
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr "לא ניתן לבצע עוד גרירה ובחירה עם הכפתור המשני"
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr "הופסקה התמיכה בגרירת סימניות אל מחוץ לסרגל הצד"
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr "תוקנה גלילה לא צפויה לאחר שינוי שם תיקייה"
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr "תוקנה קריסה בעת מעבר לתצוגת רשת במצבים נדירים במיוחד"
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr "וידוא שהבחירה נשארת אחרי רענון התצוגה"
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+"תוקנה הבעיה שיישום הקבצים לא מצליח לפתוח אם מתבצע ניסיון לשחזר מקום מנותק"
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr "תוקנה התצוגה שממשיכה להופיע כאשר המקום מנותק"
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+"סרגל לשוניות חדש עם הנפשות משופרות, גרירה ושחרור בצורה חלקה יותר ותפריטי "
+"הקשר ללשוניות סודרו מחדש"
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "הפעלת Pantheon Files במצב ניהול"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr "נדרש אימות כדי להפעיל את היישום קבצים כמנהל המערכת"
+
+#~ msgid "Design updates for Bulk Rename"
+#~ msgstr "עדכוני עיצוב לשינוי שם במרוכז"
+
+#~ msgid "Implement a bulk rename functionality"
+#~ msgstr "הטמעת יכולת שינוי שם במרוכז"
+
+#~ msgid "Use a colorful level bar to show disk usage in the properties dialog"
+#~ msgstr "נעשה שימוש בסרגל צבעוני להצגת ניצולת הכונן בחלונית המאפיינים"
+
+#~ msgid ""
+#~ "Move global settings from the context menu to an app menu in the headerbar"
+#~ msgstr "ההגדרות הגלובליות הועברו מתפריט ההקשר לתפריט יישומים בסרגל העליון"
+
+#~ msgid "File Manager"
+#~ msgstr "מנהל קבצים"
+
+#~ msgid ""
+#~ "Provide option to select folders with single click and activate with "
+#~ "double click"
+#~ msgstr "אספקת אפשרות לבחור תיקיות בלחיצה בודדת ולהפעיל בלחיצה כפולה"
+
+#~ msgid ""
+#~ "Only show the properties overlay when files are selected, not when hovered"
+#~ msgstr "שכבת המאפיינים תוצג רק כאשר נבחרים קבצים, לא בעת ריחוף מעליהם"
+
+#~ msgid "Fixes:"
+#~ msgstr "תיקונים:"
+
+#~ msgid "Fix dimmed window after use of filechooser portal"
+#~ msgstr "תוקן חלום מעומעם לאחר השימוש בשער בוחר הקבצים"
+
+#~ msgid "Fix possible crash when rapidly changing view modes"
+#~ msgstr "תוקנה קריסה שקרתה לפעמים בעת החלפת מצבי תצוגה במהירות"
+
+#~ msgid "Fix startup when restored remote location is no longer connected"
+#~ msgstr "תוקנה ההפעלה כאשר מיקום מרוחק ששוחזר אינו מחובר עוד"
+
+#~ msgid ""
+#~ "Ensure infobar shows in connection server dialog when connection attempt "
+#~ "fails"
+#~ msgstr ""
+#~ "מתבצע וידוא שסרגל המידע מופיע בחלונית שרת החיבור כאשר ניסיון ההתחברות נכשל"
+
+#~ msgid "Ensure correct icon for bookmark to a file that is not a folder"
+#~ msgstr "וידוא שמדובר בסמל הנכון לסימנייה לקובץ שאינו תיקייה"
+
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "תיקון קריסה שקרתה לפעמים בעת הסרת סימנייה"
+
+#~ msgid "A regression in zooming out using Ctrl + ScrollDown is fixed"
+#~ msgstr "תקלה חוזרת בהתרחקות עם Ctrl + גלילה למטה"
+
+#~ msgid "Renaming with the same name no longer shows an error dialog"
+#~ msgstr "שינוי השם לאותו השם לא מציג עוד הודעת שגיאה"
+
+#~ msgid "Ctrl + A when renaming now selects all the text in the entry"
+#~ msgstr "Ctrl + A בעת שינוי שם בוחר כעת את כל הטקסט ברשומה"
+
+#~ msgid "Selecting multiple items with Shift + Arrow keys now works properly"
+#~ msgstr "בחירת מספר פריטים עם Shift + חץ עובדת כעת כמו שצריך"
+
+#~ msgid "The appearance of the cursor now matches the action"
+#~ msgstr "מראה הסמן תואם מעתה לפעולה"
+
+#~ msgid "The Trash sidebar item can no longer be removed"
+#~ msgstr "לא ניתן עוד להסיר את פריט האשפה מסרגל הצד"
+
+#~ msgid "Network sidebar plugins such as NextCloud are now added correctly"
+#~ msgstr "תוספי רשת בסרגל הצד כגון NextCloud מתווספים כראוי"
+
+#~ msgid ""
+#~ "Duplication of subfolders in ListView under some circumstances is fixed"
+#~ msgstr "שכפול של תת־תיקיות ב־ListView (תצוגת רשימה) בתנאים מסוימים מקובע"
+
+#~ msgid ""
+#~ "Bookmarks are now highlighted when a file they can accept is dragged onto "
+#~ "them"
+#~ msgstr "סימניות מודגשות מעתה כאשר קובץ שהן יכולות לקבל נגרר אליהן"
+
+#~ msgid ""
+#~ "Folders not being restored properly under some circumstances is fixed"
+#~ msgstr "תוקנה הבעיה שתיקיות לא משוחזרות כראוי בתנאים מסוימים"
+
+#~ msgid ""
+#~ "Show confirmation dialog in file chooser before overwriting an existing "
+#~ "file"
+#~ msgstr "מופיעה חלונית אישור בבוחר הקבצים בטרם שחזור קובץ קיים"
+
+#~ msgid "Ctrl + V now always pastes into background folder"
+#~ msgstr "Ctrl + V תמיד מדביק מעכשיו לתיקיית הרקע"
+
+#~ msgid "Shift + Ctrl + V now pastes into selected folder if there is one"
+#~ msgstr "Shift + Ctrl + V מדביק מעתה לתיקייה הנבחרת אם אכן נבחרה תיקייה"
+
+#~ msgid "Show New Tab and New Window shortcuts in context menus"
+#~ msgstr "הצגת קיצורי מקלדת ללשונית ולחלון חדש בתפריטי ההקשר"
+
+#~ msgid "Double click selects instead of exiting while renaming in list view"
+#~ msgstr "לחיצה כפולה בוחרת במקום לצאת תוך שינוי שם בתצוגת רשימה"
+
+#~ msgid "Show public share icon in breadcrumbs"
+#~ msgstr "הצגת סמל שיתוף ציבורי בפס הנתיב"
+
+#~ msgid "Prevent a crash when dragging to re-arrange bookmarks"
+#~ msgstr "נמנעה קריסה בעת גרירת הסימניות לסידורן מחדש"
+
+#~ msgid "Close FileChooser with Esc key"
+#~ msgstr "אפשר לסגור את בוחר הקבצים עם מקש Esc"
+
+#~ msgid "Use new emblems for git status"
+#~ msgstr "שימוש בסמלים החדשים למצב ה־git"
+
+#~ msgid "Show selection actions in secondary click menu"
+#~ msgstr "הצגת פעולות הבחירה בתפריט לחיצה משני"
+
+#~ msgid "Always show Permissions page in Properties dialog"
+#~ msgstr "תמיד להציג את עמוד ההרשאות בחלונית המאפיינים"
+
+#~ msgid ""
+#~ "In Permissions page, show user and group numeric IDs when names not "
+#~ "available"
+#~ msgstr ""
+#~ "בעמוד ההרשאות, להציג את המזהה המספרי של המשתמש והקבוצה כשאין שם זמין"
+
+#~ msgid "In Permissions page, show message when no information available"
+#~ msgstr "בעמוד ההרשאות, להציג הודעה כשאין מידע זמין"
+
+#~ msgid "Other updates:"
+#~ msgstr "עדכונים נוספים:"
+
+#~ msgid "Only allow one FileChooser per parent window"
+#~ msgstr "יאופשר בוחר קבצים אחד לכל חלון הורה"
+
+#~ msgid ""
+#~ "Navigate to folder when pressing enter in FileChooser instead of selecting"
+#~ msgstr "ניווט לתיקייה בלחיצה על enter בבוחר הקבצים במקום על ידי בחירה"
+
+#~ msgid ""
+#~ "Use \"Send Mail\" portal instead of contract, improving compatibility "
+#~ "with alternate email apps"
+#~ msgstr ""
+#~ "להשתמש בשער „שליחת דוא״ל” במקום בחוזה, משפר את התאימות עם יישומי דוא״ל "
+#~ "חלופיים"
+
+#~ msgid "Add file filters and New Folder options to file chooser portal"
+#~ msgstr "נוספו מסנני קבצים ואפשרויות תיקיות חדשות לשער בוחר הקבצים"
+
+#~ msgid ""
+#~ "Allow blank passwords for remote connections, e.g. for SSH via a private "
+#~ "key"
+#~ msgstr ""
+#~ "מעתה מותר להשתמש בססמאות ריקות לחיבורים מרוחקים, למשל עבור SSH דרך מפתח "
+#~ "פרטי"
+
+#~ msgid "Make ejecting devices safer"
+#~ msgstr "בטיחות שליפת ההתקנים השתפרה"
+
+#~ msgid "Add option to stop drive if possible"
+#~ msgstr "נוספה אפשרות לעצור את הכונן אם ניתן"
+
+#~ msgid "Show unformatted drives and drives without media"
+#~ msgstr "הצגת כוננים שלא פורמטו וכאלו שאין בהם אמצעי אחסון"
+
+#~ msgid ""
+#~ "Fix pasting of selected pathbar text into another window using middle-"
+#~ "click"
+#~ msgstr "תוקנה הדבקת הטקסט הנבחר בסרגל הנתיב לחלון אחר בלחיצה כפולה"
+
+#~ msgid "Fix selecting multiple groups of files"
+#~ msgstr "תוקנה בחירת מגוון קבוצות של קבצים"
+
+#~ msgid "Allow dropping bookmark directly below the Recent bookmark"
+#~ msgstr "ניתן לגרור סימניה ישירות מתחת לסימניה האחרונה"
+
+#~ msgid "Do not show unusable drop target below the Trash bookmark"
+#~ msgstr "לא יוצג יעד גרירה בלתי שמיש מתחת לסימניית האשפה"
+
+#~ msgid "Fix sidebar showing both drive and volume for same device"
+#~ msgstr "תוקן המצב בו סרגל הצד מציג גם את הכונן והכרך של אותו ההתקן"
+
+#~ msgid "Fix sidebar showing SSH servers in both Storage and Network sections"
+#~ msgstr "תוקנה בעיה שסרגל הצד מציג שרתי SSH גם בסעיף אחסון וגם ברשת"
+
+#~ msgid "Show translated bookmark names when changing languages"
+#~ msgstr "הצגת שמות מתורגמים של סימניות בעת החלפת שפות"
+
+#~ msgid ""
+#~ "Stop some audio file icons disappearing when scrolling or changing view"
+#~ msgstr "עצירת סמלי קובצי שמע שנעלמים בזמן גרירה או החלפת תצוגה"
+
+#~ msgid ""
+#~ "Stop brief appearance of status overlay when changing root folder in "
+#~ "Column View"
+#~ msgstr "הופסקה הצגת שכבת על של מצב בעת החלפת תיקיית על בתצוגת עמודות"
+
+#~ msgid "Remove message about reporting issues when running from Terminal"
+#~ msgstr "הסרת הודעה על דיווח תקלות בעת הרצה ממסוף"
+
+#~ msgid "Open bookmarks in a new tab with Ctrl + Click"
+#~ msgstr "אפשר לפתוח סימניות בלשונית חדשה עם Ctrl + לחיצה"
+
+#~ msgid ""
+#~ "Fix dropping uris onto storage devices and network locations in sidebar"
+#~ msgstr "תוקנה השלכת כתובות להתקני אחסון ומיקומי רשת בסרגל הצד"
+
+#~ msgid "Fix restoring tabs after a system restart"
+#~ msgstr "תוקן שחזור לשוניות לאחר הפעלת המערכת מחדש"
+
+#~ msgid ""
+#~ "Don't unselect when secondary clicking blank space around a file or folder"
+#~ msgstr "הבחירה לא תבוטל לאחר לחיצה על מקום פנוי מסביב לקובץ או לתיקייה"
+
+#~ msgid ""
+#~ "Show the folder context menu when secondary clicking outside of a "
+#~ "selection"
+#~ msgstr "תפריט ההקשר של התיקייה יוצג בלחיצה על כפתור משני מחוץ לבחירה"
+
+#~ msgid "Fix small context menus on breadcrumbs"
+#~ msgstr "תוקנו תפריטי ההקשר הקטנים במחווני הנתיב"
+
+#~ msgid "Fix bookmarking a single selected item with Ctrl + D"
+#~ msgstr "תוקנה הוספה של פריט בודד לסימניות עם Ctrl + D"
+
+#~ msgid "Fix renaming bookmarks in the sidebar"
+#~ msgstr "שינוי שם של סימניות בסרגל הצד תוקן"
+
+#~ msgid "Fix an issue with showing color tags when thumbnails are hidden"
+#~ msgstr "תיקון תקלה בהצגת תגיות צבע כשתמונות ממוזערות מוסתרות"
+
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "תיקון קיפאון בעת השוואת קבצים מועתקים"
+
+#~ msgid ""
+#~ "Fix truncation of final column in Column View under some circumstances"
+#~ msgstr "תוקן החיתוך של העמודה האחרונה בתצוגת העמודות במקרים מסוימים"
+
+#~ msgid "Show more keyboard accelerators in menus"
+#~ msgstr "יותר קיצורי מקלדת מופיעים בתפריטים"
+
+#~ msgid "Fix connecting to AFP servers so that passwords are remembered"
+#~ msgstr "תוקן חיבור לשרתי AFP כדי שססמאות תישמרנה"
+
+#~ msgid "Fix MTP mounts"
+#~ msgstr "תוקנו עיגוני התקני מוזיקה"
+
+#~ msgid "Launch files with double click instead of single click"
+#~ msgstr "הפעלת קבצים בלחיצה כפולה במקום בלחיצה בודדת"
+
+#~ msgid "Provide a File Chooser portal for Flatpak apps"
+#~ msgstr "אספקת שער בחירת קבצים ליישומי Flatpak"
+
+#~ msgid "Brand new animated Sidebar"
+#~ msgstr "סרגל צד מונפש חדש לגמרי"
+
+#~ msgid "Dark style support"
+#~ msgstr "תמיכה בסגנון כהה"
+
+#~ msgid "Mint and Bubblegum color tags"
+#~ msgstr "תגיות צבע מנטה ומסטיק"
+
+#~ msgid "Do not restore locations that have become inaccessible"
+#~ msgstr "לא לשחזר את המיקומים שהפכו לבלתי נגישים"
+
+#~ msgid ""
+#~ "Clicking between thumbnail and text now activates/selects in Grid view"
+#~ msgstr "לחיצה בין התמונה הממוזערת והטקסט מעתה מפעילה/בוחרת בתצוגת רשת"
+
+#~ msgid "AFC protocol support"
+#~ msgstr "תמיכה בפרוטוקול AFC"
+
+#~ msgid "Add a smaller minimum icon size in list view"
+#~ msgstr "הוספת גודל מזערי קטן יותר בתצוגת רשימה"
+
+#~ msgid "Show emblems inline in list views"
+#~ msgstr "הצגת סמלים כחלק מהשורה בתצוגת רשימה"
+
+#~ msgid "Performance improvements"
+#~ msgstr "שיפורי ביצועים"
+
+#~ msgid "Stability improvements"
+#~ msgstr "שיפורי יציבות"
+
+#~ msgid "Rename \"Devices\" to \"Storage\""
+#~ msgstr "השם של „התקנים” הוחלף לכדי „אחסון”"
+
+#~ msgid "Bookmark menu option for network mounts in sidebar"
+#~ msgstr "אפשרות תפריט סימניות לטובת סרגל צד לעיגון מיקומי רשת"
+
+#~ msgid "Show folder item count in List View"
+#~ msgstr "הצגת מספור פריטים בתיקייה בתצוגת רשימה"
+
+#~ msgid ""
+#~ "Now shows thumbnails on locally mounted MTP and PTP devices as well as on "
+#~ "network locations by default"
+#~ msgstr ""
+#~ "מעתה מוצגות תמונות ממוזערות על התקני מדיה ומצלמות לצד מיקומי רשת כבררת "
+#~ "מחדל"
+
+#~ msgid ""
+#~ "Properties window: Allow the filename to be copied when it cannot be "
+#~ "edited"
+#~ msgstr "חלון מאפיינים: לאפשר את העתקת שם הקובץ כשלא ניתן לערוך אותו"
+
+#~ msgid "Improved tooltip formatting for devices in the sidebar"
+#~ msgstr "עיצוב משופר לחלוניות עצה להתקנים בסרגל הצד"
+
+#~ msgid "Fix crash when pressing Enter and another key at the same time"
+#~ msgstr "תיקון קריסה בעת לחיצה על Enter ומקש נוסף באותו הזמן"
+
+#~ msgid "Fix pathbar handling of \"~\" and \"..\" in path"
+#~ msgstr "תיקון בטיפול בנתיבים „~” ו־„.” בסרגל הנתיבים"
+
+#~ msgid "Filechooser pathbar no longer crashes when invoked from a Flatpak"
+#~ msgstr "סרגל הנתיב של בוחר הקבצים לא קורס עוד כשמופעל מתוך Flatpak"
+
+#~ msgid ""
+#~ "Do not show git status for repositories on FUSE filesystems to prevent "
+#~ "possible blocking"
+#~ msgstr ""
+#~ "לא להציג את מצב ה־git עבור מאגרים במערכות קבצים דרך FUSE כדי למנוע חסימה "
+#~ "אפשרית"
+
+#~ msgid "\"Personal\" is now \"Bookmarks\""
+#~ msgstr "„אישי” הוא מעתה „סימניות”"
+
+#~ msgid ""
+#~ "Add warning and error colored disk usage bars when disk becomes too full"
+#~ msgstr ""
+#~ "נוספו פסי ניצולת כונן צבעוניים לאזהרה ולשגיאה כאשר הכונן מתמלא יתר על "
+#~ "המידה"
+
+#~ msgid ""
+#~ "Prevent window resizing when filename column width exceeds available space"
+#~ msgstr "שינוי גודל החלון נמנע כאשר רוחב עמודת שם הקובץ חורגת מהמקום הזמין"
+
+#~ msgid "Fix handling of filenames containing the # character"
+#~ msgstr "תוקן טיפול בשמות קבצים שמכילים את התו #"
+
+#~ msgid "Fix regressions regarding pathbar context menus and clicking"
+#~ msgstr "תוקנה נסיגה שקשורה בתפריטי הקשר בסרגל נתיב ולחיצה"
+
+#~ msgid "Paste images into other apps instead of file paths where possible"
+#~ msgstr "תמונות מודבקות לתוך יישומים אחרים במקום נתיבי קבצים היכן שניתן"
+
+#~ msgid "Paste into a selected folder when using Ctrl + V"
+#~ msgstr "ניתן להדביק לתיקייה הנבחרת עם Ctrl + V"
+
+#~ msgid "Show file info overlay in List View as well"
+#~ msgstr "הצגת חלונית פרטי קובץ בתצוגת הרשימה בנוסף"
+
+#~ msgid "Traverse search results with Tab key"
+#~ msgstr "ניתן לעבור בין תוצאות חיפוש עם המקש Tab"
+
+#~ msgid "Show an error message when attempting to open trashed files"
+#~ msgstr "הצגת הודעת שגיאה בעת ניסיון לפתוח קבצים מהאשפה"
+
+#~ msgid ""
+#~ "Fix uneditable area in pathbar which is showing home folder placeholder"
+#~ msgstr "תיקון שטח חסום לעריכה בסרגל הנתיב שמציג את ממלא המקום לתיקיית הבית"
+
+#~ msgid "Fix an issue that prevented file modification times from showing"
+#~ msgstr "תיקון תקלה שמנעה מהצגת מועדי שינויי קבצים מלהופיע"
+
+#~ msgid "Fix size of restored tiled window"
+#~ msgstr "תיקון גודל של חלון פרוס משוחזר"
+
+#~ msgid "Fix color tags disappearing when thumbnails hidden"
+#~ msgstr "תיקון היעלמות של תגיות צבע כאשר התמונות הממוזערות מוסתרות"
+
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "תיקון קריסה כאשר סמל של מכשיר מגיע מקובץ"
+
+#~ msgid "Fix device icon sometimes missing"
+#~ msgstr "תיקון מצב שבו סמל של מכשיר לפעמים חסר"
+
+#~ msgid "Fix occasional view freeze after renaming"
+#~ msgstr "תיקון הקפאות תצוגה פתאומיות לאחר שינוי שם"
+
+#~ msgid "Improve renaming logic when dealing with leading/trailing whitespace"
+#~ msgstr "שיפור לוגיקת שינוי השם בעת טיפול ברווח טרומי/סופי"
+
+#~ msgid "Fix breadcrumbs sometimes incorrect at startup"
+#~ msgstr "תיקון ניווט מנוהל שגוי עם הפתיחה"
+
+#~ msgid "Do not show file:// prefix in navigation buttons menus"
+#~ msgstr "לא להציג קידומת file://‎ בתפריטי כפתורי ניווט"
+
+#~ msgid "Fix \"New Folder\" keyboard shortcut label in menu"
+#~ msgstr "תיקון תווית קיצור מקשים עבור „תיקייה חדשה” בתפריט"
+
+#~ msgid "Fix navigation with back/forward button context menu"
+#~ msgstr "תיקון ניווט עם כפתורי קדימה/אחורה בתפריט הקשר"
+
+#~ msgid "Fix path bar sometimes showing wrong path when closing a tab"
+#~ msgstr "תיקון תופעה שבה סרגל הנתיב מציג נתיב שגוי בעת סגירת לשונית"
+
+#~ msgid ""
+#~ "Ensure keyboard shortcuts work immediately after creating or renaming a "
+#~ "file"
+#~ msgstr "וידוא שקיצורי המקלדת עובדים מיד לאחר יצירה או שינוי שם של קובץ"
+
+#~ msgid ""
+#~ "Do not include \"file://\" in pathbar text or when pasting path as text"
+#~ msgstr "לא לכלול „file://‎” בטקסט סרגל הנתיב או בעת הדבקת נתיב כטקסט"
+
+#~ msgid "Show keyboard shortcuts in menu items"
+#~ msgstr "הצגת קיצורי מקלדת בפריטי תפריט"
+
+#~ msgid "Fix an issue with breadcrumbs in the file chooser"
+#~ msgstr "תיקון תקלה עם ניווט מנוהל בבוחר הקבצים"
+
+#~ msgid "Show a warning when ejecting a volume that's still in use"
+#~ msgstr "הצגת אזהרה בעת ניתוק כרך שעדיין בשימוש"
+
+#~ msgid "Fix cursor update after horizontal scroll in Column View"
+#~ msgstr "תיקון עדכון הסמן לאחר גלילה אופקית בתצוגת העמודות"
+
+#~ msgid "Fix folder-open icon persisting after closing Column View"
+#~ msgstr "תיקון קיבוע סמל תיקייה פתוחה לאחר סגירת תצוגת העמודות"
+
+#~ msgid "Use destructive action styling for some trash dialog buttons"
+#~ msgstr "שימוש בעיצוב פעולה הרסנית עבור כפתורים בתיבות דו־שיח של אשפה"
+
+#~ msgid "New features:"
+#~ msgstr "תכונות חדשות:"
+
+#~ msgid "Initial git plugin support"
+#~ msgstr "תמיכה ראשונית בתוסף git"
+
+#~ msgid "Follow global history setting when restoring and saving tabs"
+#~ msgstr "מעקב אחר הגדרות היסטוריה גלובליות בעת שחזור ושמירה של לשוניות"
+
+#~ msgid "Ensure tabs showing same folder remain synchronized"
+#~ msgstr "וידוא שלשוניות שמופיעות באותה התיקייה תישארנה מסונכרנות"
+
+#~ msgid "Fix drag with secondary button on empty space"
+#~ msgstr "תיקון גרירה עם כפתור משני לחלל ריק"
+
+#~ msgid "Show custom media type icons for installed apps"
+#~ msgstr "הצגת סמלי סוגי מדיה מותאמים אישית ליישומים מותקנים"
+
+#~ msgid "Fix appearance of inactive diskspace indicator"
+#~ msgstr "תיקון הצגה של מחוון בלתי פעיל עבור שטח פנוי בכונן"
+
+#~ msgid "Improve pathbar animation"
+#~ msgstr "שיפור הנפשה בסרגל הניווט"
+
+#~ msgid "Update documentation"
+#~ msgstr "התיעוד עודכן"
+
+#~ msgid "Update translations"
+#~ msgstr "התרגומים עודכנו"
+
+#~ msgid "Initial cloudproviders plugin support"
+#~ msgstr "תמיכה ראשונית בתוספי ספקי ענן"
+
+#~ msgid "Fix selecting pasted files"
+#~ msgstr "תיקון בחירה בקבצים שהודבקו"
+
+#~ msgid "Fix color label visibility while using dark theme"
+#~ msgstr "תיקון מראה תוויות צבע בעת שימוש בערכת עיצוב כהה"
+
+#~ msgid "Fix selecting files using Shift key"
+#~ msgstr "תיקון בחירת קבצים עם המקש Shift"
+
+#~ msgid "Draw checkerboard background for image items"
+#~ msgstr "ציור רקע לוח שחמט לפריטי תמונות"
+
+#~ msgid "Improved styling for disk space bars"
+#~ msgstr "עיצוב משופר לסרגלי נפח בכונן"
+
+#~ msgid "Show more search results"
+#~ msgstr "הצגת תוצאות חיפוש נוספות"
+
+#~ msgid "Ensure valid tab name generation"
+#~ msgstr "וידוא יצירת שמות נכונים ללשוניות"
+
+#~ msgid "Properly sort folders by date and size"
+#~ msgstr "סידור תיקיות לפי תאריך וגודל בצורה נכונה"
+
+#~ msgid ""
+#~ "Launching Files from Terminal now opens new tab instead of new window"
+#~ msgstr "טעינת קבצים מהמסוף פותחת מהיום לשונית חדשה במקום חלון חדש"
+
+#~ msgid "Improve MTP support"
+#~ msgstr "שיפור תמיכה ב־MTP (מכשירי מולטימדיה)"
+
+#~ msgid "Various tagging feature refinements"
+#~ msgstr "מגוון תיקונים קלים בתכונת התיוג"
+
+#~ msgid "Keyboard navigation improvements"
+#~ msgstr "שיפורים בניווט עם המקלדת"
+
+#~ msgid "Symlink copy and paste fixes"
+#~ msgstr "תיקוני העתקה והדבקה של קישורים סימבוליים"
+
+#~ msgid "Avoid crash when Templates folder is null"
+#~ msgstr "מניעת קריסה כאשר תיקיית התבניות ריקה"
+
+#~ msgid "Reduce memory footprint of FileChooserDialog"
+#~ msgstr "הפחתת טביעת הרגל בזיכרון עבור FileChooserDialog"
+
+#~ msgid "Avoid crash when selecting image file in some situations"
+#~ msgstr "הימנעות מקריסה בעת בחירת קובץ תמונה במקרים מסוימים"
+
+#~ msgid ""
+#~ "Fix unclosable progress window while copying network files to removable "
+#~ "storage"
+#~ msgstr "תיקון חלון תהליך שלא נסגר בעת העתקת קבצים מהרשת להתקן אחסון נתיק"
+
+#~ msgid "Fix drag and drop after double clicking a blank area"
+#~ msgstr "תיקון גרירה והשלכה לאחר לחיצה כפולה בחלל ריק"
+
+#~ msgid "Avoid crash while scrolling over view switcher"
+#~ msgstr "הימנעות מקריסה בעת גלילה על גבי מחליף תצוגות"
+
+#~ msgid "Avoid possible crash in some copy and paste situations"
+#~ msgstr "הימנעות מקריסה אפשרית בכל מיני מקרים של העתקה והדבקה"
+
+#~ msgid "Keyboard navigation fix for cherry picking select files in Grid view"
+#~ msgstr "תיקון ניווט בעזרת מקלדת לבחירה נקודתית של קבצים בתצוגת רשת"
+
+#~ msgid "Don't hardcode search placeholder text style, fixes dark theme issue"
+#~ msgstr ""
+#~ "ביטול סגנון ממלא מקום החיפוש כקוד קבוע, תיקון התקלה עם ערכת העיצוב הכהה"
+
+#~ msgid "Minor spacing adjustments to location bar"
+#~ msgstr "התאמות ריווח מזעריות לסרגל הכתובות"
+
+#~ msgid "Fix F2 renaming behavior"
+#~ msgstr "תיקון התנהגות שינוי השם עם F2"
+
+#~ msgid "Minor spacing adjustments to location breadcrumbs"
+#~ msgstr "התאמות ריווח מזעריות לסמני הדרך של המיקום"
+
+#~ msgid "Consistently remember color tags"
+#~ msgstr "תגיות הצבע נשמרות באופן עקבי"
+
+#~ msgid ""
+#~ "Reload thumbnails when changing zoom level to avoid showing placeholder "
+#~ "unnecessarily"
+#~ msgstr ""
+#~ "טעינת התמונות הממוזערות מחדש בעת שינוי רמת תקריב כדי למנוע הצגת ממלאי "
+#~ "מקום כשאין בכך צורך"
+
+#~ msgid "Fix running scripts with spaces in filename"
+#~ msgstr "תיקון הרצת סקריפטים עם רווח בשם הקובץ"
+
+#~ msgid "Fix high CPU regression in version 4.1.4"
+#~ msgstr "תיקון רגרסיה שהעמיסה על המעבד בגרסה 4.1.4"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "תיקונים במיון קבצים"
+
+#~ msgid "Meson: fix soversion names"
+#~ msgstr "Meson: תיקון שמות soversion"
+
+#~ msgid "Remove CMake build system"
+#~ msgstr "הסרת מערכת הבנייה CMake"
+
+#~ msgid "Fix missing File System properties menu"
+#~ msgstr "תיקון תפריט מאפיינים חסר למערכת הקבצים"
+
+#~ msgid "Drop intltool dependency"
+#~ msgstr "הסרת התלות ב־intltool"
+
+#~ msgid "Fix default file type handler logic"
+#~ msgstr "תיקון הלוגיקה של הטיפול בסוגי קבצים כבררת מחדל"
+
+#~ msgid "Fix initial search window size too small"
+#~ msgstr "תיקון מצב בו חלון החיפוש קטן מדי בזמן ההפעלה"
+
+#~ msgid "Add option to disable local file thumbnails"
+#~ msgstr "הוספת אפשרות להשבתת תמונות ממוזערות לקבצים מקומיים"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "תיקון קריסה בעת פתיחת מספר קובצי וידאו יחדיו"
+
+#~ msgid "Fix some timing issues around adding and removing files"
+#~ msgstr "תיקון תקלות תזמון סביב הוספה והסרה של קבצים"
+
+#~ msgid "Meson: fix missing library headers"
+#~ msgstr "Meson: תיקון כותרות ספריות חסרות"
+
+#~ msgid "Fix color tag display"
+#~ msgstr "תיקון תצוגת תגיות צבעוניות"
+
+#~ msgid "Show reserved space in Properties window"
+#~ msgstr "הצגת מקום שמור בחלון המאפיינים"
+
+#~ msgid "Add border radius to text background"
+#~ msgstr "הוספת רדיוס מסגרת לרקע הטקסט"
+
+#~ msgid "Fix file mimetype association regression"
+#~ msgstr "תיקון רגרסיה בשיוך לפי סיווג mime"
+
+#~ msgid "New pathbar tooltips"
+#~ msgstr "חלוניות עצה חדשות לסרגל הנתיב"
+
+#~ msgid "Build fixes"
+#~ msgstr "תיקוני בנייה"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "תיקוני בניית תוספים"
+
+#~ msgid "Fix Ctrl+Tab behavior"
+#~ msgstr "תיקון התנהגות Ctrl+Tab"
+
+#~ msgid "Fix building without Unity library"
+#~ msgstr "תיקון בנייה בלי ספריית Unity"
+
+#~ msgid "Hide breadcrumbs and show placeholder and search icon in home folder"
+#~ msgstr "הסתרת צייני מיקום והצגת ממלאי מקום וסמל חיפוש בתיקיית הבית"
+
+#~ msgid "Style error dialogs"
+#~ msgstr "הוספת עיצוב להודעות שגיאה"
+
+#~ msgid "Right click fixes"
+#~ msgstr "תיקוני מקש ימני"
+
+#~ msgid "Reload recent view when privacy setting changes"
+#~ msgstr "טעינת התצוגה האחרונה בחדש בעת שינוי הגדרות פרטיות"
+
+#~ msgid "`Connect Server` fixes"
+#~ msgstr "תיקוני `התחברות לשרת`"
+
+#~ msgid "Do not activate multiple files with single click"
+#~ msgstr "לא להפעיל מספר קבצים בלחיצה בודדת"
+
+#~ msgid "Use `Tab` to toggle View and Sidebar keyboard focus"
+#~ msgstr "ניתן להשתמש ב־`Tab` כדי להעביר את המיקוד מהתצוגה לסרגל הצד ולהפך"
+
+#~ msgid "Delete color tag database entries for trashed files"
+#~ msgstr "מחיקת מסד נתוני תגיות צבע לקבצים שהושלכו לאשפה"
+
+#~ msgid "Throttle tab closing"
+#~ msgstr "האטת סגירת לשוניות"
+
+#~ msgid "`Ctrl` key fixes"
+#~ msgstr "תיקוני כפתור `Ctrl`"
+
+#~ msgid "Drag and drop fixes"
+#~ msgstr "תיקוני גרירה והשלכה"
+
+#~ msgid "Show icons in `Open with` menus"
+#~ msgstr "הצגת סמלים בתפריטי `פתיחה באמצעות`"
+
+#~ msgid "Tooltip fixes"
+#~ msgstr "תיקוני חלוניות עצה"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "תיקוני דליפת זיכרון"
+
+#~ msgid "Crash fixes"
+#~ msgstr "תיקוני קריסות"
+
+#~ msgid "Trash: respect sound setting"
+#~ msgstr "אשפה: ציות להגדרות שמע"
+
+#~ msgid "Localization fixes"
+#~ msgstr "תיקוני תרגומים"
+
+#~ msgid "Over 100 major and minor bug fixes and improvements"
+#~ msgstr "למעלה מ־100 תיקוני תקלות קטנים ומשמעותיים לרבות שיפורים"
+
+#~ msgid "Honor 12/24hr system setting"
+#~ msgstr "התייחסות להגדרות מערכת 12/24 שעות"
+
+#~ msgid "Distinguish between tabs with the same name"
+#~ msgstr "הבדלה בין לשוניות באותו השם"
+
+#~ msgid ""
+#~ "Support launching from other applications with a target file selected"
+#~ msgstr "תמיכה בהפעלה מיישומים אחרים עם קובץ יעד נבחר"
+
+#~ msgid "New translations"
+#~ msgstr "תרגומים חדשים"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "תיקוני תקלות קטנים"
+
+#~ msgid "Improved networking support"
+#~ msgstr "תמיכה משופרת בתקשורת"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr "לתקן צורת חלון בעת הצמדה לשמאל או לימין"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr "לחיצה על Ctrl אינה מבטלת שינוי שם כשההגדרה „חשיפת הסמן” פעילה"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "החלפת שפת קלט מבטלת פעולות"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "תיקוני קריסות מגוונים"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "דפדפנים כמו Firefox זוכרים מעתה את תיקיית ההורדות האחרונה שהייתה בשימוש"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "שמירת רמת התקריב המועדפת"
+
+#~ msgid "Improved input method support"
+#~ msgstr "שיפור התמיכה בשיטות קלט"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "גודל החלון המזערי הוא 910‎×640"
+
+#~ msgid "Security fixes"
+#~ msgstr "תיקוני אבטחה"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "הפעלת גרירה והשלכה של לשוניות בין חלונות"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "מיזוג תכונת המיזוג לתוך Ctrl+F"
+
+#~ msgid "Improved translation support"
+#~ msgstr "שיפור התמיכה בתרגומים"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "תיקון מועדי הוצאת appdata לאור"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "שיפור פתיחת קבצים דרך חיבורי Samba"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr "תיקון קריסה בעת שחזור קבצים מהאשפה"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr "שיפור רגישות גזירה/העתקה/הדבקה בתפריט ההקשר"
+
+#~ msgid "Translation updates"
+#~ msgstr "עדכוני תרגומים"
+
+#~ msgid "system-file-manager"
+#~ msgstr "system-file-manager"
+
+#, fuzzy
+#~| msgid "Fix missing File System properties menu"
+#~ msgid "Fix moving multiple steps with history menu"
+#~ msgstr "תיקון תפריט מאפיינים חסר למערכת הקבצים"

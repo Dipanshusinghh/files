@@ -1,0 +1,508 @@
+# Lithuanian translation for pantheon-files
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-files package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2019-07-25 12:24+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/files/extra/"
+"lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:29+0000\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "Failai"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "Naršyti failus"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "aplankas;tvarkytuvė;naršyti;diskas;failų sistema;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "Naujas langas"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "Naujas langas administratoriaus teisėmis"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "Naršyti ir tvarkyti failus ir aplankus"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"Lengvai kopijuokite, perkelkite, tvarkykite savo failus, naudokite aplankus, "
+"kad palaikytumėte tvarką savo kompiuteryje. Atvaizduodami failus sąrašais, "
+"tinkleliu ar stulpeliais, visada rasite tai, ko jums reikia. Pasiekite visus "
+"savo failus taip pat ir išoriniame įrenginyje bei nuotoliniu būdu, naudodami "
+"FTP, SFTP, AFP, Webdav, ar Windows viešinius."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:59
+#, fuzzy
+msgid "elementary, Inc."
+msgstr "elementary LLC."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+#, fuzzy
+msgid "Minor updates:"
+msgstr "Smulkių klaidų pataisymai"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "Atnaujinti vertimai"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "Vykdyti Pantheon failus kaip administratorius"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr ""
+"Norint vykdyti Failus administratoriaus teisėmis, reikia nustatyti tapatybę"
+
+#~ msgid "File Manager"
+#~ msgstr "Failų tvarkytuvė"
+
+#, fuzzy
+#~| msgid "Fix a crash when restoring items from the Trash"
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "Ištaisyti strigtį, kai iš šiukšlinės atkuriami elementai"
+
+#, fuzzy
+#~| msgid "Show reserved space in Properties window"
+#~ msgid "Always show Permissions page in Properties dialog"
+#~ msgstr "Rodyti rezervuotą vietą savybių lange"
+
+#, fuzzy
+#~| msgid "Fix crash when opening multiple video files"
+#~ msgid "Fix selecting multiple groups of files"
+#~ msgstr "Ištaisyta strigtis, atveriant kelis vaizdo įrašo failus"
+
+#, fuzzy
+#~| msgid "Fix crash when opening multiple video files"
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "Ištaisyta strigtis, atveriant kelis vaizdo įrašo failus"
+
+#, fuzzy
+#~| msgid "Fix crash when opening multiple video files"
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "Ištaisyta strigtis, atveriant kelis vaizdo įrašo failus"
+
+#, fuzzy
+#~ msgid "Improve pathbar animation"
+#~ msgstr "Patobulintas vertimų palaikymas"
+
+#, fuzzy
+#~ msgid "Update documentation"
+#~ msgstr "Atnaujinti vertimai"
+
+#, fuzzy
+#~ msgid "Update translations"
+#~ msgstr "Atnaujinti vertimai"
+
+#, fuzzy
+#~ msgid "Improve MTP support"
+#~ msgstr "Patobulintas darbo tinkle palaikymas"
+
+#, fuzzy
+#~| msgid ""
+#~| "Keyboard navigation fix for cherry picking select files in icon view"
+#~ msgid "Keyboard navigation fix for cherry picking select files in Grid view"
+#~ msgstr "Naršymo klaviatūra pataisymas, išrenkant failus piktogramų rodinyje"
+
+#~ msgid "Don't hardcode search placeholder text style, fixes dark theme issue"
+#~ msgstr ""
+#~ "Neužkoduoti paieškos vietaženklio teksto stiliaus, pataiso tamsios temos "
+#~ "problemą"
+
+#~ msgid "Minor spacing adjustments to location bar"
+#~ msgstr "Nežymūs tarpo suderinimai vietos juostoje"
+
+#~ msgid "Fix F2 renaming behavior"
+#~ msgstr "Pataisyta F2 pervadinimo elgsena"
+
+#~ msgid "Minor spacing adjustments to location breadcrumbs"
+#~ msgstr "Nežymūs tarpų reguliavimai vietos juostoje"
+
+#~ msgid "Consistently remember color tags"
+#~ msgstr "Nuolatos prisiminti spalvų žymes"
+
+#~ msgid ""
+#~ "Reload thumbnails when changing zoom level to avoid showing placeholder "
+#~ "unnecessarily"
+#~ msgstr ""
+#~ "Keičiant mastelio lygį, iš naujo įkelti miniatiūras, kad būtų išvengta "
+#~ "bereikalingo vietaženklio rodymo"
+
+#~ msgid "Fix running scripts with spaces in filename"
+#~ msgstr "Pataisytas scenarijų, kurių pavadinime yra tarpai, paleidimas"
+
+#~ msgid "Fix high CPU regression in version 4.1.4"
+#~ msgstr "Pataisyta didelė CPU regresija versijoje 4.1.4"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "Failų rikiavimo pataisymai"
+
+#~ msgid "Meson: fix soversion names"
+#~ msgstr "Meson: pataisyti soversion pavadinimai"
+
+#~ msgid "Remove CMake build system"
+#~ msgstr "Pašalinta CMake darinių sistemą"
+
+#~ msgid "Fix missing File System properties menu"
+#~ msgstr "Pataisytas trūkstamas failų sistemos savybių meniu"
+
+#~ msgid "Drop intltool dependency"
+#~ msgstr "Atsisakyta intltool priklausomybės"
+
+#~ msgid "Fix default file type handler logic"
+#~ msgstr "Pataisyta numatytoji failų tipo doroklės logika"
+
+#~ msgid "Fix initial search window size too small"
+#~ msgstr "Pataisytas per mažas pradinės paieškos lango dydis"
+
+#~ msgid "Add option to disable local file thumbnails"
+#~ msgstr "Pridėtas parametras, skirtas išjungti vietinių failų miniatiūras"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "Ištaisyta strigtis, atveriant kelis vaizdo įrašo failus"
+
+#~ msgid "Fix some timing issues around adding and removing files"
+#~ msgstr ""
+#~ "Pataisytos kai kurios laiko klaidos, susijusios su failų pridėjimu ir "
+#~ "šalinimu"
+
+#~ msgid "Meson: fix missing library headers"
+#~ msgstr "Meson: pataisytos trūkstamų bibliotekų antraštės"
+
+#~ msgid "Fix color tag display"
+#~ msgstr "Pataisytas spalvotų žymių rodymas"
+
+#~ msgid "Show reserved space in Properties window"
+#~ msgstr "Rodyti rezervuotą vietą savybių lange"
+
+#~ msgid "Add border radius to text background"
+#~ msgstr "Teksto fonui pridėtas rėmelio spindulys"
+
+#~ msgid "Fix file mimetype association regression"
+#~ msgstr "Pataisyta failų MIME tipo susiejimo regresija"
+
+#~ msgid "New pathbar tooltips"
+#~ msgstr "Nauji kelio juostos paaiškinimai"
+
+#~ msgid "Build fixes"
+#~ msgstr "Darinio pataisymai"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "Įskiepio darinių pataisymai"
+
+#~ msgid "Fix Ctrl+Tab behavior"
+#~ msgstr "Pataisyta Vald(Ctrl)+Tab elgsena"
+
+#~ msgid "Fix building without Unity library"
+#~ msgstr "Pataisytas sudarymas be Unity bibliotekos"
+
+#~ msgid "Hide breadcrumbs and show placeholder and search icon in home folder"
+#~ msgstr ""
+#~ "Slėpti namų aplanke vietos juostą ir rodyti vietaženklį bei paieškos "
+#~ "piktogramą"
+
+#~ msgid "Style error dialogs"
+#~ msgstr "Stilizuoti klaidų dialogus"
+
+#~ msgid "Right click fixes"
+#~ msgstr "Dešiniojo pelės mygtuko spustelėjimo pataisymai"
+
+#~ msgid "Reload recent view when privacy setting changes"
+#~ msgstr ""
+#~ "Iš naujo įkelti paskiausią rodinį, kai pasikeičia privatumo nustatymas"
+
+#~ msgid "`Connect Server` fixes"
+#~ msgstr "\"Prisijungti prie serverio\" pataisymai"
+
+#~ msgid "Do not activate multiple files with single click"
+#~ msgstr "Neaktyvuoti kelių failų vienu spustelėjimu"
+
+#~ msgid "Use `Tab` to toggle View and Sidebar keyboard focus"
+#~ msgstr ""
+#~ "Naudoti \"Tab\", norint perjungti rodinio ir šoninės juostos klaviatūros "
+#~ "fokusavimą"
+
+#~ msgid "Delete color tag database entries for trashed files"
+#~ msgstr "Ištrinti spalvotų žymių duomenų bazės įrašus šiukšlinės failams"
+
+#~ msgid "Throttle tab closing"
+#~ msgstr "Slopinti kortelės užvėrimą"
+
+#~ msgid "`Ctrl` key fixes"
+#~ msgstr "\"Vald(Ctrl)\" klavišo pataisymai"
+
+#~ msgid "Drag and drop fixes"
+#~ msgstr "Vilkimo pataisymai"
+
+#~ msgid "Show icons in `Open with` menus"
+#~ msgstr "Rodyti piktogramas \"Atverti naudojant\" meniu"
+
+#~ msgid "Tooltip fixes"
+#~ msgstr "Paaiškinimų pataisymai"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "Atminties praradimo pataisymai"
+
+#~ msgid "Crash fixes"
+#~ msgstr "Strigčių pataisymai"
+
+#~ msgid "Trash: respect sound setting"
+#~ msgstr "Šiukšlinė: gerbti garso nustatymą"
+
+#~ msgid "Localization fixes"
+#~ msgstr "Lokalizavimo pataisymai"
+
+#~ msgid "Over 100 major and minor bug fixes and improvements"
+#~ msgstr "Virš 100 didesnių ir mažesnių klaidų pataisymų ir patobulinimų"
+
+#~ msgid "Honor 12/24hr system setting"
+#~ msgstr "Gerbti 12/24 val. sistemos nustatymą"
+
+#~ msgid "Distinguish between tabs with the same name"
+#~ msgstr "Atskirti tarp to paties pavadinimo kortelių"
+
+#~ msgid ""
+#~ "Support launching from other applications with a target file selected"
+#~ msgstr ""
+#~ "Palaikomas paleidimas iš kitų programų su pasirinktu paskirties failu"
+
+#~ msgid "New translations"
+#~ msgstr "Nauji vertimai"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Smulkių klaidų pataisymai"
+
+#~ msgid "Improved networking support"
+#~ msgstr "Patobulintas darbo tinkle palaikymas"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr "Teisinga lango geometriją pritraukiant prie kairės ar dešinės"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr ""
+#~ "Ctrl (Vald) paspaudimas daugiau nebeatšaukia pervadinimo, kol nustatymas "
+#~ "\"Parodyti rodyklę\" yra aktyvus"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "Įvesties kalbos perjungimas atšaukia veiksmus"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "Įvairių strigčių pataisymai"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "Saityno naršyklės, tokios kaip Firefox, dabar prisimins paskiausiai "
+#~ "naudotą atsiuntimų katalogą"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "Prisiminti pageidaujamą mastelio lygį"
+
+#~ msgid "Improved input method support"
+#~ msgstr "Patobulintas įvesties metodų palaikymas"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "910x640 mažiausias lango dydis"
+
+#~ msgid "Security fixes"
+#~ msgstr "Saugumo pataisymai"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "Įjungtas kortelių vilkimas tarp langų"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "Sujungtas paieškos funkcionalumas į Ctrl+F"
+
+#~ msgid "Improved translation support"
+#~ msgstr "Patobulintas vertimų palaikymas"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "Ištaisyti programos duomenų laidos datas"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "Patobulinti failų atvėrimą per Samba viešinius"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr "Ištaisyti strigtį, kai iš šiukšlinės atkuriami elementai"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr "Patobulinti iškirpti/kopijuoti/įdėti jautrumą kontekstiniame meniu"
+
+#~ msgid "Translation updates"
+#~ msgstr "Vertimų atnaujinimai"
+
+#~ msgid "system-file-manager"
+#~ msgstr "system-file-manager"
+
+#, fuzzy
+#~| msgid "Fix missing File System properties menu"
+#~ msgid "Fix moving multiple steps with history menu"
+#~ msgstr "Pataisytas trūkstamas failų sistemos savybių meniu"
+
+#~ msgid "About Files"
+#~ msgstr "Apie Failus"

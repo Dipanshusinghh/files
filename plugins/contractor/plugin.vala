@@ -1,0 +1,142 @@
+/***
+    Authors:
+      Lucas Baudin <xapantu@gmail.com>
+      ammonkey <am.monkeyd@gmail.com>
+      Victor Martinez <victoreduardm@gmail.com>
+
+    Copyright (c) Lucas Baudin 2011 <xapantu@gmail.com>
+    Copyright (c) 2013-2018 elementary LLC <https://elementary.io>
+
+    Marlin is free software: you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Marlin is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program.  If not, see <http://www.gnu.org/licenses/>.
+***/
+
+public class Files.Plugins.Contractor : Files.Plugins.Base {
+    private Gtk.Menu menu;
+    private Files.File current_directory = null;
+
+    public Contractor () {
+    }
+
+    public override void context_menu (Gtk.Widget widget, List<Files.File> gof_files) {
+        menu = widget as Gtk.Menu;
+
+        GLib.File[] files = null;
+        Gee.List<Granite.Services.Contract> contracts = null;
+
+        try {
+            if (gof_files == null) {
+                if (current_directory == null) {
+                    return;
+                }
+
+                files = new GLib.File[0];
+                files += current_directory.location;
+
+                string? mimetype = current_directory.content_type;
+
+                if (mimetype == null) {
+                    return;
+                }
+
+                contracts = Granite.Services.ContractorProxy.get_contracts_by_mime (mimetype);
+            } else {
+                files = get_file_array (gof_files);
+                var mimetypes = get_mimetypes (gof_files);
+                if (mimetypes.length > 0) {
+                    contracts = Granite.Services.ContractorProxy.get_contracts_by_mimelist (mimetypes);
+                }
+            }
+
+            assert (files != null);
+
+            if (contracts == null) {
+                return;
+            }
+
+            var separator_item = new Gtk.SeparatorMenuItem ();
+            add_menuitem (menu, separator_item);
+
+            var action_group = new SimpleActionGroup ();
+
+            menu.insert_action_group ("contractor", action_group);
+
+            for (int i = 0; i < contracts.size; i++) {
+                var contract = contracts.get (i);
+
+                var action = new SimpleAction ("contract-%i".printf (i), null);
+                action.activate.connect (() => {
+                    try {
+                        contract.execute_with_files (files);
+                    } catch (Error err) {
+                        warning (err.message);
+                    }
+                });
+
+                action_group.add_action (action);
+
+                var menu_item = new Gtk.MenuItem.with_label (contract.get_display_name ()) {
+                    action_name = "contractor.contract-%i".printf (i)
+                };
+
+                add_menuitem (menu, menu_item);
+            }
+        } catch (Error e) {
+            warning (e.message);
+        }
+    }
+
+    public override void directory_loaded (Gtk.ApplicationWindow window, Files.AbstractSlot view, Files.File directory) {
+        current_directory = directory;
+    }
+
+    private void add_menuitem (Gtk.Menu menu, Gtk.MenuItem menu_item) {
+        menu.append (menu_item);
+        menu_item.show ();
+        plugins.menuitem_references.add (menu_item);
+    }
+
+    private static string[] get_mimetypes (List<Files.File> files) {
+        string[] mimetypes = new string[0];
+
+        foreach (unowned Files.File file in files) {
+            var ftype = file.content_type;
+
+            if (ftype != null) {
+                mimetypes += ftype;
+            }
+        }
+
+        return mimetypes;
+    }
+
+    private static GLib.File[] get_file_array (List<Files.File> files) {
+        GLib.File[] file_array = new GLib.File[0];
+
+        foreach (unowned Files.File file in files) {
+            if (file.location != null) {
+                if (file.location.get_uri_scheme () == "recent") {
+                    file_array += GLib.File.new_for_uri (file.get_display_target_uri ());
+                } else {
+                    file_array += file.location;
+                }
+            }
+        }
+
+        return file_array;
+    }
+}
+
+public Files.Plugins.Base module_init () {
+    return new Files.Plugins.Contractor ();
+}

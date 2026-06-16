@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016–2023 elementary, Inc. <contact@elementary.io> -->
+<component type="desktop-application">
+  <id>io.elementary.files</id>
+  <launchable type="desktop-id">io.elementary.files.desktop</launchable>
+  <translation type="gettext">io.elementary.files</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <name>Files</name>
+  <summary>Browse and manage files and folders</summary>
+  <description>
+    <p>Easily copy, move, and rename your files, or use folders to stay organized. Whether you like files in lists, grids or columns, you can always find them right away. Access all your files, whether locally, on an external device or remotely using FTP, SFTP, AFP, Webdav, or Windows share.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Quick access to settings like zoom levels and hidden files</caption>
+      <image>https://raw.githubusercontent.com/elementary/files/7.3.1/data/screenshot-grid.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>See more metadata at a glance in List view</caption>
+      <image>https://raw.githubusercontent.com/elementary/files/7.3.1/data/screenshot-list.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Browse complex trees faster with Column view</caption>
+      <image>https://raw.githubusercontent.com/elementary/files/7.3.1/data/screenshot-column.png</image>
+    </screenshot>
+  </screenshots>
+
+  <branding>
+    <color type="primary">#3689e6</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <provides>
+    <binary>@exec_name@</binary>
+    <binary>@exec_name@-daemon</binary>
+    <binary>@exec_name@-pkexec</binary>
+  </provides>
+
+  <recommends>
+    <display_length compare="ge">730</display_length>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+
+
+  <url type="homepage">https://elementary.io/</url>
+  <url type="bugtracker">https://github.com/elementary/files/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/files/discussions/categories/q-a</url>
+  <url type="translate">https://l10n.elementary.io/projects/files</url>
+
+  <developer id="org.elementaryos">
+    <name>elementary, Inc.</name>
+  </developer>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
+
+  <releases>
+    <release version="7.3.1" date="2026-05-08" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Fixed a regression causing a crash if there are too many templates</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.3.0" date="2026-04-24" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>An option to show a preview pane in Column view is introduced</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>The list of search results now shows matches in the current folder first</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/1194">Renaming field is misplaced when scrolling</issue>
+        <issue url="https://github.com/elementary/files/issues/1601">(Mixed mode) clicking on a file should open its details in the next column</issue>
+        <issue url="https://github.com/elementary/files/issues/2015">Search results should list folders and files "In this folder" on top</issue>
+        <issue url="https://github.com/elementary/files/issues/2672">Searching for a file in the current folder and moving it elsewhere results in a File not Found screen</issue>
+        <issue url="https://github.com/elementary/files/issues/2715">Miller view: action buttons do not reappear after navigating back to trash:// </issue>
+      </issues>
+    </release>
+    <release version="7.2.0" date="2025-12-08" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>A compact date format is introduced</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>The file conflict dialog now shows a missing icon</li>
+          <li>Flickering of the pathbar with some navigation methods is fixed</li>
+          <li>The option to set a default app for folders is no longer offered</li>
+          <li>The scrollbar no longer overlays the modification date in List view</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2665">Only allow setting default app for regular files, not folders</issue>
+        <issue url="https://github.com/elementary/files/issues/1602">Path bar sometimes flickers when changing folders</issue>
+        <issue url="https://github.com/elementary/files/issues/1538">Listview Vertical scrollbar is on top of modified date column information</issue>
+        <issue url="https://github.com/elementary/files/issues/1475">F1 sending people to StackExchange feels… weird</issue>
+        <issue url="https://github.com/elementary/files/issues/1219">Option to make the list view more compact</issue>
+        <issue url="https://github.com/elementary/files/issues/695">No icon of original file in replace dialog</issue>
+      </issues>
+    </release>
+    <release version="7.1.6" date="2025-10-24" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Navigation within the Trash folder now works properly</li>
+          <li>The view now refreshes properly after permanent deletion of a folder</li>
+          <li>The number of template items displayed in the context menu is now limited</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2647">Directory "unrolling" broken in Trash folder</issue>
+        <issue url="https://github.com/elementary/files/issues/2643">Right-clicking on the white space in the home folder freezes Files when XDG_TEMPLATES_DIR="$HOME/" </issue>
+        <issue url="https://github.com/elementary/files/issues/2623">File Manager does not refresh state of the current path automatically</issue>
+        <issue url="https://github.com/elementary/files/issues/241">Entering a folder in trash loses the trash:// scheme</issue>
+
+      </issues>
+    </release>
+    <release version="7.1.5" date="2025-09-06" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>The Properties Window now shows the exact date and time the file was last modified</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2637">Issue with folder name containing single quotes</issue>
+        <issue url="https://github.com/elementary/files/issues/2615">Files with names containing # characters are not transferred correctly</issue>
+        <issue url="https://github.com/elementary/files/issues/2608">File information should show *exact* time of change</issue>
+        <issue url="https://github.com/elementary/files/issues/1224">Creating a new file/folder in an empty folder momentarily shows labels too big</issue>
+      </issues>
+    </release>
+    <release version="7.1.4" date="2025-06-20" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2602">Copy/Paste and DnD no longer work after release v7.1.3</issue>
+      </issues>
+    </release>
+    <release version="7.1.3" date="2025-06-17" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2594">Drag and drop a file from Files to another app somehow broke</issue>
+        <issue url="https://github.com/elementary/files/issues/2203">Drive does not stop on "Safely Remove"</issue>
+      </issues>
+    </release>
+    <release version="7.1.2" date="2025-06-09" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Further preparation for porting to Gtk4</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2581">Files hangs on unplugging unmounted drive</issue>
+        <issue url="https://github.com/elementary/files/issues/2574">Context menu for Storage items only shows if secondary click on eject icon</issue>
+        <issue url="https://github.com/elementary/files/issues/2570">Cannot select part of text with mouse when renaming</issue>
+      </issues>
+    </release>
+
+    <release version="7.1.1" date="2025-03-13" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2523">Entering a path into the pathbar no longer possible</issue>
+        <issue url="https://github.com/elementary/files/issues/1844">Tab opened with gvfs-admin backend does not show "As Administrator"</issue>
+        <issue url="https://github.com/elementary/files/issues/2491">Templates folder: In "New >" menu, the hierarchy of templates is flattened</issue>
+        <issue url="https://github.com/elementary/files/issues/2524">Open As Administrator: Files does not follow stylesheet</issue>
+        <issue url="https://github.com/elementary/files/issues/2512">Scroll gesture stops working after permanently deleting a file</issue>
+      </issues>
+    </release>
+
+    <release version="7.1.0" date="2024-10-21" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Redesign file permissions view</li>
+          <li>Focus sidebar by pressing Ctrl + Left</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2214">When opened with specific file to select, the view is not showing that file</issue>
+        <issue url="https://github.com/elementary/files/issues/2327">The thumbnail does not update</issue>
+        <issue url="https://github.com/elementary/files/issues/2439">Build Failures</issue>
+        <issue url="https://github.com/elementary/files/issues/2451">pressing spacebar no longer opens selected file</issue>
+        <issue url="https://github.com/elementary/files/issues/2455">No large thumbnails</issue>
+        <issue url="https://github.com/elementary/files/issues/2483">With multiple files selected, clicking the right mouse button deselects everything</issue>
+        <issue url="https://github.com/elementary/files/issues/2492">List view : Cannot close subfolder view for a folder</issue>
+        <issue url="https://github.com/elementary/files/issues/2495">Segfault when opening folders that have just been pasted into an empty folder</issue>
+        <issue url="https://github.com/elementary/files/issues/2498">Cannot use search at all in Wayland session</issue>
+      </issues>
+    </release>
+
+    <release version="7.0.0" date="2024-08-02" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Restoring tabs from last time is now optional</li>
+          <li>Drag and select can no longer be done with secondary pointer button</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2345">Hiding Files and Folders Without Adding dot in the File Name</issue>
+        <issue url="https://github.com/elementary/files/issues/2357">Unexpected selection after creating a new file</issue>
+        <issue url="https://github.com/elementary/files/issues/2394">Completion sometimes is incorrect</issue>
+        <issue url="https://github.com/elementary/files/issues/2395">Completion fails outside current folder</issue>
+        <issue url="https://github.com/elementary/files/issues/2397">Rename doesn't allow to type any characters</issue>
+      </issues>
+    </release>
+
+    <release version="6.5.3" date="2023-12-11" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Discontinue support for dragging bookmark out of sidebar</li>
+          <li>Fix unexpected scrolling after renaming a folder</li>
+          <li>Fixes a crash when switching to viewing as grid under rare circumstances</li>
+          <li>Ensure the selection persists after refreshing the view</li>
+          <li>Fix Files failing to open if trying to restore a disconnected location</li>
+          <li>Fix the view continuing to show when a location is unmounted</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2292">Don't depend on LibPlank</issue>
+        <issue url="https://github.com/elementary/files/issues/2325">Unexpected scroll to bottom after renaming folder</issue>
+        <issue url="https://github.com/elementary/files/issues/2326">Switching to View as Grid with large thumbnails and containing a link to an image crashes Files</issue>
+        <issue url="https://github.com/elementary/files/issues/2328">Selection changes on refreshing the view</issue>
+        <issue url="https://github.com/elementary/files/issues/2330">Files does not open if restoring disconnected location into Column View</issue>
+        <issue url="https://github.com/elementary/files/issues/2337">Unmounting a location does not close the view</issue>
+      </issues>
+    </release>
+
+    <release version="6.5.2" date="2023-09-26" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2320">Segmentation fault when opening a folder with xdg-open or keyboard shortcut</issue>
+      </issues>
+    </release>
+
+    <release version="6.5.1" date="2023-09-25" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/1753">Files crashes immediately after opening</issue>
+        <issue url="https://github.com/elementary/files/issues/2315">Navigating to empty folder and back reliably crashes Files</issue>
+        <issue url="https://github.com/elementary/files/issues/2309">Files no longer recognises URI parameter on command line</issue>
+        <issue url="https://github.com/elementary/files/issues/2305">Help option does not work if there is a busy Files process</issue>
+        <issue url="https://github.com/elementary/files/issues/2295">Refresh required before cut/paste will work if file is renamed</issue>
+      </issues>
+    </release>
+
+    <release version="6.5.0" date="2023-08-17" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>New Tab Bar with improved animations, smoother drag-and-drop, and reorganized tab context menus</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/491">Color tag is not restored when the file or folder is untrashed</issue>
+        <issue url="https://github.com/elementary/files/issues/1208">Wishlist idea: use extended file attributes for tags</issue>
+        <issue url="https://github.com/elementary/files/issues/1339">When Single Tab, DnD will create a new window</issue>
+        <issue url="https://github.com/elementary/files/issues/2179">Refresh of sort order doesn't happen automatically</issue>
+        <issue url="https://github.com/elementary/files/issues/2235">Opening from another apps remove the tabs history</issue>
+        <issue url="https://github.com/elementary/files/issues/2271">Weird file appeared alongside an edited text file ended with ~ </issue>
+        <issue url="https://github.com/elementary/files/issues/2288">New files don't show in folder until the view is refreshed</issue>
+      </issues>
+    </release>
+
+    <release version="6.4.1" date="2023-07-10" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2238">copying folders copies all its children</issue>
+      </issues>
+    </release>
+
+    <release version="6.4.0" date="2023-06-29" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2195">When viewing a folder, externally created hidden files are shown</issue>
+        <issue url="https://github.com/elementary/files/issues/2172">Hangs when a folder with a large number of files needs to be shown</issue>
+        <issue url="https://github.com/elementary/files/issues/2216">Renaming or replacing a file leaves a temporary file in the same directory</issue>
+      </issues>
+    </release>
+
+    <release version="6.3.1" date="2023-04-05" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/1161">Force update of git status when folder is refreshed</issue>
+        <issue url="https://github.com/elementary/files/issues/2141">Reinstate mount option in storage menu</issue>
+        <issue url="https://github.com/elementary/files/issues/2148">Fix crash when entering path on other Linux</issue>
+        <issue url="https://github.com/elementary/files/issues/2151">Fix no norubberband selection in List View if started outside list</issue>
+        <issue url="https://github.com/elementary/files/issues/2152">Fix List View selection not persisting when changing to Icon View</issue>
+        <issue url="https://github.com/elementary/files/issues/2153">Property overlay doesn't appear when selection is created by drag-drop or paste</issue>
+        <issue url="https://github.com/elementary/files/issues/2168">Git status: Some folders ignored incorrectly</issue>
+      </issues>
+    </release>
+
+    <release version="6.3.0" date="2023-02-27" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/593">Zooming is hidden</issue>
+        <issue url="https://github.com/elementary/files/issues/1163">Invert logic of Show/Hide Thumbnails</issue>
+        <issue url="https://github.com/elementary/files/issues/1781">Some devices not accessible by MTP or PTP</issue>
+        <issue url="https://github.com/elementary/files/issues/1997">Path completion should be case sensitive</issue>
+        <issue url="https://github.com/elementary/files/issues/2047">Filechooser default typing action is search instead of rename</issue>
+      </issues>
+    </release>
+
+    <release version="6.2.2" date="2023-02-03" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/pull/2122">Avoid crashes when disconnecting the provider</issue>
+        <issue url="https://github.com/elementary/files/issues/2115">Paste into folder menu item doesn't work</issue>
+        <issue url="https://github.com/elementary/files/pull/2107">Improve double-click setting label</issue>
+        <issue url="https://github.com/elementary/files/issues/2105">Sidebar icons sometimes change</issue>
+      </issues>
+    </release>
+
+    <release version="6.2.1" date="2022-11-15" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2098">New empty file closes the app</issue>
+      </issues>
+    </release>
+
+    <release version="6.2.0" date="2022-11-04"/>
+    <release version="6.1.4" date="2022-07-02"/>
+    <release version="6.1.3" date="2022-06-17"/>
+    <release version="6.1.2" date="2022-01-24"/>
+    <release version="6.1.1" date="2021-12-09"/>
+    <release version="6.1.0" date="2021-11-29"/>
+    <release version="6.0.4" date="2021-10-29"/>
+    <release version="6.0.3" date="2021-09-27"/>
+    <release version="6.0.2" date="2021-08-24"/>
+    <release version="6.0.1" date="2021-08-02"/>
+    <release version="6.0.0" date="2021-07-15"/>
+    <release version="4.5.0" date="2020-08-11"/>
+    <release version="4.4.4" date="2020-06-30"/>
+    <release version="4.4.3" date="2020-06-01"/>
+    <release version="4.4.2" date="2020-04-03"/>
+    <release version="4.4.1" date="2020-02-29"/>
+    <release version="4.4.0" date="2020-02-11"/>
+    <release version="4.3.0" date="2020-01-07"/>
+    <release version="4.2.0" date="2019-09-09"/>
+    <release version="4.1.9" date="2019-07-26"/>
+    <release version="4.1.8" date="2019-05-02"/>
+    <release version="4.1.7" date="2019-04-08"/>
+    <release version="4.1.6" date="2019-03-26"/>
+    <release version="4.1.5" date="2019-02-13"/>
+    <release version="4.1.4" date="2019-01-31"/>
+    <release version="4.1.3" date="2019-01-09"/>
+    <release version="4.1.2" date="2019-01-02"/>
+    <release version="4.1.1" date="2018-12-28"/>
+    <release version="4.1.0" date="2018-12-27"/>
+    <release version="4.0" date="2018-10-16"/>
+    <release version="0.3.5" date="2017-06-03"/>
+    <release version="0.3.3" date="2017-04-10"/>
+    <release version="0.3.2" date="2017-02-25"/>
+    <release version="0.3.1.1" date="2017-01-25"/>
+    <release version="0.3.1" date="2017-01-16"/>
+    <release version="0.3.0.5" date="2016-12-16"/>
+    <release version="0.3.0.4" date="2016-11-19"/>
+    <release version="0.3.0.3.1" date="2016-10-10"/>
+    <release version="0.3.0.3" date="2016-10-10"/>
+    <release version="0.3.0.2" date="2016-09-01"/>
+  </releases>
+</component>
+

@@ -1,0 +1,940 @@
+# Dutch translation for pantheon-files
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-files package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-files\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-13 10:24+0000\n"
+"PO-Revision-Date: 2025-12-31 04:09+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/files/extra/nl/"
+">\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
+"X-Launchpad-Export-Date: 2017-06-11 06:29+0000\n"
+
+#: data/io.elementary.files.desktop.in.in:5 data/files.metainfo.xml.in.in:10
+msgid "Files"
+msgstr "Bestanden"
+
+#: data/io.elementary.files.desktop.in.in:6
+msgid "Browse your files"
+msgstr "Bestanden doorbladeren"
+
+#: data/io.elementary.files.desktop.in.in:8
+msgid "folder;manager;explore;disk;filesystem;"
+msgstr "map;beheerder;verken;schijf;bestandssysteem;"
+
+#: data/io.elementary.files.desktop.in.in:24
+msgid "New Window"
+msgstr "Nieuw venster"
+
+#: data/io.elementary.files.desktop.in.in:29
+msgid "New Window As Administrator"
+msgstr "Nieuw venster als beheerder"
+
+#: data/files.metainfo.xml.in.in:11
+msgid "Browse and manage files and folders"
+msgstr "Bekijk en beheer bestanden en mappen"
+
+#: data/files.metainfo.xml.in.in:13
+msgid ""
+"Easily copy, move, and rename your files, or use folders to stay organized. "
+"Whether you like files in lists, grids or columns, you can always find them "
+"right away. Access all your files, whether locally, on an external device or "
+"remotely using FTP, SFTP, AFP, Webdav, or Windows share."
+msgstr ""
+"Kopieer, verplaats en hernoem uw bestanden eenvoudig of gebruik mappen om "
+"goed georganiseerd te blijven. U kunt uw bestanden altijd direct vinden, of "
+"u ze nu het liefst ordent als lijst, in kolommen of op een raster. U heeft "
+"toegang tot al uw bestanden, zowel lokaal, als op een extern apparaat of via "
+"FTP, SFTP, AFP, Webdav of Windows share."
+
+#: data/files.metainfo.xml.in.in:18
+msgid "Quick access to settings like zoom levels and hidden files"
+msgstr ""
+"Snelle toegang tot instellingen zoals zoomniveau en verborgen bestanden"
+
+#: data/files.metainfo.xml.in.in:22
+msgid "See more metadata at a glance in List view"
+msgstr "Bekijk meer metadata in een oogopslag in lijst weergave"
+
+#: data/files.metainfo.xml.in.in:26
+msgid "Browse complex trees faster with Column view"
+msgstr "Sneller bladeren door complexe boomstructuren met kolomweergave"
+
+#: data/files.metainfo.xml.in.in:59
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/files.metainfo.xml.in.in:67 data/files.metainfo.xml.in.in:80
+#: data/files.metainfo.xml.in.in:100 data/files.metainfo.xml.in.in:120
+#: data/files.metainfo.xml.in.in:138 data/files.metainfo.xml.in.in:153
+#: data/files.metainfo.xml.in.in:164 data/files.metainfo.xml.in.in:176
+#: data/files.metainfo.xml.in.in:191 data/files.metainfo.xml.in.in:207
+#: data/files.metainfo.xml.in.in:229 data/files.metainfo.xml.in.in:247
+#: data/files.metainfo.xml.in.in:270 data/files.metainfo.xml.in.in:282
+#: data/files.metainfo.xml.in.in:302
+msgid "Minor updates:"
+msgstr "Kleine updates:"
+
+#: data/files.metainfo.xml.in.in:69
+msgid "Fixed a regression causing a crash if there are too many templates"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:70 data/files.metainfo.xml.in.in:83
+#: data/files.metainfo.xml.in.in:106 data/files.metainfo.xml.in.in:125
+#: data/files.metainfo.xml.in.in:141 data/files.metainfo.xml.in.in:155
+#: data/files.metainfo.xml.in.in:166 data/files.metainfo.xml.in.in:179
+#: data/files.metainfo.xml.in.in:193 data/files.metainfo.xml.in.in:211
+#: data/files.metainfo.xml.in.in:233 data/files.metainfo.xml.in.in:255
+#: data/files.metainfo.xml.in.in:272 data/files.metainfo.xml.in.in:284
+#: data/files.metainfo.xml.in.in:304
+msgid "Updated translations"
+msgstr "Bijgewerkte vertalingen"
+
+#: data/files.metainfo.xml.in.in:76 data/files.metainfo.xml.in.in:96
+#: data/files.metainfo.xml.in.in:298
+msgid "Improvements:"
+msgstr "Verbeteringen:"
+
+#: data/files.metainfo.xml.in.in:78
+msgid "An option to show a preview pane in Column view is introduced"
+msgstr ""
+"Een optie is toegevoegd om een voorbeeldvenster in Kolomweergave te tonen"
+
+#: data/files.metainfo.xml.in.in:82
+msgid ""
+"The list of search results now shows matches in the current folder first"
+msgstr ""
+
+#: data/files.metainfo.xml.in.in:98
+msgid "A compact date format is introduced"
+msgstr "Een compact datumformaat is geïntroduceerd"
+
+#: data/files.metainfo.xml.in.in:102
+msgid "The file conflict dialog now shows a missing icon"
+msgstr ""
+"Het dialoogvenster voor bestandsconflicten toont nu een ontbrekend pictogram"
+
+#: data/files.metainfo.xml.in.in:103
+msgid "Flickering of the pathbar with some navigation methods is fixed"
+msgstr ""
+"Het flikkeren van de padbalk bij sommige navigatiemethoden is verholpen"
+
+#: data/files.metainfo.xml.in.in:104
+msgid "The option to set a default app for folders is no longer offered"
+msgstr ""
+"De optie om een standaardapp voor mappen in te stellen wordt niet langer "
+"aangeboden"
+
+#: data/files.metainfo.xml.in.in:105
+msgid "The scrollbar no longer overlays the modification date in List view"
+msgstr ""
+"De schuifbalk overlapt niet langer de wijzigingsdatum in de Lijstweergave"
+
+#: data/files.metainfo.xml.in.in:122
+msgid "Navigation within the Trash folder now works properly"
+msgstr "Navigatie in de map Prullenbak werkt nu correct"
+
+#: data/files.metainfo.xml.in.in:123
+msgid "The view now refreshes properly after permanent deletion of a folder"
+msgstr ""
+"De weergave wordt nu correct vernieuwd na het permanent verwijderen van een "
+"folder"
+
+#: data/files.metainfo.xml.in.in:124
+msgid ""
+"The number of template items displayed in the context menu is now limited"
+msgstr ""
+"Het aantal weergegeven sjabloonitems in het contextmenu is nu gelimiteerd"
+
+#: data/files.metainfo.xml.in.in:140
+msgid ""
+"The Properties Window now shows the exact date and time the file was last "
+"modified"
+msgstr ""
+"Het Eigenschappenvenster toont nu de exacte datum en tijd dat het bestand "
+"voor de laatste keer was gewijzigd"
+
+#: data/files.metainfo.xml.in.in:178
+msgid "Further preparation for porting to Gtk4"
+msgstr "Verder voorbereiding voor overstap naar Gtk4"
+
+#: data/files.metainfo.xml.in.in:209
+msgid "Redesign file permissions view"
+msgstr "Ontwerp bestandrechten-weergave opnieuw"
+
+#: data/files.metainfo.xml.in.in:210
+msgid "Focus sidebar by pressing Ctrl + Left"
+msgstr "focus zijbalk door Ctrl + links in te drukken"
+
+#: data/files.metainfo.xml.in.in:231
+msgid "Restoring tabs from last time is now optional"
+msgstr "Tabbladen van de vorige keer herstellen is nu optioneel"
+
+#: data/files.metainfo.xml.in.in:232
+msgid "Drag and select can no longer be done with secondary pointer button"
+msgstr "Slepen en selecteren kan niet langer met de secundaire aanwijsknop"
+
+#: data/files.metainfo.xml.in.in:249
+msgid "Discontinue support for dragging bookmark out of sidebar"
+msgstr "Stop ondersteuning voor het slepen van bladwijzers uit de zijbalk"
+
+#: data/files.metainfo.xml.in.in:250
+msgid "Fix unexpected scrolling after renaming a folder"
+msgstr "Fix onverwacht scrollen na het hernoemen van een map"
+
+#: data/files.metainfo.xml.in.in:251
+msgid ""
+"Fixes a crash when switching to viewing as grid under rare circumstances"
+msgstr ""
+"Lost een crash op bij het overschakelen naar weergave als raster onder "
+"uitzonderlijke omstandigheden"
+
+#: data/files.metainfo.xml.in.in:252
+msgid "Ensure the selection persists after refreshing the view"
+msgstr ""
+"Zorg ervoor dat de selectie blijft bestaan na het verversen van de weergave"
+
+#: data/files.metainfo.xml.in.in:253
+msgid "Fix Files failing to open if trying to restore a disconnected location"
+msgstr ""
+"Fix Bestanden worden niet geopend als wordt geprobeerd een niet "
+"geconnecteerde locatie te herstellen"
+
+#: data/files.metainfo.xml.in.in:254
+msgid "Fix the view continuing to show when a location is unmounted"
+msgstr ""
+"Fix dat de weergave zichtbaar blijft wanneer een locatie los gekoppeld wordt"
+
+#: data/files.metainfo.xml.in.in:300
+msgid ""
+"New Tab Bar with improved animations, smoother drag-and-drop, and "
+"reorganized tab context menus"
+msgstr ""
+"Nieuwe tabbalk met verbeterde animaties, soepeler slepen en neerzetten en "
+"gereorganiseerde contextmenu's voor tabbladen"
+
+#: data/io.elementary.files.policy.in.in:10
+msgid "Run Pantheon Files as Administrator"
+msgstr "Nieuw venster als beheerder"
+
+#: data/io.elementary.files.policy.in.in:11
+msgid "Authentication is required to run Files as Administrator"
+msgstr "Authenticatie is vereist om een nieuw venster te openen als beheerder"
+
+#~ msgid ""
+#~ "Move global settings from the context menu to an app menu in the headerbar"
+#~ msgstr ""
+#~ "Verplaats globale instellingen van contextmenu naar een app-menu in de "
+#~ "kopbalk"
+
+#~ msgid "File Manager"
+#~ msgstr "Bestandsbeheer"
+
+#~ msgid ""
+#~ "Provide option to select folders with single click and activate with "
+#~ "double click"
+#~ msgstr ""
+#~ "Geef de optie om mappen te selecteren met een enkele klik en te activeren "
+#~ "met een dubbele klik"
+
+#~ msgid ""
+#~ "Only show the properties overlay when files are selected, not when hovered"
+#~ msgstr ""
+#~ "Toon het eigenschappen-venster alleen wanneer bestanden zijn "
+#~ "geselecteerd, en niet wanneer de cursor er overheen zweeft"
+
+#~ msgid "Fixes:"
+#~ msgstr "Opgelost:"
+
+#~ msgid "Fix dimmed window after use of filechooser portal"
+#~ msgstr "Zet gedimd venster vast na gebruik van het bestandkiezer-portaal"
+
+#~ msgid "Fix possible crash when rapidly changing view modes"
+#~ msgstr ""
+#~ "Lost mogelijke crash op wanneer er snel van weergavemodus wordt veranderd"
+
+#~ msgid "Fix possible crash when removing a bookmark"
+#~ msgstr "Verhelpt mogelijke crash wanneer een bladwijzer wordt verwijderd"
+
+#~ msgid "Renaming with the same name no longer shows an error dialog"
+#~ msgstr "Hernoemen naar dezelfde naam laat niet langer een foutdialoog zien"
+
+#~ msgid "Selecting multiple items with Shift + Arrow keys now works properly"
+#~ msgstr ""
+#~ "Meerdere items selecteren met shift + pijltjestoetsen werkt nu naar "
+#~ "behoren"
+
+#~ msgid "Show New Tab and New Window shortcuts in context menus"
+#~ msgstr ""
+#~ "Toon nieuw nieuw tabblad en nieuwe venster snelkoppelingen in "
+#~ "contextmenu's"
+
+#~ msgid "Double click selects instead of exiting while renaming in list view"
+#~ msgstr ""
+#~ "Dubbelklikken selecteert en sluit niet terwijl bestandsnamen worden "
+#~ "gewijzigd in lijstweergave"
+
+#~ msgid "Close FileChooser with Esc key"
+#~ msgstr "Bestandskiezer sluiten met de Esc-toets"
+
+#~ msgid "Use new emblems for git status"
+#~ msgstr "Gebruik nieuwe emblemen voor git status"
+
+#~ msgid "Show selection actions in secondary click menu"
+#~ msgstr "Toon selectie-acties in secondair klikmenu"
+
+#~ msgid "Always show Permissions page in Properties dialog"
+#~ msgstr "Toon altijd de Toegankelijkheden pagina in het Eigenschappenvenster"
+
+#~ msgid ""
+#~ "In Permissions page, show user and group numeric IDs when names not "
+#~ "available"
+#~ msgstr ""
+#~ "Op de Toegankelijkheden pagina, toon de numerieke IDs van gebruikers en "
+#~ "groepen wanneer namen niet beschikbaar zijn"
+
+#~ msgid "In Permissions page, show message when no information available"
+#~ msgstr ""
+#~ "Op de Toegankelijkheden pagina, toon bericht wanneer er geen informatie "
+#~ "beschikbaar is"
+
+#~ msgid "Other updates:"
+#~ msgstr "Andere updates:"
+
+#~ msgid "Only allow one FileChooser per parent window"
+#~ msgstr "Sta maar een enkele Bestandskiezer toe per ouderlijk venster"
+
+#~ msgid ""
+#~ "Navigate to folder when pressing enter in FileChooser instead of selecting"
+#~ msgstr ""
+#~ "Navigeer naar folder wanneer de enter-toets wordt ingedrukt in "
+#~ "Bestandskiezer in plaats van te selecteren"
+
+#~ msgid ""
+#~ "Use \"Send Mail\" portal instead of contract, improving compatibility "
+#~ "with alternate email apps"
+#~ msgstr ""
+#~ "Gebruik het \"Stuur Email\" portaal in plaats van contacten, dit "
+#~ "verbetert de compatibiliteit met alternatieve mailapplicaties"
+
+#~ msgid "Add file filters and New Folder options to file chooser portal"
+#~ msgstr ""
+#~ "Bestandsfilters en Nieuwe Folder opties toevoegen aan bestandskiezer "
+#~ "portaal"
+
+#~ msgid ""
+#~ "Allow blank passwords for remote connections, e.g. for SSH via a private "
+#~ "key"
+#~ msgstr ""
+#~ "Lege wachtwoorden toestaan voor verbindingen op afstand, bijv. voor SSH "
+#~ "door middel van een privésleutel"
+
+#~ msgid "Make ejecting devices safer"
+#~ msgstr "Maak het uitwerpen van apparaten veiliger"
+
+#~ msgid "Add option to stop drive if possible"
+#~ msgstr "Voeg zo mogelijk optie toe om schijf te stoppen"
+
+#~ msgid "Show unformatted drives and drives without media"
+#~ msgstr "Toon ongeformatteerde schijven en schijven zonder media"
+
+#~ msgid "Fix selecting multiple groups of files"
+#~ msgstr ""
+#~ "Een probleem opgelost met het selecteren van meerdere groepen bestanden"
+
+#, fuzzy
+#~| msgid "Fix color tags disappearing when thumbnails hidden"
+#~ msgid "Fix an issue with showing color tags when thumbnails are hidden"
+#~ msgstr ""
+#~ "Een probleem opgelost met verdwijnende kleurlabels als miniatuurweergaven "
+#~ "werden verborgen"
+
+#, fuzzy
+#~| msgid "Fix crash when opening multiple video files"
+#~ msgid "Fix freeze when comparing copied files"
+#~ msgstr "Crash bij het openen van meerdere videobestanden opgelost"
+
+#, fuzzy
+#~| msgid "Show keyboard shortcuts in menu items"
+#~ msgid "Show more keyboard accelerators in menus"
+#~ msgstr "Toon toetsenbord sneltoetsen in menu items"
+
+#, fuzzy
+#~| msgid "Show folder item count in List View"
+#~ msgid "Show emblems inline in list views"
+#~ msgstr "Toon itemaantal in de map ook in lijstweergave"
+
+#, fuzzy
+#~| msgid "Keyboard navigation improvements"
+#~ msgid "Performance improvements"
+#~ msgstr "Toetsenbord navigatie verbeterd"
+
+#, fuzzy
+#~| msgid "Improvements:"
+#~ msgid "Stability improvements"
+#~ msgstr "Verbeteringen:"
+
+#~ msgid "Bookmark menu option for network mounts in sidebar"
+#~ msgstr "Een snelkoppeling menu optie voor netwerkschijven in de zijbalk"
+
+#~ msgid "Show folder item count in List View"
+#~ msgstr "Toon itemaantal in de map ook in lijstweergave"
+
+#~ msgid ""
+#~ "Now shows thumbnails on locally mounted MTP and PTP devices as well as on "
+#~ "network locations by default"
+#~ msgstr ""
+#~ "Toon standaard miniatuurweergaven zowel op lokaal gekoppelde MTP- en PTP-"
+#~ "apparaten als netwerklocaties"
+
+#~ msgid ""
+#~ "Properties window: Allow the filename to be copied when it cannot be "
+#~ "edited"
+#~ msgstr ""
+#~ "Eigenschappenvenster: Sta toe dat de bestandsnaam gekopieerd kan worden "
+#~ "wanneer deze niet kan worden bewerkt"
+
+#~ msgid "Improved tooltip formatting for devices in the sidebar"
+#~ msgstr "Verbeterde tooltipopmaak voor apparaten in zijbalk"
+
+#~ msgid "Fix crash when pressing Enter and another key at the same time"
+#~ msgstr ""
+#~ "Probleem verholpen bij het tegelijkertijd indrukken van Enter en een "
+#~ "andere toets"
+
+#~ msgid "Fix pathbar handling of \"~\" and \"..\" in path"
+#~ msgstr ""
+#~ "Probleem opgelost bij het verwerken van \"~\" en \"..\" in een bestandspad"
+
+#~ msgid "Filechooser pathbar no longer crashes when invoked from a Flatpak"
+#~ msgstr ""
+#~ "Bestandskiezer adresbalk loopt niet meer vast wanneer deze vanuit een "
+#~ "Flatpak wordt geopend"
+
+#~ msgid ""
+#~ "Do not show git status for repositories on FUSE filesystems to prevent "
+#~ "possible blocking"
+#~ msgstr ""
+#~ "Verberg de git status van repos op FUSE bestandssystemen om mogelijke "
+#~ "blokkade te voorkomen"
+
+#~ msgid "\"Personal\" is now \"Bookmarks\""
+#~ msgstr "\"Persoonlijk\" is gewijzigd in \"Favorieten\""
+
+#~ msgid ""
+#~ "Add warning and error colored disk usage bars when disk becomes too full"
+#~ msgstr ""
+#~ "Een waarschuwing en gekleurde schijfruimte balken toegevoegd voor als de "
+#~ "schijf te vol wordt"
+
+#~ msgid ""
+#~ "Prevent window resizing when filename column width exceeds available space"
+#~ msgstr ""
+#~ "Voorkom het wijzigen van een venster als de breedte van de bestandsnaam "
+#~ "kolom groter is dan de beschikbare ruimte"
+
+#~ msgid "Fix handling of filenames containing the # character"
+#~ msgstr ""
+#~ "Een probleem opgelost bij het verwerken van bestanden met een # in de "
+#~ "bestandsnaam"
+
+#~ msgid "Fix regressions regarding pathbar context menus and clicking"
+#~ msgstr ""
+#~ "Een probleem met het klikken op en context menu’s binnen de adresbalk "
+#~ "opgelost"
+
+#~ msgid "Paste images into other apps instead of file paths where possible"
+#~ msgstr ""
+#~ "Plak waar mogelijk afbeeldingen in andere apps in plaats van de "
+#~ "bestandslocatie"
+
+#~ msgid "Paste into a selected folder when using Ctrl + V"
+#~ msgstr "Plak in een geselecteerde map bij gebruik van Ctrl + V"
+
+#~ msgid "Show file info overlay in List View as well"
+#~ msgstr "Toon de bestandsinfo ook in lijstweergave"
+
+#~ msgid "Traverse search results with Tab key"
+#~ msgstr "Navigeer door zoekresultaten met de Tab toets"
+
+#~ msgid "Show an error message when attempting to open trashed files"
+#~ msgstr "Toon een foutmelding bij het openen van bestanden in de prullenbak"
+
+#~ msgid ""
+#~ "Fix uneditable area in pathbar which is showing home folder placeholder"
+#~ msgstr ""
+#~ "Een probleem opgelost waarbij de thuismap werd getoond in een "
+#~ "onaanpasbaar gedeelte van de adresbalk"
+
+#~ msgid "Fix an issue that prevented file modification times from showing"
+#~ msgstr ""
+#~ "Een bug opgelost die verhinderde dat de datum en tijd van wijziging van "
+#~ "een bestand werden getoond"
+
+#~ msgid "Fix size of restored tiled window"
+#~ msgstr ""
+#~ "Een probleem opgelost bij het herstellen van naast elkaar gerangschikte "
+#~ "vensters"
+
+#~ msgid "Fix color tags disappearing when thumbnails hidden"
+#~ msgstr ""
+#~ "Een probleem opgelost met verdwijnende kleurlabels als miniatuurweergaven "
+#~ "werden verborgen"
+
+#~ msgid "Fix crash when a device icon is coming from a file"
+#~ msgstr "Crash opgelost als een apparaat icoon van een bestand komt"
+
+#~ msgid "Fix device icon sometimes missing"
+#~ msgstr "Een probleem opgelost waarbij het apparaat-icoon soms verdween"
+
+#~ msgid "Fix occasional view freeze after renaming"
+#~ msgstr "Een probleem opgelost waarbij na hernoemen het scherm soms bevroor"
+
+#~ msgid "Improve renaming logic when dealing with leading/trailing whitespace"
+#~ msgstr ""
+#~ "Verbeterde hernoem logica bij het dealen met een spatie aan het begin of "
+#~ "einde"
+
+#~ msgid "Fix breadcrumbs sometimes incorrect at startup"
+#~ msgstr "Een probleem opgelost met verkeerde broodkruimels bij het opstarten"
+
+#~ msgid "Do not show file:// prefix in navigation buttons menus"
+#~ msgstr "Toon de file:// prefix niet in de navigatie knoppen menu’s"
+
+#~ msgid "Fix \"New Folder\" keyboard shortcut label in menu"
+#~ msgstr ""
+#~ "Een probleem met het “nieuwe map” sneltoets label in het menu opgelost"
+
+#~ msgid "Fix navigation with back/forward button context menu"
+#~ msgstr ""
+#~ "Een probleem opgelost met navigeren door middel van de terug/vooruit knop "
+#~ "context menu"
+
+#~ msgid "Fix path bar sometimes showing wrong path when closing a tab"
+#~ msgstr ""
+#~ "Een probleem opgelost waarbij de adresbalk soms een verkeerd adres toonde "
+#~ "bij het sluiten van een tabblad"
+
+#~ msgid ""
+#~ "Ensure keyboard shortcuts work immediately after creating or renaming a "
+#~ "file"
+#~ msgstr ""
+#~ "Zorg ervoor dat sneltoetsen direct werken na het aanmaken of hernoemen "
+#~ "van een bestand"
+
+#~ msgid ""
+#~ "Do not include \"file://\" in pathbar text or when pasting path as text"
+#~ msgstr ""
+#~ "\"file://\" wordt niet toegevoegd in de adresbalk of bij het plakken van "
+#~ "een bestandspad als tekst"
+
+#~ msgid "Show keyboard shortcuts in menu items"
+#~ msgstr "Toon toetsenbord sneltoetsen in menu items"
+
+#~ msgid "Fix an issue with breadcrumbs in the file chooser"
+#~ msgstr "Een probleem met broodkruimels opgelost in de bestandskiezer"
+
+#~ msgid "Show a warning when ejecting a volume that's still in use"
+#~ msgstr ""
+#~ "Toon een waarschuwing bij het ontkoppelen van een volume dat nog steeds "
+#~ "in gebruik is"
+
+#~ msgid "Fix cursor update after horizontal scroll in Column View"
+#~ msgstr ""
+#~ "Een probleem met het verversen van de cursor opgelost tijdens het "
+#~ "horizontaal scrollen in kolomweergave"
+
+#~ msgid "Fix folder-open icon persisting after closing Column View"
+#~ msgstr ""
+#~ "Een probleem opgelost met het blijvende map open icoon na het sluiten van "
+#~ "de kolomweergave"
+
+#~ msgid "Use destructive action styling for some trash dialog buttons"
+#~ msgstr ""
+#~ "Gebruik destructieve actie styling voor sommige prullenbak dialoogvenster "
+#~ "knoppen"
+
+#~ msgid "New features:"
+#~ msgstr "Nieuwe functies:"
+
+#~ msgid "Initial git plugin support"
+#~ msgstr "Directe ondersteuning voor een git plug-in"
+
+#~ msgid "Follow global history setting when restoring and saving tabs"
+#~ msgstr ""
+#~ "Bij het herstellen en opslaan van tabs wordt de algemene geschiedenis "
+#~ "instelling gevolgd"
+
+#~ msgid "Ensure tabs showing same folder remain synchronized"
+#~ msgstr "Tabs die dezelfde map tonen blijven gesynchroniseerd"
+
+#~ msgid "Fix drag with secondary button on empty space"
+#~ msgstr ""
+#~ "Een probleem opgelost met slepen door middel van de tweede knop naar lege "
+#~ "ruimte"
+
+#~ msgid "Show custom media type icons for installed apps"
+#~ msgstr "Toon aangepaste mediatype iconen voor geïnstalleerde apps"
+
+#~ msgid "Fix appearance of inactive diskspace indicator"
+#~ msgstr ""
+#~ "Een probleem opgelost met het tonen van de “inactieve diskruimte” "
+#~ "indicator"
+
+#~ msgid "Improve pathbar animation"
+#~ msgstr "Een verbeterde padbalk animatie"
+
+#~ msgid "Update documentation"
+#~ msgstr "Documentatie bijgewerkt"
+
+#~ msgid "Update translations"
+#~ msgstr "Bijgewerkte vertalingen"
+
+#~ msgid "Initial cloudproviders plugin support"
+#~ msgstr "Directe ondersteuning voor de cloudproviders plug-in"
+
+#~ msgid "Fix selecting pasted files"
+#~ msgstr "Een probleem opgelost met het selecteren van geplakte bestanden"
+
+#~ msgid "Fix color label visibility while using dark theme"
+#~ msgstr ""
+#~ "Een probleem opgelost met de zichtbaarheid van kleurlabels bij gebruik "
+#~ "van het donkere thema"
+
+#~ msgid "Fix selecting files using Shift key"
+#~ msgstr ""
+#~ "Een probleem opgelost met het selecteren van bestanden met gebruik van de "
+#~ "Shift knop"
+
+#~ msgid "Draw checkerboard background for image items"
+#~ msgstr "Teken een schaakbord achtergrond voor afbeelding items"
+
+#~ msgid "Improved styling for disk space bars"
+#~ msgstr "Verbeterde styling van schijfruimte balken"
+
+#~ msgid "Show more search results"
+#~ msgstr "Toon meer zoekresultaten"
+
+#~ msgid "Ensure valid tab name generation"
+#~ msgstr "Verbetering bij het genereren van valide namen voor tabbladen"
+
+#~ msgid "Properly sort folders by date and size"
+#~ msgstr "Mappen worden juist gesorteerd op datum en grootte"
+
+#~ msgid ""
+#~ "Launching Files from Terminal now opens new tab instead of new window"
+#~ msgstr ""
+#~ "Het openen van Bestanden vanuit Terminal gebeurt in een nieuw tabblad in "
+#~ "plaats van een nieuw venster"
+
+#~ msgid "Improve MTP support"
+#~ msgstr "Verbeterde ondersteuning voor MTP"
+
+#~ msgid "Various tagging feature refinements"
+#~ msgstr "Diverse verbeteringen aan de tagging functionaliteit"
+
+#~ msgid "Keyboard navigation improvements"
+#~ msgstr "Toetsenbord navigatie verbeterd"
+
+#~ msgid "Symlink copy and paste fixes"
+#~ msgstr ""
+#~ "Problemen opgelost met het kopiëren en plakken van symbolische koppelingen"
+
+#~ msgid "Avoid crash when Templates folder is null"
+#~ msgstr "Een crash als de Templates map niet bestaat wordt voorkomen"
+
+#~ msgid "Reduce memory footprint of FileChooserDialog"
+#~ msgstr "Het geheugengebruik van het BestandKiesScherm is verminderd"
+
+#~ msgid "Avoid crash when selecting image file in some situations"
+#~ msgstr ""
+#~ "Een crash voorkomen bij het selecteren van een afbeeldingsbestand in "
+#~ "sommige situaties"
+
+#~ msgid ""
+#~ "Fix unclosable progress window while copying network files to removable "
+#~ "storage"
+#~ msgstr ""
+#~ "Een probleem opgelost waardoor het voortgangsvenster niet kon worden "
+#~ "gesloten tijdens het kopiëren van bestanden op het netwerk naar "
+#~ "verwisselbare opslagruimte"
+
+#~ msgid "Fix drag and drop after double clicking a blank area"
+#~ msgstr ""
+#~ "Probleem opgelost met klikken en verslepen na het dubbelklikken op een "
+#~ "leeg gebied"
+
+#~ msgid "Avoid crash while scrolling over view switcher"
+#~ msgstr "Een crash voorkomen tijdens het scrollen over de weergave wisselaar"
+
+#~ msgid "Avoid possible crash in some copy and paste situations"
+#~ msgstr "Een mogelijke crash voorkomen in sommige knip en plak situaties"
+
+#, fuzzy
+#~| msgid ""
+#~| "Keyboard navigation fix for cherry picking select files in icon view"
+#~ msgid "Keyboard navigation fix for cherry picking select files in Grid view"
+#~ msgstr ""
+#~ "Een probleem opgelost met toetsenbord navigatie bij het kiezen van "
+#~ "bepaalde bestanden in de iconen weergave"
+
+#~ msgid "Don't hardcode search placeholder text style, fixes dark theme issue"
+#~ msgstr ""
+#~ "Probleem met de zoektekst markering style, waardoor een probleem met het "
+#~ "donkere thema wordt opgelost"
+
+#~ msgid "Minor spacing adjustments to location bar"
+#~ msgstr "Kleine verandering in tussenruimte van de locatie balk"
+
+#~ msgid "Fix F2 renaming behavior"
+#~ msgstr "Een probleem opgelost met het hernoemen van F2"
+
+#~ msgid "Minor spacing adjustments to location breadcrumbs"
+#~ msgstr "Kleine wijzigingen in de tussenruimte bij de locatie broodkruimels"
+
+#~ msgid "Consistently remember color tags"
+#~ msgstr "Beter onthouden van kleurlabels"
+
+#~ msgid ""
+#~ "Reload thumbnails when changing zoom level to avoid showing placeholder "
+#~ "unnecessarily"
+#~ msgstr ""
+#~ "Herlaad de thumbnails bij in- en uitzoomen zodat het standaardplaatje "
+#~ "niet onnodig wordt getoond"
+
+#~ msgid "Fix running scripts with spaces in filename"
+#~ msgstr ""
+#~ "Een probleem opgelost met het uitvoeren van scripts met een spatie in de "
+#~ "naam"
+
+#~ msgid "Fix high CPU regression in version 4.1.4"
+#~ msgstr "Een probleem met hoog CPU verbruik in versie 4.1.4 opgelost"
+
+#~ msgid "File sorting fixes"
+#~ msgstr "Probleem met het sorteren van bestanden opgelost"
+
+#~ msgid "Meson: fix soversion names"
+#~ msgstr "Meson: een probleem opgelost met soversion namen"
+
+#~ msgid "Remove CMake build system"
+#~ msgstr "Het CMake installeer systeem verwijderd"
+
+#~ msgid "Fix missing File System properties menu"
+#~ msgstr ""
+#~ "Een probleem opgelost met het verdwijnende bestandssysteem eigenschappen "
+#~ "menu"
+
+#~ msgid "Drop intltool dependency"
+#~ msgstr "Niet meer afhankelijk van het intltool pakket"
+
+#~ msgid "Fix default file type handler logic"
+#~ msgstr ""
+#~ "Een probleem opgelost met de standaard afhandeling van een bestandstype"
+
+#~ msgid "Fix initial search window size too small"
+#~ msgstr "Een probleem opgelost waarbij het zoekvenster initieel te klein was"
+
+#~ msgid "Add option to disable local file thumbnails"
+#~ msgstr ""
+#~ "Een optie toegevoegd om thumbnails van lokale bestanden uit te schakelen"
+
+#~ msgid "Fix crash when opening multiple video files"
+#~ msgstr "Crash bij het openen van meerdere videobestanden opgelost"
+
+#~ msgid "Fix some timing issues around adding and removing files"
+#~ msgstr ""
+#~ "Timing problemen opgelost met het toevoegen en verwijderen van bestanden"
+
+#~ msgid "Meson: fix missing library headers"
+#~ msgstr "Meson: missende bibliotheek koppen toegevoegd"
+
+#~ msgid "Fix color tag display"
+#~ msgstr "Een probleem met het tonen van kleurlabel opgelost"
+
+#~ msgid "Show reserved space in Properties window"
+#~ msgstr "Toon gereserveerde ruimte in het eigenschappen venster"
+
+#~ msgid "Add border radius to text background"
+#~ msgstr "Voeg ronde hoeken toe aan de tekstachtergrond"
+
+#~ msgid "Fix file mimetype association regression"
+#~ msgstr "Een probleem opgelost met mimetype associatie regressie"
+
+#~ msgid "New pathbar tooltips"
+#~ msgstr "Nieuwe tooltips voor de adresbalk"
+
+#~ msgid "Build fixes"
+#~ msgstr "Problemen met installeren opgelost"
+
+#~ msgid "Plugin build fixes"
+#~ msgstr "Problemen met het installeren van plug-ins opgelost"
+
+#~ msgid "Fix Ctrl+Tab behavior"
+#~ msgstr "Verbeter Ctrl+Tab-gedrag"
+
+#~ msgid "Fix building without Unity library"
+#~ msgstr ""
+#~ "Een probleem opgelost met het installeren zonder de Unity bibliotheek"
+
+#~ msgid "Hide breadcrumbs and show placeholder and search icon in home folder"
+#~ msgstr ""
+#~ "Broodkruimels verbergen en toon een vrije ruimte en zoek icoon in de home "
+#~ "map"
+
+#~ msgid "Style error dialogs"
+#~ msgstr "Stijlfouten vensters"
+
+#~ msgid "Right click fixes"
+#~ msgstr "Problemen met rechts klikken opgelost"
+
+#~ msgid "Reload recent view when privacy setting changes"
+#~ msgstr ""
+#~ "Herlaad recente weergave als de privacy instellingen worden gewijzigd"
+
+#~ msgid "`Connect Server` fixes"
+#~ msgstr "`Verbinden met server` problemen opgelost"
+
+#~ msgid "Do not activate multiple files with single click"
+#~ msgstr "Activeer meerdere bestanden niet met een enkele klik"
+
+#~ msgid "Use `Tab` to toggle View and Sidebar keyboard focus"
+#~ msgstr ""
+#~ "Gebruik `Tab` om met het toetsenbord te focussen op Weergave en Zijbalk"
+
+#~ msgid "Delete color tag database entries for trashed files"
+#~ msgstr ""
+#~ "Verwijder kleurlabels voor bestanden in de prullenbak uit de database"
+
+#~ msgid "Throttle tab closing"
+#~ msgstr "Beperk het sluiten van tabbladen"
+
+#~ msgid "`Ctrl` key fixes"
+#~ msgstr "Problemen met de `Ctrl` toets opgelost"
+
+#~ msgid "Drag and drop fixes"
+#~ msgstr "Problemen met slepen en verplaatsen opgelost"
+
+#~ msgid "Show icons in `Open with` menus"
+#~ msgstr "Toon iconen in de `Open met` menu's"
+
+#~ msgid "Tooltip fixes"
+#~ msgstr "Problemen met tooltips opgelost"
+
+#~ msgid "Memory leak fixes"
+#~ msgstr "Geheugenlek opgelost"
+
+#~ msgid "Crash fixes"
+#~ msgstr "Crashes opgelost"
+
+#~ msgid "Trash: respect sound setting"
+#~ msgstr "Prullenbak: respecteer geluidsinstelling"
+
+#~ msgid "Localization fixes"
+#~ msgstr "Localisatieproblemen opgelost"
+
+#~ msgid "Over 100 major and minor bug fixes and improvements"
+#~ msgstr "Meer dan 100 grote en kleine bugs verholpen en verbeteringen"
+
+#~ msgid "Honor 12/24hr system setting"
+#~ msgstr "Respecteer de 12- of 24-uurs systeem instelling"
+
+#~ msgid "Distinguish between tabs with the same name"
+#~ msgstr "Maak onderscheid tussen tabbladen met dezelfde naam"
+
+#~ msgid ""
+#~ "Support launching from other applications with a target file selected"
+#~ msgstr ""
+#~ "Ondersteuning voor het opstarten vanuit andere toepassingen met een "
+#~ "bestand geselecteerd"
+
+#~ msgid "New translations"
+#~ msgstr "Nieuwe vertalingen"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Kleine bugfixes"
+
+#~ msgid "Improved networking support"
+#~ msgstr "Verbeterde ondersteuning voor netwerken"
+
+#~ msgid "Correct window geometry when snapping to left or right"
+#~ msgstr ""
+#~ "Venster geometrie gecorrigeerd bij het springen naar links of rechts"
+
+#~ msgid ""
+#~ "Pressing Ctrl no longer cancels renaming while the \"Reveal Pointer\" "
+#~ "setting is active"
+#~ msgstr ""
+#~ "Het indrukken van Ctrl annuleert niet langer het hernoemen als de “Toon "
+#~ "Aanwijzer” instelling actief is"
+
+#~ msgid "Switching input language cancels actions"
+#~ msgstr "Het wisselen van input talen annuleert acties"
+
+#~ msgid "Various crash fixes"
+#~ msgstr "Diverse crashes gemaakt"
+
+#~ msgid ""
+#~ "Web browsers like Firefox now remember the most recently used downloads "
+#~ "directory"
+#~ msgstr ""
+#~ "Webbrowsers zoals Firefox onthouden nu de meest recent gebruikte "
+#~ "downloadmap"
+
+#~ msgid "Remember preferred zoom level"
+#~ msgstr "Onthoud het gewenste zoomlevel"
+
+#~ msgid "Improved input method support"
+#~ msgstr "Verbeterde inputmethode ondersteuning"
+
+#~ msgid "910x640 minimum window size"
+#~ msgstr "910x640 minimum venstergrootte"
+
+#~ msgid "Security fixes"
+#~ msgstr "Beveilingsupdates"
+
+#~ msgid "Enable drag and drop tabs between windows"
+#~ msgstr "Slepen en neerzetten van tabbladen tussen vensters is ingeschakeld"
+
+#~ msgid "Merge search functionality into Ctrl+F"
+#~ msgstr "Zoekfunctionaliteit samengevoegd in Ctrl+F"
+
+#~ msgid "Improved translation support"
+#~ msgstr "Verbeterde ondersteuning voor vertalingen"
+
+#~ msgid "Fix appdata release dates"
+#~ msgstr "Een probleem met appdata release data opgelost"
+
+#~ msgid "Improve file opening over Samba shares"
+#~ msgstr "Bestanden openen via Samba shares verbeterd"
+
+#~ msgid "Fix a crash when restoring items from the Trash"
+#~ msgstr "Crash bij het herstellen van items uit de prullenbak verholpen"
+
+#~ msgid "Improve cut/copy/paste sensitivity in context menu"
+#~ msgstr "Knippen/kopiëren/plakken sensitiviteit in context menu verbeterd"
+
+#~ msgid "Translation updates"
+#~ msgstr "Bijgewerkte vertalingen"
+
+#~ msgid "system-file-manager"
+#~ msgstr "system-file-manager"
+
+#, fuzzy
+#~| msgid "Fix missing File System properties menu"
+#~ msgid "Fix moving multiple steps with history menu"
+#~ msgstr ""
+#~ "Een probleem opgelost met het verdwijnende bestandssysteem eigenschappen "
+#~ "menu"
+
+#~ msgid "About Files"
+#~ msgstr "Over Bestanden"
